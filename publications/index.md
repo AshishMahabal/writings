@@ -13,6 +13,23 @@ Grouped by publication type and venue.
 
 ### घोस्ट रायटर आणि इतर विज्ञानकथा
 
+- [अंतर्ध्वनी](/fiction/mr/SFB0105048.html) (2023)
+- [कचरा गो](/fiction/mr/SFB0108075.html) (2023)
+- [कुपमंडूक](/fiction/mr/SFB0116145.html) (2023)
+- [कृष्णलीला](/fiction/mr/SFB0117150.html) (2023)
+- [घोस्ट रायटर](/fiction/mr/SFB0112119.html) (2023)
+- [तेथे पाहिजे जातीचे](/fiction/mr/SFB0115137.html) (2023)
+- [दिव्यदृष्टी](/fiction/mr/SFB0111112.html) (2023)
+- [धनुष्यातून सुटलेला बाण](/fiction/mr/SFB0103030.html) (2023)
+- [नाऊ यु सी मी](/fiction/mr/SFB0110105.html) (2023)
+- [नातीपरीक्षा](/fiction/mr/SFB0106058.html) (2023)
+- [पाचविला पुजलेला प्रश्न](/fiction/mr/SFB0102021.html) (2023)
+- [पुनरागमनायच](/fiction/mr/SFB0114133.html) (2023)
+- [बेबी एलिफण्ट वॉक्स](/fiction/mr/SFB0107067.html) (2023)
+- [बेिंबाचा प्रतिशोध](/fiction/mr/SFB0101013.html) (2023)
+- [मन तर सवय](/fiction/mr/SFB0113123.html) (2023)
+- [ये रे माझ्या मागल्या](/fiction/mr/SFB0104043.html) (2023)
+- [रक्त तबकड्या](/fiction/mr/SFB0109089.html) (2023)
 - [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/fiction/mr/SFB0118156.html) (2023)
 
 ## Magazine

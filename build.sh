@@ -25,7 +25,7 @@ render_one() {
   local title="$3"
   local lang="$4"
   mkdir -p "$(dirname "$out")"
-  pandoc "$md"     --standalone     --template="$TEMPLATE"     -M title="$title" -M lang="$lang" -M year="$(date +%Y)"     -o "$out"
+  pandoc "$md"     --standalone     --template="$TEMPLATE"     -M title="$title" -M lang="$lang" -M baseurl="/writings" -M year="$(date +%Y)"     -o "$out"
 }
 
 # Render root index.md if present

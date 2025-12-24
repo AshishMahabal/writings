@@ -7,6 +7,13 @@ language: English
 
 - [Back to years](/publications/years/index.html)
 
+## Magazine
+
+### NJ Sahitya Vishwa
+
+- [The Universe of Galaxies](/nonfiction/English/NFSCNJ1002E.html) (Feb-Mar 2010)
+- [The Transient Universe](/nonfiction/English/NFSCNJ1006E.html) (Jun-Jul 2010)
+
 ## Online Magazine
 
 ### उपक्रम

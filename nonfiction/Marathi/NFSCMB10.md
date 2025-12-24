@@ -13,3 +13,9 @@ subtype: विज्ञान
 ## Publication history
 
 This page is the canonical work page. Publication instances are listed via the CSV-driven Publications index.
+
+## Publication history
+
+<!-- AUTO:PUBLICATION_HISTORY:START -->
+- दिवाळी 2010 — Online Magazine: [मायबोली](/publications/venues/venue-2a8f9fd108/index.html) — [2010](/publications/years/2010/index.html)
+<!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -14,3 +14,9 @@ translation: 'Yes'
 ## Publication history
 
 This page is the canonical work page. Publication instances are listed via the CSV-driven Publications index.
+
+## Publication history
+
+<!-- AUTO:PUBLICATION_HISTORY:START -->
+- (date unknown) — Magazine: [सावली](/publications/venues/venue-a895e5e02f/index.html)
+<!-- AUTO:PUBLICATION_HISTORY:END -->

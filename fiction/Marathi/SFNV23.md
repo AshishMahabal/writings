@@ -13,3 +13,9 @@ subtype: विज्ञानकथा
 ## Publication history
 
 This page is the canonical work page. Publication instances are listed via the CSV-driven Publications index.
+
+## Publication history
+
+<!-- AUTO:PUBLICATION_HISTORY:START -->
+- दिवाळी 2023 — Magazine: [नवल](/publications/venues/venue-fee3125c2f/index.html) — [2023](/publications/years/2023/index.html)
+<!-- AUTO:PUBLICATION_HISTORY:END -->

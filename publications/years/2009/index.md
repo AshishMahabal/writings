@@ -7,6 +7,14 @@ language: English
 
 - [Back to years](/publications/years/index.html)
 
+## Magazine
+
+### NJ Sahitya Vishwa
+
+- [सारे विश्वची माझे घर](/nonfiction/Marathi/NFSCNJ0908.html) (Aug-Sep 2009)
+- [रंग माझा वेगळा](/nonfiction/Marathi/NFSCNJ0910.html) (Oct-Nov 2009)
+- [The dark spell of a Blackhole](/nonfiction/English/NFSCNJ0912E.html) (Dec-Jan 2009)
+
 ## Online Magazine
 
 ### मायबोली

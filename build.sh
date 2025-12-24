@@ -24,29 +24,28 @@ render_one() {
   local out="$2"
   local title="$3"
   local lang="$4"
-  BASEURL="${BASEURL:-/}"
   mkdir -p "$(dirname "$out")"
-  pandoc "$md"     --standalone     --template="$TEMPLATE"     -M title="$title" -M lang="$lang" -M baseurl="$BASEURL" -M year="$(date +%Y)"     -o "$out"
+  pandoc "$md"     --standalone     --template="$TEMPLATE"     -M title="$title" -M lang="$lang" -M year="$(date +%Y)"     -o "$out"
 }
 
-# Render root index.md if present
+# Render root index.md
 if [ -f "$ROOT/index.md" ]; then
   render_one "$ROOT/index.md" "$SITE/index.html" "Writings" "en"
 fi
 
-# Render all markdown files under sections, preserving structure.
-for md in $(find "$ROOT/fiction" "$ROOT/nonfiction" "$ROOT/publications" -name "*.md" -type f 2>/dev/null); do
-  rel="${md#$ROOT/}"              # e.g. fiction/Marathi/w_x.md
-  out="$SITE/${rel%.md}.html"     # e.g. site/fiction/Marathi/w_x.html
+# Render all markdown files under sections.
+while IFS= read -r -d '' md; do
+  rel="${md#$ROOT/}"
+  out="$SITE/${rel%.md}.html"
   title="$(basename "${rel%.md}")"
 
-  # Infer language from path segment (full names). Default English.
+  # Infer language from path segment (full names). Default to English.
   lang="en"
   if echo "$rel" | grep -q "/Marathi/"; then lang="mr"; fi
   if echo "$rel" | grep -q "/Hindi/"; then lang="hi"; fi
   if echo "$rel" | grep -q "/English/"; then lang="en"; fi
 
   render_one "$md" "$out" "$title" "$lang"
-done
+done < <(find "$ROOT/fiction" "$ROOT/nonfiction" "$ROOT/publications" -name "*.md" -type f -print0 2>/dev/null)
 
 echo "Built HTML into: $SITE"

@@ -5,7 +5,7 @@ language: English
 
 # Publications in 2009
 
-- [Back to years](publications/years/index.html)
+- [Back to years](/publications/years/index.html)
 
 ## Magazine
 

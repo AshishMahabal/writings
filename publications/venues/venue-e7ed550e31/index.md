@@ -5,7 +5,7 @@ language: English
 
 # आरती
 
-- [Back to venues](publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
 ## 2014
 

@@ -5,7 +5,7 @@ language: English
 
 # Publications in 2022
 
-- [Back to years](publications/years/index.html)
+- [Back to years](/publications/years/index.html)
 
 ## Magazine
 

@@ -4,55 +4,50 @@
 Generate/update Markdown stubs, indices, venue pages, and per-work publication history
 from an appearance-centric CSV.
 
-New in v4 (richer pages):
-- Each work page gets an auto-generated "Publication history" block.
-  * Only the block between markers is updated; the rest of the body is preserved.
-  * Markers:
-      <!-- AUTO:PUBLICATION_HISTORY:START -->
-      <!-- AUTO:PUBLICATION_HISTORY:END -->
-- Venue pages:
-  * publications/venues/index.md
-  * publications/venues/<venue-slug>/index.md
-  Venue names link to their venue page, listing all works published in that venue.
-- Publication history links:
-  * Venue links -> venue page
-  * Year links -> publications/years/<YYYY>/ page (if year exists)
-- Robust handling of missing Year/Month to avoid NaN -> int errors.
-- Language folders remain full names (English/Hindi/Marathi).
-
-Assumptions:
-- One CSV row = one appearance.
-- Same work_id across rows = same work.
-
-Safe behavior:
-- Work .md pages: update ONLY YAML front matter and the publication-history auto block.
-  Everything else in the body is preserved verbatim.
-- Index pages and venue pages are regenerated each run.
+v6:
+- Robust year formatting everywhere (no int(NaN) failures).
+- Internal links work locally and on GitHub Pages project sites via BASEURL.
+  - Local: BASEURL="" (default)  -> /fiction/...
+  - GitHub Pages: BASEURL="/writings" -> /writings/fiction/...
 
 Required CSV columns:
 work_id, Title, Pubtype, Venue, Kind, Subtype, Language, Year, Month
 Optional: Translation
-All other columns are ignored.
+All other columns ignored.
 
-Usage (run from repo root where build.sh lives):
-    python3 generate_from_csv.py IndexOfPublished_revised.csv
+Usage:
+  python3 generate_from_csv.py IndexOfPublished_revised.csv
+  ./build.sh
+
+CI example:
+  BASEURL="/writings" python3 generate_from_csv.py IndexOfPublished_revised.csv
+  ./build.sh
 """
-
 from __future__ import annotations
 
 import argparse
-from pathlib import Path
-from typing import Dict, Optional, Tuple, List
 import hashlib
+import os
 import re
 import unicodedata
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 import yaml
 
-
 LANG_CANON = {"Marathi": "Marathi", "Hindi": "Hindi", "English": "English"}
-KIND_MAP = {"कथा": "fiction", "लेख": "nonfiction", "poem": "poem", "fiction": "fiction", "nonfiction": "nonfiction"}
+KIND_MAP = {
+    "कथा": "fiction",
+    "लेख": "nonfiction",
+    "poem": "poem",
+    "fiction": "fiction",
+    "nonfiction": "nonfiction",
+}
+
+AUTO_START = "<!-- AUTO:PUBLICATION_HISTORY:START -->"
+AUTO_END = "<!-- AUTO:PUBLICATION_HISTORY:END -->"
+FM_BOUNDARY = re.compile(r"^---\s*$", flags=re.M)
 
 
 def norm_lang_full(x: object) -> str:
@@ -74,16 +69,39 @@ def clean_str(x: object) -> str:
     return s
 
 
-def year_int(x: object) -> Optional[int]:
+def is_nan(x: object) -> bool:
     try:
-        v = int(float(x))
-        return v
+        return x != x  # NaN is the only value not equal to itself
     except Exception:
+        return False
+
+
+def year_int(x: object) -> Optional[int]:
+    """Best-effort int year for sorting/grouping; returns None if missing."""
+    if x is None or is_nan(x):
+        return None
+    try:
+        return int(float(x))
+    except Exception:
+        s = clean_str(x)
+        if not s:
+            return None
+        m = re.search(r"(\d{4})", s)
+        if m:
+            try:
+                return int(m.group(1))
+            except Exception:
+                return None
         return None
 
 
+def year_str(x: object) -> str:
+    """Safe display year string; returns "" if missing/invalid."""
+    y = year_int(x)
+    return str(y) if y is not None else ""
+
+
 def month_key(x: object) -> int:
-    """Best-effort month ordering. Handles numbers and a few month-name variants."""
     s = clean_str(x)
     if not s:
         return 99
@@ -99,12 +117,9 @@ def month_key(x: object) -> int:
     return 98
 
 
-# ----------------------------- Markdown IO -----------------------------
-
-FM_BOUNDARY = re.compile(r"^---\s*$", flags=re.M)
-
-AUTO_START = "<!-- AUTO:PUBLICATION_HISTORY:START -->"
-AUTO_END = "<!-- AUTO:PUBLICATION_HISTORY:END -->"
+def require_site_root() -> None:
+    if not Path("build.sh").exists():
+        raise SystemExit("Please run from the site repo root (where build.sh is).")
 
 
 def split_front_matter(text: str) -> Tuple[Optional[str], str]:
@@ -168,10 +183,7 @@ def write_md_overwrite(path: Path, front_matter: Dict, body: str) -> None:
     path.write_text(dump_front_matter(front_matter) + "\n" + body.strip() + "\n", encoding="utf-8")
 
 
-# ----------------------------- Slugs -----------------------------
-
 def slugify(s: str) -> str:
-    """Create a stable, filesystem-safe slug. If non-ASCII, fall back to hash."""
     s = clean_str(s)
     if not s:
         return "venue-unknown"
@@ -185,13 +197,9 @@ def slugify(s: str) -> str:
     return f"venue-{h}"
 
 
-# ----------------------------- Paths -----------------------------
-
 def work_output_path(kind: str, lang_full: str, work_id: str) -> Path:
     return Path(kind) / lang_full / f"{work_id}.md"
 
-
-# ----------------------------- Page bodies -----------------------------
 
 def work_stub_body(title: str) -> str:
     return f"""# {title}
@@ -200,22 +208,32 @@ def work_stub_body(title: str) -> str:
 """
 
 
+def get_baseurl() -> str:
+    b = os.environ.get("BASEURL", "").strip()
+    if b in ("", "/"):
+        return ""
+    return "/" + b.strip("/")
+
+
+def link(path: str) -> str:
+    base = get_baseurl()
+    p = "/" + path.lstrip("/")
+    return f"{base}{p}"
+
+
 def root_index_body() -> str:
-    return """# Writings
-
-Science fiction (primarily Marathi) and non-fiction (astronomy, rationalism, essays).
-
-- [Fiction](fiction/index.html)
-- [Non-Fiction](nonfiction/index.html)
-- [Publications](publications/index.html)
-"""
-
-
-# ----------------------------- Generators -----------------------------
-
-def require_site_root() -> None:
-    if not Path("build.sh").exists():
-        raise SystemExit("Please run from the site repo root (where build.sh is).")
+    return "\n".join(
+        [
+            "# Writings",
+            "",
+            "Science fiction (primarily Marathi) and non-fiction (astronomy, rationalism, essays).",
+            "",
+            f"- [Fiction]({link('fiction/index.html')})",
+            f"- [Non-Fiction]({link('nonfiction/index.html')})",
+            f"- [Publications]({link('publications/index.html')})",
+            "",
+        ]
+    )
 
 
 def pubhistory_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str]) -> str:
@@ -228,22 +246,20 @@ def pubhistory_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str]) -> s
     for _, r in gg.iterrows():
         venue = clean_str(r.get("Venue", ""))
         pubtype = clean_str(r.get("Pubtype", ""))
-        y = year_int(r.get("Year", None))
+        y_txt = year_str(r.get("Year", None))
         m = clean_str(r.get("Month", ""))
 
         vslug = venue_slug_map.get(venue, slugify(venue))
-        vlink = f"publications/venues/{vslug}/index.html"
+        vlink = link(f"publications/venues/{vslug}/index.html")
         venue_md = f"[{venue}]({vlink})" if venue else "(venue unknown)"
 
-        year_md = ""
-        if y is not None:
-            year_md = f"[{y}](/publications/years/{y}/index.html)"
+        year_md = f"[{y_txt}]({link(f'publications/years/{y_txt}/index.html')})" if y_txt else ""
 
         when_parts: List[str] = []
         if m:
             when_parts.append(m)
-        if y is not None:
-            when_parts.append(str(y))
+        if y_txt:
+            when_parts.append(y_txt)
         when = " ".join(when_parts).strip() or "(date unknown)"
 
         mid = f"{pubtype}: " if pubtype else ""
@@ -258,14 +274,16 @@ def earliest_pub_hint(g: pd.DataFrame) -> str:
     gg["YearNum"] = gg["Year"].apply(year_int)
     gg["MonthKey"] = gg["Month"].apply(month_key)
     gg = gg.sort_values(["YearNum", "MonthKey", "Venue"], kind="mergesort")
-    venue = clean_str(gg["Venue"].iloc[0]) if len(gg) else ""
-    y = gg["YearNum"].iloc[0] if len(gg) else None
-    if venue and pd.notna(y):
-        return f"[{venue}, {int(y)}]"
+    if not len(gg):
+        return ""
+    venue = clean_str(gg["Venue"].iloc[0])
+    y_txt = year_str(gg["Year"].iloc[0])
+    if venue and y_txt:
+        return f"[{venue}, {y_txt}]"
     if venue:
         return f"[{venue}]"
-    if pd.notna(y):
-        return f"[{int(y)}]"
+    if y_txt:
+        return f"[{y_txt}]"
     return ""
 
 
@@ -305,7 +323,7 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
     lines.append("Browse by language:")
     lines.append("")
     for L in langs:
-        lines.append(f"- [{L}](/%s/%s/index.html)" % (kind, L))
+        lines.append(f"- [{L}]({link(f'{kind}/{L}/index.html')})")
     lines.append("")
     lines.append("## All")
     lines.append("")
@@ -314,7 +332,7 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
         L = r["language_full"]
         title = r["Title"]
         hint = hint_map.get(wid, "")
-        lines.append(f"- [{title}](/%s/%s/{wid}.html) {hint}" % (kind, L))
+        lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
     lines.append("")
     write_md_overwrite(Path(kind) / "index.md", {"title": kind.title(), "language": "English"}, "\n".join(lines))
 
@@ -325,7 +343,7 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
             wid = r["work_id"]
             title = r["Title"]
             hint = hint_map.get(wid, "")
-            body_lines.append(f"- [{title}](/%s/%s/{wid}.html) {hint}" % (kind, L))
+            body_lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
         body_lines.append("")
         write_md_overwrite(Path(kind) / L / "index.md", {"title": f"{kind.title()} {L}", "language": L}, "\n".join(body_lines))
 
@@ -338,34 +356,34 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
     d["MonthKey"] = d["Month"].apply(month_key)
 
     lines: List[str] = ["# Publications", "", "Grouped by publication type and venue.", ""]
-    lines.append("- [Browse by year](publications/years/index.html)")
-    lines.append("- [Browse by venue](publications/venues/index.html)")
+    lines.append(f"- [Browse by year]({link('publications/years/index.html')})")
+    lines.append(f"- [Browse by venue]({link('publications/venues/index.html')})")
     lines.append("")
 
     for pubtype, g1 in d.groupby("Pubtype", sort=True):
         lines += [f"## {pubtype}", ""]
         for venue, g2 in g1.groupby("Venue", sort=True):
             vslug = venue_slug_map.get(venue, slugify(venue))
-            vlink = f"publications/venues/{vslug}/index.html"
+            vlink = link(f"publications/venues/{vslug}/index.html")
             lines += [f"### [{venue}]({vlink})", ""]
             g2 = g2.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
             for _, r in g2.iterrows():
                 title = r["Title"]
                 wid = r["work_id"]
-                kind = r["kind_norm"]
+                k = r["kind_norm"]
                 L = r["language_full"]
 
                 when_parts: List[str] = []
-                m = clean_str(r["Month"])
+                m = clean_str(r.get("Month", ""))
                 if m:
                     when_parts.append(m)
-                y = r["YearNum"]
-                if pd.notna(y):
-                    when_parts.append(str(int(y)))
+                y_txt = year_str(r.get("Year", None))
+                if y_txt:
+                    when_parts.append(y_txt)
                 when = " ".join(when_parts).strip()
                 when = f" ({when})" if when else ""
 
-                lines.append(f"- [{title}](/%s/%s/{wid}.html){when}" % (kind, L))
+                lines.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
             lines.append("")
     write_md_overwrite(Path("publications") / "index.md", {"title": "Publications", "language": "English"}, "\n".join(lines))
 
@@ -373,7 +391,7 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
 def generate_publications_year_indexes(df: pd.DataFrame) -> None:
     d = df.copy()
     d["YearNum"] = d["Year"].apply(year_int)
-    d = d[pd.notna(d["YearNum"])].copy()
+    d = d[d["YearNum"].notna()].copy()
     d["YearNum"] = d["YearNum"].astype(int)
     d["MonthKey"] = d["Month"].apply(month_key)
 
@@ -383,7 +401,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
 
     lines = ["# Publications by year", ""]
     for y in years:
-        lines.append(f"- [{y}](publications/years/{y}/index.html)")
+        lines.append(f"- [{y}]({link(f'publications/years/{y}/index.html')})")
     lines.append("")
     write_md_overwrite(base / "index.md", {"title": "Publications by year", "language": "English"}, "\n".join(lines))
 
@@ -394,7 +412,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
         ydir = base / str(y)
         ydir.mkdir(parents=True, exist_ok=True)
 
-        body: List[str] = [f"# Publications in {y}", "", "- [Back to years](publications/years/index.html)", ""]
+        body: List[str] = [f"# Publications in {y}", "", f"- [Back to years]({link('publications/years/index.html')})", ""]
         for pubtype, g1 in sub.groupby("Pubtype", sort=True):
             body += [f"## {pubtype}", ""]
             for venue, g2 in g1.groupby("Venue", sort=True):
@@ -402,11 +420,11 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                 for _, r in g2.iterrows():
                     title = r["Title"]
                     wid = r["work_id"]
-                    kind = r["kind_norm"]
+                    k = r["kind_norm"]
                     L = r["language_full"]
-                    m = clean_str(r["Month"])
+                    m = clean_str(r.get("Month", ""))
                     m = f"{m} " if m else ""
-                    body.append(f"- [{title}](/%s/%s/{wid}.html) ({m}{y})" % (kind, L))
+                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({m}{y})")
                 body.append("")
         write_md_overwrite(ydir / "index.md", {"title": f"Publications {y}", "language": "English"}, "\n".join(body))
 
@@ -419,7 +437,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
     lines = ["# Venues", "", "Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).", ""]
     for v in venues:
         slug = venue_slug_map[v]
-        lines.append(f"- [{v}](publications/venues/{slug}/index.html)")
+        lines.append(f"- [{v}]({link(f'publications/venues/{slug}/index.html')})")
     lines.append("")
     write_md_overwrite(base / "index.md", {"title": "Venues", "language": "English"}, "\n".join(lines))
 
@@ -433,24 +451,24 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
         sub = d[d["Venue"] == v].copy()
         sub = sub.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
 
-        body: List[str] = [f"# {v}", "", "- [Back to venues](publications/venues/index.html)", ""]
-        # group by year (NaN becomes its own group; show as unknown)
-        for y, g1 in sub.groupby(sub["YearNum"], sort=True):
-            y_display = str(int(y)) if pd.notna(y) else "(year unknown)"
+        body: List[str] = [f"# {v}", "", f"- [Back to venues]({link('publications/venues/index.html')})", ""]
+        for y_val, g1 in sub.groupby(sub["YearNum"], sort=True):
+            # y_val can be NaN; avoid int(y_val) entirely.
+            y_display = str(int(y_val)) if pd.notna(y_val) else "(year unknown)"
             body += [f"## {y_display}", ""]
             for _, r in g1.iterrows():
                 title = r["Title"]
                 wid = r["work_id"]
-                kind = r["kind_norm"]
+                k = r["kind_norm"]
                 L = r["language_full"]
-                pubtype = clean_str(r["Pubtype"])
-                m = clean_str(r["Month"])
-                when = " ".join([p for p in [m, y_display] if p and p != "(year unknown)"]).strip()
+                pubtype = clean_str(r.get("Pubtype", ""))
+                m = clean_str(r.get("Month", ""))
+                when_parts = [p for p in [m, (y_display if y_display != "(year unknown)" else "")] if p]
+                when = " ".join(when_parts).strip()
                 when = f" ({when})" if when else ""
                 pubtype_md = f"{pubtype}: " if pubtype else ""
-                body.append(f"- {pubtype_md}[{title}](/%s/%s/{wid}.html){when}" % (kind, L))
+                body.append(f"- {pubtype_md}[{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
             body.append("")
-
         write_md_overwrite(base / slug / "index.md", {"title": v, "language": "English"}, "\n".join(body))
 
 
@@ -473,10 +491,8 @@ def main() -> None:
     venues = sorted({clean_str(v) for v in df["Venue"].tolist() if clean_str(v)})
     venue_slug_map: Dict[str, str] = {v: slugify(v) for v in venues}
 
-    Path("fiction").mkdir(exist_ok=True)
-    Path("nonfiction").mkdir(exist_ok=True)
-    Path("poem").mkdir(exist_ok=True)
-    Path("publications").mkdir(exist_ok=True)
+    for d in ["fiction", "nonfiction", "poem", "publications"]:
+        Path(d).mkdir(exist_ok=True)
 
     generate_root_index()
     generate_work_pages(df, venue_slug_map)
@@ -489,7 +505,7 @@ def main() -> None:
     generate_publications_year_indexes(df)
     generate_venue_pages(df, venue_slug_map)
 
-    print("Done (v4). Next: run ./build.sh")
+    print("Done (v6). Next: run ./build.sh")
 
 
 if __name__ == "__main__":

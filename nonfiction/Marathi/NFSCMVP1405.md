@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- मे 2014 — Magazine: [मविप](publications/venues/venue-dd1e06c88a/index.html) — [2014](/publications/years/2014/index.html)
+- मे 2014 — Magazine: [मविप](/publications/venues/venue-dd1e06c88a/index.html) — [2014](/publications/years/2014/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

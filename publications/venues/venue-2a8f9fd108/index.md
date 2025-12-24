@@ -5,7 +5,7 @@ language: English
 
 # मायबोली
 
-- [Back to venues](publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
 ## 2006
 

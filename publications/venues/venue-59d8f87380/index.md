@@ -5,7 +5,7 @@ language: English
 
 # अनुभव
 
-- [Back to venues](publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
 ## 2016
 

@@ -5,7 +5,7 @@ language: English
 
 # घोस्ट रायटर आणि इतर विज्ञानकथा
 
-- [Back to venues](publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
 ## 2023
 

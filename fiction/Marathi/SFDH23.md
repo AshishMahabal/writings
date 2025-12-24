@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2023 — Magazine: [धनंजय](publications/venues/venue-a532506da6/index.html) — [2023](/publications/years/2023/index.html)
+- दिवाळी 2023 — Magazine: [धनंजय](/publications/venues/venue-a532506da6/index.html) — [2023](/publications/years/2023/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

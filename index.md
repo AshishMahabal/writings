@@ -1,6 +1,6 @@
 ---
 title: Writings
-language: en
+language: English
 ---
 
 # Writings

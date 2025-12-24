@@ -1,18 +1,10 @@
 ---
-title: Fiction
-language: English
+title: Fiction Marathi
+language: Marathi
 ---
 
-# Fiction
+# Fiction (Marathi)
 
-Browse by language:
-
-- [English](/fiction/English/index.html)
-- [Marathi](/fiction/Marathi/index.html)
-
-## All
-
-- [Memoirs of a Status Quo](/fiction/English/SFAN01E.html) 
 - [अंतर्ध्वनी](/fiction/Marathi/SFB0105048.html) [नवल, 2015]
 - [कचरा गो](/fiction/Marathi/SFB0108075.html) [धनंजय, 2017]
 - [काचेची जपमाळ](/fiction/Marathi/NFLLSWXXTR.html) [सावली]

@@ -5,7 +5,7 @@ language: English
 
 # पुणे प्रतिष्ठान
 
-- [Back to venues](/publications/venues/index.html)
+- [Back to venues](publications/venues/index.html)
 
 ## 2017
 

@@ -13,5 +13,5 @@ subtype: विज्ञान
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Feb-Mar 2010 — Magazine: [NJ Sahitya Vishwa](/publications/venues/nj-sahitya-vishwa/index.html) — [2010](/publications/years/2010/index.html)
+- Feb-Mar 2010 — Magazine: [NJ Sahitya Vishwa](publications/venues/nj-sahitya-vishwa/index.html) — [2010](/publications/years/2010/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

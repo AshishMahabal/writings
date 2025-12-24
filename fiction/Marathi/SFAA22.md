@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2022 — Online Magazine: [ऐसी अक्षरे](/publications/venues/venue-c8bccb9bc9/index.html) — [2022](/publications/years/2022/index.html)
+- दिवाळी 2022 — Online Magazine: [ऐसी अक्षरे](publications/venues/venue-c8bccb9bc9/index.html) — [2022](/publications/years/2022/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

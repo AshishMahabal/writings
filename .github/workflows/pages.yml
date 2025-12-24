@@ -37,6 +37,8 @@ jobs:
         run: chmod +x build.sh
 
       - name: Build (generate + render HTML)
+        env:
+          BASEURL: /writings/
         run: |
           python3 generate_from_csv.py IndexOfPublished_revised.csv
           ./build.sh

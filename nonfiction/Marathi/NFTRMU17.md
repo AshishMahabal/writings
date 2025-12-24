@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2017 — Magazine: [मुशाफिरी](/publications/venues/venue-34813f3efd/index.html) — [2017](/publications/years/2017/index.html)
+- दिवाळी 2017 — Magazine: [मुशाफिरी](publications/venues/venue-34813f3efd/index.html) — [2017](/publications/years/2017/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

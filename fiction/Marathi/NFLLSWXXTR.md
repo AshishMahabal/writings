@@ -18,5 +18,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- (date unknown) — Magazine: [सावली](/publications/venues/venue-a895e5e02f/index.html)
+- (date unknown) — Magazine: [सावली](publications/venues/venue-a895e5e02f/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -5,7 +5,7 @@ language: English
 
 # उपक्रम
 
-- [Back to venues](/publications/venues/index.html)
+- [Back to venues](publications/venues/index.html)
 
 ## 2010
 

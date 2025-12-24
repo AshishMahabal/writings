@@ -205,9 +205,9 @@ def root_index_body() -> str:
 
 Science fiction (primarily Marathi) and non-fiction (astronomy, rationalism, essays).
 
-- [Fiction](/fiction/index.html)
-- [Non-Fiction](/nonfiction/index.html)
-- [Publications](/publications/index.html)
+- [Fiction](fiction/index.html)
+- [Non-Fiction](nonfiction/index.html)
+- [Publications](publications/index.html)
 """
 
 
@@ -232,7 +232,7 @@ def pubhistory_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str]) -> s
         m = clean_str(r.get("Month", ""))
 
         vslug = venue_slug_map.get(venue, slugify(venue))
-        vlink = f"/publications/venues/{vslug}/index.html"
+        vlink = f"publications/venues/{vslug}/index.html"
         venue_md = f"[{venue}]({vlink})" if venue else "(venue unknown)"
 
         year_md = ""
@@ -338,15 +338,15 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
     d["MonthKey"] = d["Month"].apply(month_key)
 
     lines: List[str] = ["# Publications", "", "Grouped by publication type and venue.", ""]
-    lines.append("- [Browse by year](/publications/years/index.html)")
-    lines.append("- [Browse by venue](/publications/venues/index.html)")
+    lines.append("- [Browse by year](publications/years/index.html)")
+    lines.append("- [Browse by venue](publications/venues/index.html)")
     lines.append("")
 
     for pubtype, g1 in d.groupby("Pubtype", sort=True):
         lines += [f"## {pubtype}", ""]
         for venue, g2 in g1.groupby("Venue", sort=True):
             vslug = venue_slug_map.get(venue, slugify(venue))
-            vlink = f"/publications/venues/{vslug}/index.html"
+            vlink = f"publications/venues/{vslug}/index.html"
             lines += [f"### [{venue}]({vlink})", ""]
             g2 = g2.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
             for _, r in g2.iterrows():
@@ -383,7 +383,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
 
     lines = ["# Publications by year", ""]
     for y in years:
-        lines.append(f"- [{y}](/publications/years/{y}/index.html)")
+        lines.append(f"- [{y}](publications/years/{y}/index.html)")
     lines.append("")
     write_md_overwrite(base / "index.md", {"title": "Publications by year", "language": "English"}, "\n".join(lines))
 
@@ -394,7 +394,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
         ydir = base / str(y)
         ydir.mkdir(parents=True, exist_ok=True)
 
-        body: List[str] = [f"# Publications in {y}", "", "- [Back to years](/publications/years/index.html)", ""]
+        body: List[str] = [f"# Publications in {y}", "", "- [Back to years](publications/years/index.html)", ""]
         for pubtype, g1 in sub.groupby("Pubtype", sort=True):
             body += [f"## {pubtype}", ""]
             for venue, g2 in g1.groupby("Venue", sort=True):
@@ -419,7 +419,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
     lines = ["# Venues", "", "Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).", ""]
     for v in venues:
         slug = venue_slug_map[v]
-        lines.append(f"- [{v}](/publications/venues/{slug}/index.html)")
+        lines.append(f"- [{v}](publications/venues/{slug}/index.html)")
     lines.append("")
     write_md_overwrite(base / "index.md", {"title": "Venues", "language": "English"}, "\n".join(lines))
 
@@ -433,7 +433,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
         sub = d[d["Venue"] == v].copy()
         sub = sub.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
 
-        body: List[str] = [f"# {v}", "", "- [Back to venues](/publications/venues/index.html)", ""]
+        body: List[str] = [f"# {v}", "", "- [Back to venues](publications/venues/index.html)", ""]
         # group by year (NaN becomes its own group; show as unknown)
         for y, g1 in sub.groupby(sub["YearNum"], sort=True):
             y_display = str(int(y)) if pd.notna(y) else "(year unknown)"

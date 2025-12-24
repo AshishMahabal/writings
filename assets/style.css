@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; }
+body { max-width: 760px; margin: 48px auto; padding: 0 18px; font: 18px/1.65 system-ui, -apple-system, "Noto Sans Devanagari", "Noto Serif Devanagari", serif; }
+h1,h2,h3 { line-height: 1.2; }
+nav a { margin-right: 14px; }
+meta, .meta { opacity: 0.75; }
+blockquote { border-left: 3px solid currentColor; padding-left: 14px; margin-left: 0; opacity: 0.9; }
+a { text-underline-offset: 3px; }
+hr { opacity: 0.25; }
+

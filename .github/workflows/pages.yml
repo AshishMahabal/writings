@@ -19,9 +19,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+    
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas pyyaml
 
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Make build script executable
+        run: chmod +x build.sh
 
       - name: Build (generate + render HTML)
         run: |

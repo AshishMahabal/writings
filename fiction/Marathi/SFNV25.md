@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2025 — Magazine: [नवल](/publications/venues/venue-fee3125c2f/index.html) — [2025](/publications/years/2025/index.html)
+- दिवाळी 2025 — Magazine: [नवल](/writings/publications/venues/venue-fee3125c2f/index.html) — [2025](/writings/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -5,20 +5,20 @@ language: English
 
 # Publications in 2022
 
-- [Back to years](/publications/years/index.html)
+- [Back to years](/writings/publications/years/index.html)
 
 ## Magazine
 
 ### धनंजय
 
-- [दुवे आडवे तिडवे](/fiction/Marathi/SFDH22.html) (दिवाळी 2022)
+- [दुवे आडवे तिडवे](/writings/fiction/Marathi/SFDH22.html) (दिवाळी 2022)
 
 ## Online Magazine
 
 ### आजचा सुधारक
 
-- [विविधतेमध्ये अनेकता](/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
+- [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
 
 ### ऐसी अक्षरे
 
-- [मुंगी उडाली आकाशी](/fiction/Marathi/SFAA22.html) (दिवाळी 2022)
+- [मुंगी उडाली आकाशी](/writings/fiction/Marathi/SFAA22.html) (दिवाळी 2022)

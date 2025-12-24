@@ -5,10 +5,10 @@ language: English
 
 # Publications in 2012
 
-- [Back to years](/publications/years/index.html)
+- [Back to years](/writings/publications/years/index.html)
 
 ## Online Magazine
 
 ### उपक्रम
 
-- [ओध्येमठाची निर्मिती आणि मराठी बाण](/nonfiction/Marathi/NFLAUP12.html) (दिवाळी 2012)
+- [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) (दिवाळी 2012)

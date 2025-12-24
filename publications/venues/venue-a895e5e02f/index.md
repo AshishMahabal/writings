@@ -5,4 +5,4 @@ language: English
 
 # सावली
 
-- [Back to venues](/publications/venues/index.html)
+- [Back to venues](/writings/publications/venues/index.html)

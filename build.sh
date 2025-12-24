@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+BASEURL_META="${BASEURL:-}"
+# normalize: "" or "/writings" (no trailing slash)
+BASEURL_META="/${BASEURL_META#/}"
+BASEURL_META="${BASEURL_META%/}"
+if [ "$BASEURL_META" = "/" ]; then BASEURL_META=""; fi
+
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 SITE="$ROOT/site"
 ASSETS_SRC="$ROOT/assets"
@@ -25,7 +31,7 @@ render_one() {
   local title="$3"
   local lang="$4"
   mkdir -p "$(dirname "$out")"
-  pandoc "$md"     --standalone     --template="$TEMPLATE"     -M title="$title" -M lang="$lang" -M year="$(date +%Y)"     -o "$out"
+  pandoc "$md"     --standalone     --template="$TEMPLATE"     -M title="$title" -M lang="$lang" -M baseurl="$BASEURL_META" -M year="$(date +%Y)"     -o "$out"
 }
 
 # Render root index.md

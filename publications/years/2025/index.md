@@ -5,26 +5,26 @@ language: English
 
 # Publications in 2025
 
-- [Back to years](/publications/years/index.html)
+- [Back to years](/writings/publications/years/index.html)
 
 ## Magazine
 
 ### धनंजय
 
-- [स्वर्गयातना](/fiction/Marathi/SFDH25.html) (दिवाळी 2025)
+- [स्वर्गयातना](/writings/fiction/Marathi/SFDH25.html) (दिवाळी 2025)
 
 ### नवल
 
-- [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/fiction/Marathi/SFNV25.html) (दिवाळी 2025)
+- [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/writings/fiction/Marathi/SFNV25.html) (दिवाळी 2025)
 
 ### साइकिल
 
-- [आकाश से गिरते उपग्रह](/nonfiction/Hindi/NFSCCY2502H.html) (Feb-Mar 2025)
-- [अन्तरिक्ष में 286 दिन](/nonfiction/Hindi/NFSCCY2504H.html) (Apr-May 2025)
-- [भूले-भटके यात्री](/nonfiction/Hindi/NFSCCY2506H.html) (Jun-Jul 2025)
+- [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) (Feb-Mar 2025)
+- [अन्तरिक्ष में 286 दिन](/writings/nonfiction/Hindi/NFSCCY2504H.html) (Apr-May 2025)
+- [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) (Jun-Jul 2025)
 
 ## Online Magazine
 
 ### ऐसी अक्षरे
 
-- [नैकेश्वर](/fiction/Marathi/SFAA25.html) (दिवाळी 2025)
+- [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) (दिवाळी 2025)

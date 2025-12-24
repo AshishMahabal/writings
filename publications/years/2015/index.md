@@ -5,20 +5,20 @@ language: English
 
 # Publications in 2015
 
-- [Back to years](/publications/years/index.html)
+- [Back to years](/writings/publications/years/index.html)
 
 ## Magazine
 
 ### धनंजय
 
-- [घोस्ट रायटर](/fiction/Marathi/SFB0112119.html) (दिवाळी 2015)
+- [घोस्ट रायटर](/writings/fiction/Marathi/SFB0112119.html) (दिवाळी 2015)
 
 ### नवल
 
-- [अंतर्ध्वनी](/fiction/Marathi/SFB0105048.html) (दिवाळी 2015)
+- [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) (दिवाळी 2015)
 
 ## Online Magazine
 
 ### MMLA
 
-- [असामी](/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015)
+- [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015)

@@ -7,6 +7,6 @@ language: English
 
 Science fiction (primarily Marathi) and non-fiction (astronomy, rationalism, essays).
 
-- [Fiction](/fiction/index.html)
-- [Non-Fiction](/nonfiction/index.html)
-- [Publications](/publications/index.html)
+- [Fiction](/writings/fiction/index.html)
+- [Non-Fiction](/writings/nonfiction/index.html)
+- [Publications](/writings/publications/index.html)

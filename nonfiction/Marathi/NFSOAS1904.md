@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- एप्रिल 2019 — Online Magazine: [आजचा सुधारक](/publications/venues/venue-d0fb43edff/index.html) — [2019](/publications/years/2019/index.html)
+- एप्रिल 2019 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2019](/writings/publications/years/2019/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

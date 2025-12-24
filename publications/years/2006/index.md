@@ -5,10 +5,10 @@ language: English
 
 # Publications in 2006
 
-- [Back to years](/publications/years/index.html)
+- [Back to years](/writings/publications/years/index.html)
 
 ## Online Magazine
 
 ### मायबोली
 
-- [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/nonfiction/Marathi/NFRAMB06.html) (दिवाळी 2006)
+- [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) (दिवाळी 2006)

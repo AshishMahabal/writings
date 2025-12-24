@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2014 — Online Magazine: [MMLA](/publications/venues/mmla/index.html) — [2014](/publications/years/2014/index.html)
+- दिवाळी 2014 — Online Magazine: [MMLA](/writings/publications/venues/mmla/index.html) — [2014](/writings/publications/years/2014/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

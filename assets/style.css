@@ -7,3 +7,26 @@ blockquote { border-left: 3px solid currentColor; padding-left: 14px; margin-lef
 a { text-underline-offset: 3px; }
 hr { opacity: 0.25; }
 
+.hero {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin: 1rem 0 1.5rem;
+}
+
+.hero-text { flex: 1 1 420px; }
+.hero-media { flex: 0 0 auto; }
+
+.hero-media img {
+  width: 200px;
+  max-width: 40vw;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+@media (max-width: 700px) {
+  .hero { flex-direction: column; }
+  .hero-media img { width: 220px; max-width: 80vw; margin: 0 auto; display: block; }
+}
+

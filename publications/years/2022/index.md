@@ -21,6 +21,8 @@ language: English
 
 ### आजचा सुधारक
 
+- [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) (Jul 2022)
+- [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) (Oct 2022)
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
 
 ### ऐसी अक्षरे

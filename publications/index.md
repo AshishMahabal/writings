@@ -130,7 +130,7 @@ Info related to publication venues ...
 
 ### [सावली](/writings/publications/venues/venue-a895e5e02f/index.html)
 
-- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html)
+- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) (2009)
 
 ### [हंस](/writings/publications/venues/venue-cf46574413/index.html)
 
@@ -158,7 +158,11 @@ Info related to publication venues ...
 - [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020)
 - [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) (ऑगस्ट 2021)
 - [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) (जानेवारी 2021)
+- [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) (Jul 2022)
+- [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) (Oct 2022)
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
+- [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
+- [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
 
 ### [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html)
 

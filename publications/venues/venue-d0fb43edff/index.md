@@ -5,7 +5,7 @@ language: English
 
 # आजचा सुधारक (Online Magazine)
 
-- [Back to venues](/publications/venues/index.html)
+- [Back to venues](/writings/publications/venues/index.html)
 
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2019
@@ -25,5 +25,15 @@ language: English
 
 ## 2022
 
+- **Non-Fiction:** [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) (Jul 2022)
+- **Non-Fiction:** [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) (Oct 2022)
 - **Non-Fiction:** [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
+
+## 2023
+
+- **Non-Fiction:** [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
+
+## 2025
+
+- **Non-Fiction:** [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
 <!-- AUTO:VENUE_ENTRIES:END -->

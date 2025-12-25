@@ -15,6 +15,10 @@ language: English
 - [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) (Oct-Nov 2009)
 - [The dark spell of a Blackhole](/writings/nonfiction/English/NFSCNJ0912E.html) (Dec-Jan 2009)
 
+### सावली
+
+- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) (2009)
+
 ## Online Magazine
 
 ### मायबोली

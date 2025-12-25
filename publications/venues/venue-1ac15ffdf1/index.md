@@ -5,7 +5,7 @@ language: English
 
 # पूर्वसंचित गोफ नात्यांचा (Anthology)
 
-- [Back to venues](/publications/venues/index.html)
+- [Back to venues](/writings/publications/venues/index.html)
 
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2016

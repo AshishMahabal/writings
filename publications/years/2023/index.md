@@ -48,6 +48,10 @@ language: English
 
 ## Online Magazine
 
+### आजचा सुधारक
+
+- [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
+
 ### ऐसी अक्षरे
 
 - [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) (दिवाळी 2023)

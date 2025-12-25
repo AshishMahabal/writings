@@ -7,7 +7,7 @@ language: English
 
 Details about mavipa magazine here
 
-- [Back to venues](/publications/venues/index.html)
+- [Back to venues](/writings/publications/venues/index.html)
 
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2013

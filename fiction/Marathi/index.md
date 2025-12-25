@@ -7,7 +7,7 @@ language: Marathi
 
 - [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) [नवल, 2015]
 - [कचरा गो](/writings/fiction/Marathi/SFB0108075.html) [धनंजय, 2017]
-- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) [सावली]
+- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) [सावली, 2009]
 - [कारटीची कथा](/writings/fiction/Marathi/SFHA19.html) [हंस, 2019]
 - [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) [ऐसी अक्षरे, 2014]
 - [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) [मविप, 2013]

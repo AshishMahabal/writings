@@ -33,6 +33,10 @@ language: English
 
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
 
+### आजचा सुधारक
+
+- [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
+
 ### ऐसी अक्षरे
 
 - [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) (दिवाळी 2025)

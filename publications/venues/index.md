@@ -7,6 +7,7 @@ language: English
 
 Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).
 
+- [Inner Space and Outer Thoughts](/writings/publications/venues/inner-space-and-outer-thoughts/index.html)
 - [MMLA](/writings/publications/venues/mmla/index.html)
 - [NJ Sahitya Vishwa](/writings/publications/venues/nj-sahitya-vishwa/index.html)
 - [अनुभव](/writings/publications/venues/venue-59d8f87380/index.html)

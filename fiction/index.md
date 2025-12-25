@@ -5,14 +5,17 @@ language: English
 
 # Fiction
 
-Browse by language:
+I write primarily hard science fiction, and so far primarily in Marathi. I ...
+
+<!-- AUTO:FICTION_LIST:START -->
+## Browse by language
 
 - [English](/writings/fiction/English/index.html)
 - [Marathi](/writings/fiction/Marathi/index.html)
 
 ## All
 
-- [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) 
+- [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) [Inner Space and Outer Thoughts, 2023]
 - [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) [नवल, 2015]
 - [कचरा गो](/writings/fiction/Marathi/SFB0108075.html) [धनंजय, 2017]
 - [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) [सावली]
@@ -48,3 +51,4 @@ Browse by language:
 - [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/writings/fiction/Marathi/SFB0118156.html) [मायबोली, 2008]
 - [सावट](/writings/fiction/Marathi/SFDH20.html) [धनंजय, 2020]
 - [स्वर्गयातना](/writings/fiction/Marathi/SFDH25.html) [धनंजय, 2025]
+<!-- AUTO:FICTION_LIST:END -->

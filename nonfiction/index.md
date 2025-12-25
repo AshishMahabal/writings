@@ -5,7 +5,10 @@ language: English
 
 # Nonfiction
 
-Browse by language:
+My nonfiction writings have been related to astronomy, society, a bit on rationalism, and various travelogues. I ...
+
+<!-- AUTO:NONFICTION_LIST:START -->
+## Browse by language
 
 - [English](/writings/nonfiction/English/index.html)
 - [Hindi](/writings/nonfiction/Hindi/index.html)
@@ -47,3 +50,4 @@ Browse by language:
 - [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) [मुशाफिरी, 2019]
 - [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) [आजचा सुधारक, 2020]
 - [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) [उपक्रम, 2011]
+<!-- AUTO:NONFICTION_LIST:END -->

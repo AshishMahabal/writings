@@ -140,6 +140,52 @@ def dump_front_matter(data: Dict) -> str:
     ).strip()
     return f"---\n{y}\n---\n"
 
+def ensure_auto_block(body: str, start_marker: str, end_marker: str, heading: str = "") -> str:
+    """Ensure an auto-update block exists; if missing, append it at the end."""
+    if start_marker in body and end_marker in body:
+        return body
+    extra = ""
+    if heading:
+        extra += f"\n\n{heading}\n\n"
+    extra += f"{start_marker}\n(auto)\n{end_marker}\n"
+    return body.rstrip() + extra
+
+
+def replace_auto_block(body: str, start_marker: str, end_marker: str, new_block_md: str, heading: str = "") -> str:
+    """Replace only the contents between start_marker and end_marker."""
+    body2 = ensure_auto_block(body, start_marker, end_marker, heading=heading)
+    s = body2.find(start_marker)
+    e = body2.find(end_marker)
+    if s == -1 or e == -1 or e < s:
+        return body2
+    before = body2[: s + len(start_marker)]
+    after = body2[e:]
+    mid = "\n" + new_block_md.strip() + "\n"
+    return before + mid + after
+
+
+def write_md_update_block_only(
+    path: Path,
+    front_matter: Dict,
+    start_marker: str,
+    end_marker: str,
+    new_block_md: str,
+    heading: str = "",
+) -> None:
+    """
+    If file exists: keep human-authored body except the auto block.
+    If file does not exist: create it with just front matter + the auto block.
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        existing = path.read_text(encoding="utf-8")
+        _, body = split_front_matter(existing)
+        body = replace_auto_block(body, start_marker, end_marker, new_block_md, heading=heading)
+        path.write_text(dump_front_matter(front_matter) + "\n" + body, encoding="utf-8")
+    else:
+        body = replace_auto_block("", start_marker, end_marker, new_block_md, heading=heading)
+        path.write_text(dump_front_matter(front_matter) + "\n" + body.strip() + "\n", encoding="utf-8")
+
 
 def ensure_pubhistory_block(body: str) -> str:
     if AUTO_START in body and AUTO_END in body:
@@ -319,23 +365,35 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
     items = items.sort_values(["language_full", "Title"], kind="mergesort")
     langs = sorted(items["language_full"].unique().tolist())
 
-    lines: List[str] = [f"# {kind.title()}", ""]
-    lines.append("Browse by language:")
-    lines.append("")
+    # --- Build only the auto-updated block for the top index page ---
+    block_lines: List[str] = []
+    block_lines.append("## Browse by language")
+    block_lines.append("")
     for L in langs:
-        lines.append(f"- [{L}]({link(f'{kind}/{L}/index.html')})")
-    lines.append("")
-    lines.append("## All")
-    lines.append("")
+        block_lines.append(f"- [{L}]({link(f'{kind}/{L}/index.html')})")
+    block_lines.append("")
+    block_lines.append("## All")
+    block_lines.append("")
     for _, r in items.iterrows():
         wid = r["work_id"]
         L = r["language_full"]
         title = r["Title"]
         hint = hint_map.get(wid, "")
-        lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
-    lines.append("")
-    write_md_overwrite(Path(kind) / "index.md", {"title": kind.title(), "language": "English"}, "\n".join(lines))
+        block_lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
+    block_lines.append("")
 
+    start_marker = f"<!-- AUTO:{kind.upper()}_LIST:START -->"
+    end_marker = f"<!-- AUTO:{kind.upper()}_LIST:END -->"
+
+    write_md_update_block_only(
+        Path(kind) / "index.md",
+        {"title": kind.title(), "language": "English"},
+        start_marker,
+        end_marker,
+        "\n".join(block_lines),
+    )
+
+    # --- Keep language-specific pages fully generated (overwrite is fine) ---
     for L in langs:
         sub = items[items["language_full"] == L].copy().sort_values(["Title"], kind="mergesort")
         body_lines = [f"# {kind.title()} ({L})", ""]
@@ -345,7 +403,11 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
             hint = hint_map.get(wid, "")
             body_lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
         body_lines.append("")
-        write_md_overwrite(Path(kind) / L / "index.md", {"title": f"{kind.title()} {L}", "language": L}, "\n".join(body_lines))
+        write_md_overwrite(
+            Path(kind) / L / "index.md",
+            {"title": f"{kind.title()} {L}", "language": L},
+            "\n".join(body_lines),
+        )
 
 
 def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
@@ -355,17 +417,20 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
     d["YearNum"] = d["Year"].apply(year_int)
     d["MonthKey"] = d["Month"].apply(month_key)
 
-    lines: List[str] = ["# Publications", "", "Grouped by publication type and venue.", ""]
-    lines.append(f"- [Browse by year]({link('publications/years/index.html')})")
-    lines.append(f"- [Browse by venue]({link('publications/venues/index.html')})")
-    lines.append("")
+    # Build ONLY the auto-updated block (no "# Publications" here)
+    block: List[str] = []
+    block.append("## Browse")
+    block.append("")
+    block.append(f"- [Browse by year]({link('publications/years/index.html')})")
+    block.append(f"- [Browse by venue]({link('publications/venues/index.html')})")
+    block.append("")
 
     for pubtype, g1 in d.groupby("Pubtype", sort=True):
-        lines += [f"## {pubtype}", ""]
+        block += [f"## {pubtype}", ""]
         for venue, g2 in g1.groupby("Venue", sort=True):
             vslug = venue_slug_map.get(venue, slugify(venue))
             vlink = link(f"publications/venues/{vslug}/index.html")
-            lines += [f"### [{venue}]({vlink})", ""]
+            block += [f"### [{venue}]({vlink})", ""]
             g2 = g2.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
             for _, r in g2.iterrows():
                 title = r["Title"]
@@ -383,9 +448,19 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
                 when = " ".join(when_parts).strip()
                 when = f" ({when})" if when else ""
 
-                lines.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
-            lines.append("")
-    write_md_overwrite(Path("publications") / "index.md", {"title": "Publications", "language": "English"}, "\n".join(lines))
+                block.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
+            block.append("")
+
+    start_marker = "<!-- AUTO:PUBLICATIONS_INDEX:START -->"
+    end_marker = "<!-- AUTO:PUBLICATIONS_INDEX:END -->"
+
+    write_md_update_block_only(
+        Path("publications") / "index.md",
+        {"title": "Publications", "language": "English"},
+        start_marker,
+        end_marker,
+        "\n".join(block),
+    )
 
 
 def generate_publications_year_indexes(df: pd.DataFrame) -> None:

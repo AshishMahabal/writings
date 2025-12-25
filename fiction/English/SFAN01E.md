@@ -17,5 +17,5 @@ This page is the canonical work page. Publication instances are listed via the C
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- (date unknown) — Anthology: (venue unknown)
+- 2023 — Anthology: [Inner Space and Outer Thoughts](/writings/publications/venues/inner-space-and-outer-thoughts/index.html) — [2023](/writings/publications/years/2023/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

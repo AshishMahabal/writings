@@ -5,12 +5,19 @@ language: English
 
 # Publications
 
-Grouped by publication type and venue.
+Info related to publication venues ...
+
+<!-- AUTO:PUBLICATIONS_INDEX:START -->
+## Browse
 
 - [Browse by year](/writings/publications/years/index.html)
 - [Browse by venue](/writings/publications/venues/index.html)
 
 ## Anthology
+
+### [Inner Space and Outer Thoughts](/writings/publications/venues/inner-space-and-outer-thoughts/index.html)
+
+- [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) (2023)
 
 ## Book
 
@@ -154,3 +161,4 @@ Grouped by publication type and venue.
 - [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) (दिवाळी 2011)
 - [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) (दिवाळी 2013)
 - [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) (दिवाळी 2014)
+<!-- AUTO:PUBLICATIONS_INDEX:END -->

@@ -7,6 +7,12 @@ language: English
 
 - [Back to years](/writings/publications/years/index.html)
 
+## Anthology
+
+### Inner Space and Outer Thoughts
+
+- [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) (2023)
+
 ## Book
 
 ### घोस्ट रायटर आणि इतर विज्ञानकथा

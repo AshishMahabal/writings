@@ -19,6 +19,18 @@ Info related to publication venues ...
 
 - [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) (2023)
 
+### [पूर्वसंचित गोफ नात्यांचा](/writings/publications/venues/venue-1ac15ffdf1/index.html)
+
+- [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html)
+
+### [मन्वंतर](/writings/publications/venues/venue-6d4edc0d1c/index.html)
+
+- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html)
+
+### [विज्ञानिनी भाग २](/writings/publications/venues/venue-7931209364/index.html)
+
+- [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html)
+
 ## Book
 
 ### [घोस्ट रायटर आणि इतर विज्ञानकथा](/writings/publications/venues/venue-54714bad4d/index.html)
@@ -100,6 +112,10 @@ Info related to publication venues ...
 - [खिचन, खेजरली, आणि खूप काही](/writings/nonfiction/Marathi/NFTRMU18.html) (दिवाळी 2018)
 - [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) (दिवाळी 2019)
 
+### [युगवाणी](/writings/publications/venues/venue-c1b569855d/index.html)
+
+- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025)
+
 ### [साइकिल](/writings/publications/venues/venue-72dcf424f4/index.html)
 
 - [मंगल में शेरलॉक](/writings/nonfiction/Hindi/NFSCCY2408H.html) (Aug-Sep 2024)
@@ -117,6 +133,11 @@ Info related to publication venues ...
 - [कारटीची कथा](/writings/fiction/Marathi/SFHA19.html) (दिवाळी 2019)
 
 ## Online Magazine
+
+### [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html)
+
+- [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022)
+- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
 
 ### [MMLA](/writings/publications/venues/mmla/index.html)
 

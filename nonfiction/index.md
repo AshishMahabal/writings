@@ -16,6 +16,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 
 ## All
 
+- [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) [BMM Vrutta, 2022]
 - [The Transient Universe](/writings/nonfiction/English/NFSCNJ1006E.html) [NJ Sahitya Vishwa, 2010]
 - [The Universe of Galaxies](/writings/nonfiction/English/NFSCNJ1002E.html) [NJ Sahitya Vishwa, 2010]
 - [The dark spell of a Blackhole](/writings/nonfiction/English/NFSCNJ0912E.html) [NJ Sahitya Vishwa, 2009]
@@ -25,11 +26,13 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) [साइकिल, 2025]
 - [मंगल में शेरलॉक](/writings/nonfiction/Hindi/NFSCCY2408H.html) [साइकिल, 2024]
 - [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) [MMLA, 2015]
+- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, 2025]
 - [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) [उपक्रम, 2012]
 - [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) [आजचा सुधारक, 2021]
 - [खिचन, खेजरली, आणि खूप काही](/writings/nonfiction/Marathi/NFTRMU18.html) [मुशाफिरी, 2018]
 - [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) [आजचा सुधारक, 2019]
 - [चित्रकाराच्या गावा जावे](/writings/nonfiction/Marathi/NFTRMU17.html) [मुशाफिरी, 2017]
+- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) [युगवाणी, 2025]
 - [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) [मायबोली, 2011]
 - [नैसर्गिक भरार्‍या](/writings/nonfiction/Marathi/NFSCMB10.html) [मायबोली, 2010]
 - [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) [मायबोली, 2013]

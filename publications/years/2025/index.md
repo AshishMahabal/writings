@@ -17,6 +17,10 @@ language: English
 
 - [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/writings/fiction/Marathi/SFNV25.html) (दिवाळी 2025)
 
+### युगवाणी
+
+- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025)
+
 ### साइकिल
 
 - [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) (Feb-Mar 2025)
@@ -24,6 +28,10 @@ language: English
 - [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) (Jun-Jul 2025)
 
 ## Online Magazine
+
+### BMM Vrutta
+
+- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
 
 ### ऐसी अक्षरे
 

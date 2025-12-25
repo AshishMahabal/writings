@@ -15,6 +15,10 @@ language: English
 
 ## Online Magazine
 
+### BMM Vrutta
+
+- [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022)
+
 ### आजचा सुधारक
 
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)

@@ -266,6 +266,8 @@ def link(path: str) -> str:
     p = "/" + path.lstrip("/")
     return f"{base}{p}"
 
+def link_unused(path: str) -> str:
+    return path.lstrip("/")
 
 def root_index_body() -> str:
     return "\n".join(
@@ -524,12 +526,23 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                 body.append("")
         write_md_overwrite(ydir / "index.md", {"title": f"Publications {y}", "language": "English"}, "\n".join(body))
 
+def kind_display(kind_norm: str) -> str:
+    k = clean_str(kind_norm).lower()
+    if k == "fiction":
+        return "Fiction"
+    if k == "nonfiction":
+        return "Non-Fiction"
+    if k == "poem":
+        return "Poem"
+    return k.title() if k else "Work"
 
 def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     base = Path("publications") / "venues"
     base.mkdir(parents=True, exist_ok=True)
 
     venues = sorted({clean_str(v) for v in df["Venue"].tolist() if clean_str(v)})
+
+    # Venues index (still fully generated; you can convert later the same way)
     lines = ["# Venues", "", "Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).", ""]
     for v in venues:
         slug = venue_slug_map[v]
@@ -541,31 +554,75 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
     d["YearNum"] = d["Year"].apply(year_int)
     d["MonthKey"] = d["Month"].apply(month_key)
     d["Venue"] = d["Venue"].astype("string").str.strip()
+    d["Pubtype"] = d["Pubtype"].astype("string").str.strip()
+
+    start_marker = "<!-- AUTO:VENUE_ENTRIES:START -->"
+    end_marker = "<!-- AUTO:VENUE_ENTRIES:END -->"
 
     for v in venues:
         slug = venue_slug_map[v]
         sub = d[d["Venue"] == v].copy()
         sub = sub.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
 
-        body: List[str] = [f"# {v}", "", f"- [Back to venues]({link('publications/venues/index.html')})", ""]
+        # Venue type once at top (if mixed types, show "Mixed")
+        pubtypes = [
+            clean_str(x)
+            for x in sub["Pubtype"].dropna().astype(str).tolist()
+            if clean_str(x)
+        ]
+        unique_pubtypes = sorted(set(pubtypes))
+        if len(unique_pubtypes) == 1:
+            venue_type = unique_pubtypes[0]
+        elif len(unique_pubtypes) == 0:
+            venue_type = ""
+        else:
+            venue_type = "Mixed"
+
+        h1 = f"# {v} ({venue_type})" if venue_type else f"# {v}"
+
+        # This heading gets used ONLY when the file does not exist (or is missing markers)
+        # Put your own prose ABOVE the marker in the .md file later.
+        heading_text = "\n".join(
+            [
+                h1,
+                "",
+                f"- [Back to venues]({link('publications/venues/index.html')})",
+                "",
+                # Optional starter prose placeholder (edit freely later)
+                # "*(Add a short description of this venue here.)*",
+                # "",
+            ]
+        )
+
+        # Build ONLY the auto-updated block content
+        block_lines: List[str] = []
         for y_val, g1 in sub.groupby(sub["YearNum"], sort=True):
-            # y_val can be NaN; avoid int(y_val) entirely.
             y_display = str(int(y_val)) if pd.notna(y_val) else "(year unknown)"
-            body += [f"## {y_display}", ""]
+            block_lines += [f"## {y_display}", ""]
             for _, r in g1.iterrows():
                 title = r["Title"]
                 wid = r["work_id"]
-                k = r["kind_norm"]
-                L = r["language_full"]
-                pubtype = clean_str(r.get("Pubtype", ""))
+                k = clean_str(r["kind_norm"])
+                L = clean_str(r["language_full"])
+
+                k_label = kind_display(k)
+
                 m = clean_str(r.get("Month", ""))
                 when_parts = [p for p in [m, (y_display if y_display != "(year unknown)" else "")] if p]
                 when = " ".join(when_parts).strip()
                 when = f" ({when})" if when else ""
-                pubtype_md = f"{pubtype}: " if pubtype else ""
-                body.append(f"- {pubtype_md}[{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
-            body.append("")
-        write_md_overwrite(base / slug / "index.md", {"title": v, "language": "English"}, "\n".join(body))
+
+                block_lines.append(f"- **{k_label}:** [{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
+            block_lines.append("")
+
+        write_md_update_block_only(
+            base / slug / "index.md",
+            {"title": v, "language": "English"},
+            start_marker,
+            end_marker,
+            "\n".join(block_lines).rstrip(),
+            heading=heading_text,
+        )
 
 
 def main() -> None:

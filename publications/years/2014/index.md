@@ -17,7 +17,7 @@ language: English
 
 ### आरती
 
-- [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (2014)
+- [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (May-June 2014)
 
 ### मविप
 

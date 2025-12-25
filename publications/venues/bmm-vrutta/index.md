@@ -3,14 +3,16 @@ title: BMM Vrutta
 language: English
 ---
 
-# BMM Vrutta
+# BMM Vrutta (Online Magazine)
 
-- [Back to venues](/writings/publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
+<!-- AUTO:VENUE_ENTRIES:START -->
 ## 2022
 
-- Online Magazine: [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022)
+- **Non-Fiction:** [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022)
 
 ## 2025
 
-- Online Magazine: [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
+- **Non-Fiction:** [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
+<!-- AUTO:VENUE_ENTRIES:END -->

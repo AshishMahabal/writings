@@ -38,6 +38,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) [मायबोली, 2013]
 - [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) [आजचा सुधारक, 2020]
 - [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) [MMLA, 2017]
+- [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) [प्रसाद, 2021]
 - [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) [मायबोली, 2006]
 - [माझी काश्मीरी तिर्थयात्रा](/writings/nonfiction/Marathi/NFTRMM13.html) [MMLA, 2013]
 - [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) [उपक्रम, 2010]

@@ -7,6 +7,12 @@ language: English
 
 - [Back to years](/writings/publications/years/index.html)
 
+## Magazine
+
+### प्रसाद
+
+- [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) (Nov-Dec 2021)
+
 ## Online Magazine
 
 ### आजचा सुधारक

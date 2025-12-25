@@ -21,6 +21,7 @@ Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).
 - [नवल](/writings/publications/venues/venue-fee3125c2f/index.html)
 - [पुणे प्रतिष्ठान](/writings/publications/venues/venue-ae7b4f5641/index.html)
 - [पूर्वसंचित गोफ नात्यांचा](/writings/publications/venues/venue-1ac15ffdf1/index.html)
+- [प्रसाद](/writings/publications/venues/venue-205c73bd40/index.html)
 - [मन्वंतर](/writings/publications/venues/venue-6d4edc0d1c/index.html)
 - [मविप](/writings/publications/venues/venue-dd1e06c88a/index.html)
 - [मायबोली](/writings/publications/venues/venue-2a8f9fd108/index.html)

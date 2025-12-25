@@ -3,6 +3,10 @@ title: सावली
 language: English
 ---
 
-# सावली
+# सावली (Magazine)
 
-- [Back to venues](/writings/publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
+
+<!-- AUTO:VENUE_ENTRIES:START -->
+
+<!-- AUTO:VENUE_ENTRIES:END -->

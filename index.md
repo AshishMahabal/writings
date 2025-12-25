@@ -11,8 +11,7 @@ language: English
 
 Science fiction (primarily Marathi) and non-fiction (astronomy, rationalism, essays, travelogues).
 
-**Ghost Writer**  
-[Venue page](publications/venues/venue-54714bad4d/index.html)
+[**Ghost Writer**](publications/venues/venue-54714bad4d/index.html)
 
 [Amazon India](https://www.amazon.in/Ghost-Writer-Vidnyan-Katha-%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%A5%E0%A4%BE/dp/9392624131) ·
 [Kindle](https://www.amazon.in/GHOST-WRITER-%E0%A4%98%E0%A5%8B%e0%a4%b8%e0%a5%8d%e0%a4%9f-%e0%a4%b0%e0%a4%be%e0%a4%af%e0%a4%9f%e0%a4%b0-%e0%a4%b5%e0%a4%bf%e0%a4%9c%e0%a5%8d%e0%a4%9e%e0%a4%be%e0%a4%a8%e0%a4%95%e0%a4%a5%e0%a4%be-ebook/dp/B0CB1JCGZM/ref=tmm_kin_swatch_0) ·

@@ -3,10 +3,12 @@ title: विज्ञानिनी भाग २
 language: English
 ---
 
-# विज्ञानिनी भाग २
+# विज्ञानिनी भाग २ (Anthology)
 
-- [Back to venues](/writings/publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
+<!-- AUTO:VENUE_ENTRIES:START -->
 ## 2014
 
-- Anthology: [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (2014)
+- **Fiction:** [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (2014)
+<!-- AUTO:VENUE_ENTRIES:END -->

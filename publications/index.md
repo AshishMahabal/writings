@@ -71,7 +71,7 @@ Info related to publication venues ...
 
 ### [आरती](/writings/publications/venues/venue-e7ed550e31/index.html)
 
-- [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (2014)
+- [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (May-June 2014)
 
 ### [धनंजय](/writings/publications/venues/venue-a532506da6/index.html)
 
@@ -99,6 +99,10 @@ Info related to publication venues ...
 ### [पुणे प्रतिष्ठान](/writings/publications/venues/venue-ae7b4f5641/index.html)
 
 - [ये रे माझ्या मागल्या](/writings/fiction/Marathi/SFB0104043.html) (दिवाळी 2017)
+
+### [प्रसाद](/writings/publications/venues/venue-205c73bd40/index.html)
+
+- [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) (Nov-Dec 2021)
 
 ### [मविप](/writings/publications/venues/venue-dd1e06c88a/index.html)
 

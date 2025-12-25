@@ -3,25 +3,27 @@ title: आजचा सुधारक
 language: English
 ---
 
-# आजचा सुधारक
+# आजचा सुधारक (Online Magazine)
 
-- [Back to venues](/writings/publications/venues/index.html)
+- [Back to venues](/publications/venues/index.html)
 
+<!-- AUTO:VENUE_ENTRIES:START -->
 ## 2019
 
-- Online Magazine: [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (एप्रिल 2019)
+- **Non-Fiction:** [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (एप्रिल 2019)
 
 ## 2020
 
-- Online Magazine: [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (जुलै 2020)
-- Online Magazine: [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (मे 2020)
-- Online Magazine: [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020)
+- **Non-Fiction:** [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (जुलै 2020)
+- **Non-Fiction:** [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (मे 2020)
+- **Non-Fiction:** [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020)
 
 ## 2021
 
-- Online Magazine: [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) (ऑगस्ट 2021)
-- Online Magazine: [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) (जानेवारी 2021)
+- **Non-Fiction:** [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) (ऑगस्ट 2021)
+- **Non-Fiction:** [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) (जानेवारी 2021)
 
 ## 2022
 
-- Online Magazine: [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
+- **Non-Fiction:** [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
+<!-- AUTO:VENUE_ENTRIES:END -->

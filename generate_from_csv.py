@@ -334,7 +334,28 @@ def earliest_pub_hint(g: pd.DataFrame) -> str:
 
 
 def generate_root_index() -> None:
-    write_md_overwrite(Path("index.md"), {"title": "Writings", "language": "English"}, root_index_body())
+#    write_md_overwrite(Path("index.md"), {"title": "Writings", "language": "English"}, root_index_body())
+    start_marker = "<!-- AUTO:HOME_NAV:START -->"
+    end_marker = "<!-- AUTO:HOME_NAV:END -->"
+
+    block = "\n".join(
+        [
+            "## Sections",
+            "",
+            f"- [Fiction]({link('fiction/index.html')})",
+            f"- [Non-Fiction]({link('nonfiction/index.html')})",
+            f"- [Publications]({link('publications/index.html')})",
+            "",
+        ]
+    )
+
+    write_md_update_block_only(
+        Path("index.md"),
+        {"title": "Writings", "language": "English"},
+        start_marker,
+        end_marker,
+        block,
+    )
 
 
 def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:

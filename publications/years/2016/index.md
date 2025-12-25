@@ -7,6 +7,12 @@ language: English
 
 - [Back to years](/writings/publications/years/index.html)
 
+## Anthology
+
+### पूर्वसंचित गोफ नात्यांचा
+
+- [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html) (2016)
+
 ## Magazine
 
 ### अनुभव

@@ -13,11 +13,12 @@ ASSETS_SRC="$ROOT/assets"
 
 rm -rf "$SITE"
 mkdir -p "$SITE/assets"
+cp -R $ASSETS_SRC $SITE
 
-# Copy assets
-if [ -f "$ASSETS_SRC/style.css" ]; then
-  cp "$ASSETS_SRC/style.css" "$SITE/assets/style.css"
-fi
+## Copy assets
+#if [ -f "$ASSETS_SRC/style.css" ]; then
+#  cp "$ASSETS_SRC/style.css" "$SITE/assets/style.css"
+#fi
 
 TEMPLATE="$ASSETS_SRC/template.html"
 if [ ! -f "$TEMPLATE" ]; then

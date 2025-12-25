@@ -21,15 +21,15 @@ Info related to publication venues ...
 
 ### [पूर्वसंचित गोफ नात्यांचा](/writings/publications/venues/venue-1ac15ffdf1/index.html)
 
-- [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html)
+- [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html) (2016)
 
 ### [मन्वंतर](/writings/publications/venues/venue-6d4edc0d1c/index.html)
 
-- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html)
+- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2015)
 
 ### [विज्ञानिनी भाग २](/writings/publications/venues/venue-7931209364/index.html)
 
-- [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html)
+- [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (2014)
 
 ## Book
 

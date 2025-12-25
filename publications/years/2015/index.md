@@ -7,6 +7,12 @@ language: English
 
 - [Back to years](/writings/publications/years/index.html)
 
+## Anthology
+
+### मन्वंतर
+
+- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2015)
+
 ## Magazine
 
 ### धनंजय

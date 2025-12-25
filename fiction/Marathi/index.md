@@ -22,7 +22,7 @@ language: Marathi
 - [दुवे आडवे तिडवे](/writings/fiction/Marathi/SFDH22.html) [धनंजय, 2022]
 - [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) [ऐसी अक्षरे, 2016]
 - [नाऊ यु सी मी](/writings/fiction/Marathi/SFB0110105.html) [अनुभव, 2017]
-- [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html) [घोस्ट रायटर आणि इतर विज्ञानकथा, 2023]
+- [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html) [पूर्वसंचित गोफ नात्यांचा, 2016]
 - [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) [ऐसी अक्षरे, 2025]
 - [पाचविला पुजलेला प्रश्न](/writings/fiction/Marathi/SFB0102021.html) [नवल, 2018]
 - [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) [आरती, 2014]

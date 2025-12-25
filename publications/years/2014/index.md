@@ -7,6 +7,12 @@ language: English
 
 - [Back to years](/writings/publications/years/index.html)
 
+## Anthology
+
+### विज्ञानिनी भाग २
+
+- [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (2014)
+
 ## Magazine
 
 ### आरती

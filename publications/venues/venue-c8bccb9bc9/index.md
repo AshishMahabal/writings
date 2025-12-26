@@ -16,6 +16,10 @@ language: English
 
 - **Fiction:** [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) (दिवाळी 2016)
 
+## 2019
+
+- **Non-Fiction:** [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) (दिवाळी 2019)
+
 ## 2020
 
 - **Fiction:** [सत्यमेवा जयते](/writings/fiction/Marathi/SFAA20.html) (दिवाळी 2020)

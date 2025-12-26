@@ -5,14 +5,18 @@ language: English
 
 # Nonfiction
 
-My nonfiction writings have been related to astronomy, society, a bit on rationalism, and various travelogues. I ...
+My nonfiction writings have been related to astronomy, society, a bit on rationalism, and various travelogues. I ..
 
 <!-- AUTO:NONFICTION_LIST:START -->
-## Browse by language
+## By language
 
-- [English](/writings/nonfiction/English/index.html)
-- [Hindi](/writings/nonfiction/Hindi/index.html)
-- [Marathi](/writings/nonfiction/Marathi/index.html)
+ | 
+[English](/writings/nonfiction/English/index.html)
+ | 
+[Hindi](/writings/nonfiction/Hindi/index.html)
+ | 
+[Marathi](/writings/nonfiction/Marathi/index.html)
+ | 
 
 ## All
 
@@ -44,6 +48,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) [MMLA, 2017]
 - [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) [प्रसाद, 2021]
 - [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) [मायबोली, 2006]
+- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) [ऐसी अक्षरे, 2019]
 - [माझी काश्मीरी तिर्थयात्रा](/writings/nonfiction/Marathi/NFTRMM13.html) [MMLA, 2013]
 - [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) [उपक्रम, 2010]
 - [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, 2009]

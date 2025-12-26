@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MODE="${1:-local}"          # local | gh
-PORT="${2:-8000}"
+MODE="${1:-gh}"          # local | gh
+PORT="${2:-8001}"
 CSV="${3:-IndexOfPublished_revised.csv}"
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -44,7 +44,7 @@ serve_gh_root() {
   cd "$ROOT"
   rm -f "$ROOT/writings"
   ln -s "site" "$ROOT/writings"
-  python3 -m http.server "$PORT"
+#  python3 -m http.server "$PORT"
 }
 
 case "$MODE" in

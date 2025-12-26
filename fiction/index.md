@@ -8,10 +8,13 @@ language: English
 I write primarily hard science fiction, and so far primarily in Marathi. I ...
 
 <!-- AUTO:FICTION_LIST:START -->
-## Browse by language
+## By language
 
-- [English](/writings/fiction/English/index.html)
-- [Marathi](/writings/fiction/Marathi/index.html)
+ | 
+[English](/writings/fiction/English/index.html)
+ | 
+[Marathi](/writings/fiction/Marathi/index.html)
+ | 
 
 ## All
 

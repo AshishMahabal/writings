@@ -26,3 +26,7 @@ language: English
 ### आजचा सुधारक
 
 - [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (एप्रिल 2019)
+
+### ऐसी अक्षरे
+
+- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) (दिवाळी 2019)

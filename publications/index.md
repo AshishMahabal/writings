@@ -10,8 +10,7 @@ Info related to publication venues ...
 <!-- AUTO:PUBLICATIONS_INDEX:START -->
 ## Browse
 
-- [Browse by year](/writings/publications/years/index.html)
-- [Browse by venue](/writings/publications/venues/index.html)
+[By year](/writings/publications/years/index.html) · [By venue](/writings/publications/venues/index.html)
 
 ## Anthology
 
@@ -174,6 +173,7 @@ Info related to publication venues ...
 
 - [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) (दिवाळी 2014)
 - [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) (दिवाळी 2016)
+- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) (दिवाळी 2019)
 - [सत्यमेवा जयते](/writings/fiction/Marathi/SFAA20.html) (दिवाळी 2020)
 - [यमांत](/writings/fiction/Marathi/SFAA21.html) (दिवाळी 2021)
 - [मुंगी उडाली आकाशी](/writings/fiction/Marathi/SFAA22.html) (दिवाळी 2022)

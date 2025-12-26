@@ -3,7 +3,7 @@ id: NFSOAS2210
 title: न्यायासाठी संवाद आवश्यक
 language: Marathi
 kind: nonfiction
-subtype: समाजिक
+subtype: सामाजिक
 ---
 
 # न्यायासाठी संवाद आवश्यक

@@ -3,7 +3,7 @@ id: NFSOAS2307
 title: 'कृत्रिम बुद्धिमत्ता : आळं की आळा'
 language: Marathi
 kind: nonfiction
-subtype: समाजिक
+subtype: सामाजिक
 ---
 
 # कृत्रिम बुद्धिमत्ता : आळं की आळा

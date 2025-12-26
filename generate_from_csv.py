@@ -390,10 +390,12 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
 
     # --- Build only the auto-updated block for the top index page ---
     block_lines: List[str] = []
-    block_lines.append("## Browse by language")
+    block_lines.append("## By language")
     block_lines.append("")
+    block_lines.append(" | ")
     for L in langs:
-        block_lines.append(f"- [{L}]({link(f'{kind}/{L}/index.html')})")
+        block_lines.append(f"[{L}]({link(f'{kind}/{L}/index.html')})")
+        block_lines.append(" | ")
     block_lines.append("")
     block_lines.append("## All")
     block_lines.append("")
@@ -444,8 +446,15 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
     block: List[str] = []
     block.append("## Browse")
     block.append("")
-    block.append(f"- [Browse by year]({link('publications/years/index.html')})")
-    block.append(f"- [Browse by venue]({link('publications/venues/index.html')})")
+#    block.append(f"|")
+#    block.append(f"|[By year]({link('publications/years/index.html')})")
+#    block.append(" | ")
+#    block.append(f"[By venue]({link('publications/venues/index.html')})")
+#    block.append(" |")
+    block.append(
+        f"[By year]({link('publications/years/index.html')}) · "
+        f"[By venue]({link('publications/venues/index.html')})"
+    )
     block.append("")
 
     for pubtype, g1 in d.groupby("Pubtype", sort=True):

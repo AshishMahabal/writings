@@ -55,35 +55,65 @@ hr { opacity: 0.25; }
 /* “Online” link styling */
 .venue-item__online { margin-left: 0.6rem; font-size: 0.95em; }
 .venue-item__online::before { content: "["; opacity: 0.7; }
-.venue-item__online::after  { content: "]"; opacity: 0.7; }
 
 .venue-item__badges { margin-left: 0.6rem; white-space: nowrap; }
+/* Badge base: inherits theme text color */
 .badge {
   display: inline-block;
   padding: 0.05rem 0.5rem;
-  border: 1px solid #999;
+  border: 1px solid currentColor;
   border-radius: 999px;
   font-size: 0.82em;
-  opacity: 0.9;
+  line-height: 1.4;
+  opacity: 0.85;
   margin-left: 0.35rem;
+  white-space: nowrap;
 }
 
-/* Keep your earlier typography cues */
+/* Group at end of row */
+.venue-item__badges { margin-left: 0.6rem; white-space: nowrap; }
+
+/* Kind badges (Fiction / Non-fiction) */
 .badge--kind-fiction { font-style: italic; }
-.badge--kind-non-fiction, .badge--kind-nonfiction { font-weight: 650; }
+.badge--kind-non-fiction,
+.badge--kind-nonfiction { font-weight: 650; }
 
-/* Default subtype badge look */
-.badge--subtype { border-color: #777; }
+/* Subtype badges: subtle distinction without color */
+.badge--subtype { letter-spacing: 0.01em; }
 
-/* Per-subtype accents */
-.badge--subtype-sci-fi { background: #eef2ff; border-color: #7c83ff; }
-.badge--subtype-rationalism { background: #ecfeff; border-color: #22d3ee; }
-.badge--subtype-arts { background: #fff7ed; border-color: #fb923c; }
-.badge--subtype-belles-lettres { background: #fdf2f8; border-color: #f472b6; }
-.badge--subtype-science { background: #f0fdf4; border-color: #34d399; }
-.badge--subtype-language { background: #f5f3ff; border-color: #a78bfa; }
-.badge--subtype-travel { background: #0403f2; border-color: #60a5fa; }
-.badge--subtype-social { background: #fffbeb; border-color: #fbbf24; }
-.badge--subtype-math { background: #f3f4f6; border-color: #9ca3af; }
-.badge--subtype-literature { background: #fdf4ff; border-color: #d946ef; }
+/* Optional: differentiate subtype vs kind by border style */
+.badge--subtype { border-style: dashed; }
+.badge--kind { border-style: solid; }
+
+/* Optional: make subtype slightly smaller than kind */
+.badge--subtype { font-size: 0.80em; opacity: 0.80; }
+.badge--kind { font-size: 0.82em; opacity: 0.88; }
+
+.work-hero {
+  margin: 1rem 0 1.5rem;
+  text-align: center;
+}
+
+.work-hero {
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+}
+
+.work-hero + p {
+  font-size: 0.9em;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.work-hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  opacity: 0.95;
+}
+
+.work-hero img {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}
 

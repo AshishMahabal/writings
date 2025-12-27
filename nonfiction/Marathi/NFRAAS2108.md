@@ -12,10 +12,6 @@ subtype: बुद्धिप्रामाण्यवाद
 
 ## Publication history
 
-This page is the canonical work page. Publication instances are listed via the CSV-driven Publications index.
-
-## Publication history
-
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - ऑगस्ट 2021 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2021](/writings/publications/years/2021/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

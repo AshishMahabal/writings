@@ -28,5 +28,7 @@ Inner Space and Outer Thoughts is an anthology by authors from Caltech and JPL, 
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2023
 
-- **Fiction:** [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) (2023)
+<ul class="venue-list venue-list--anthology">
+<li class="venue-item venue-item--fiction"><span class="badge badge--fiction">Fiction</span> <a class="venue-item__title" href="/writings/fiction/English/SFAN01E.html">Memoirs of a Status Quo</a><span class="venue-item__when"> (2023)</span></li>
+</ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

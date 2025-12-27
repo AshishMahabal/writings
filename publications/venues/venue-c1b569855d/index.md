@@ -10,5 +10,7 @@ language: English
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2025
 
-- **Non-Fiction:** [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025)
+<ul class="venue-list venue-list--magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFLIYU2507.html">जयंत नारळीकरांच्या मराठी साहित्याचा पैस</a><span class="venue-item__when"> (Jul-Aug-Sep 2025)</span></li>
+</ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

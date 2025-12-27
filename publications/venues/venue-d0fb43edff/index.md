@@ -10,30 +10,42 @@ language: English
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2019
 
-- **Non-Fiction:** [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (एप्रिल 2019)
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS1904.html">घरोघरी अतिरेकी जन्मती</a><span class="venue-item__when"> (एप्रिल 2019)</span></li>
+</ul>
 
 ## 2020
 
-- **Non-Fiction:** [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (जुलै 2020)
-- **Non-Fiction:** [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (मे 2020)
-- **Non-Fiction:** [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020)
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2007.html">पुन्हा-पुन्हा घडणारे अघटित</a><span class="venue-item__when"> (जुलै 2020)</span></li>
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSCAS2005.html">विषाणूंच्या अगम्य गमती</a><span class="venue-item__when"> (मे 2020)</span></li>
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2010.html">स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत</a><span class="venue-item__when"> (ऑक्टोबर 2020)</span></li>
+</ul>
 
 ## 2021
 
-- **Non-Fiction:** [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) (ऑगस्ट 2021)
-- **Non-Fiction:** [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) (जानेवारी 2021)
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a><span class="venue-item__when"> (ऑगस्ट 2021)</span></li>
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a><span class="venue-item__when"> (जानेवारी 2021)</span></li>
+</ul>
 
 ## 2022
 
-- **Non-Fiction:** [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) (Jul 2022)
-- **Non-Fiction:** [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) (Oct 2022)
-- **Non-Fiction:** [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2207.html">न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण</a><span class="venue-item__when"> (Jul 2022)</span></li>
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2210.html">न्यायासाठी संवाद आवश्यक</a><span class="venue-item__when"> (Oct 2022)</span></li>
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2201.html">विविधतेमध्ये अनेकता</a><span class="venue-item__when"> (जानेवारी 2022)</span></li>
+</ul>
 
 ## 2023
 
-- **Non-Fiction:** [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2307.html">कृत्रिम बुद्धिमत्ता : आळं की आळा</a><span class="venue-item__when"> (Jul 2023)</span></li>
+</ul>
 
 ## 2025
 
-- **Non-Fiction:** [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2510.html">आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या</a><span class="venue-item__when"> (Oct 2025)</span></li>
+</ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

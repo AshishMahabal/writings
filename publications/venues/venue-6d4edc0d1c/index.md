@@ -26,5 +26,7 @@ language: English
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2015
 
-- **Fiction:** [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2015)
+<ul class="venue-list venue-list--anthology">
+<li class="venue-item venue-item--fiction"><span class="badge badge--fiction">Fiction</span> <a class="venue-item__title" href="/writings/fiction/Marathi/SFB0109089.html">रक्त तबकड्या</a><span class="venue-item__when"> (2015)</span></li>
+</ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

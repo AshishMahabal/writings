@@ -12,10 +12,6 @@ subtype: विज्ञान
 
 ## Publication history
 
-This page is the canonical work page. Publication instances are listed via the CSV-driven Publications index.
-
-## Publication history
-
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Apr-May 2025 — Magazine: [साइकिल](/writings/publications/venues/venue-72dcf424f4/index.html) — [2025](/writings/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

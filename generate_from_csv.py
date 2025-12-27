@@ -29,6 +29,7 @@ import argparse
 import hashlib
 import os
 import re
+import html
 import unicodedata
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -605,24 +606,75 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
 
         # Build ONLY the auto-updated block content
         block_lines: List[str] = []
-        for y_val, g1 in sub.groupby(sub["YearNum"], sort=True):
-            y_display = str(int(y_val)) if pd.notna(y_val) else "(year unknown)"
-            block_lines += [f"## {y_display}", ""]
-            for _, r in g1.iterrows():
-                title = r["Title"]
-                wid = r["work_id"]
-                k = clean_str(r["kind_norm"])
-                L = clean_str(r["language_full"])
 
-                k_label = kind_display(k)
+        # Rendering rules:
+        # - Books: compact list (no year headings, no kind label, no per-item date)
+        # - Everything else: group by year, show kind label + date (Month Year)
+        is_book = (venue_type.lower() == "book")
 
+        def _type_slug(s: str) -> str:
+            s = clean_str(s).lower()
+            s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+            return s or "unknown"
+
+        venue_type_slug = _type_slug(venue_type)
+
+        def _row_online_url(r: pd.Series) -> str:
+            # Optional column(s) you may add later; harmless if missing.
+            for key in ("OnlineURL", "OnlineUrl", "OnlineLink", "ExternalURL"):
+                try:
+                    u = clean_str(r.get(key, ""))
+                except Exception:
+                    u = ""
+                if u:
+                    return u
+            return ""
+
+        def _li_html(r: pd.Series, y_display: str) -> str:
+            title = html.escape(str(r.get("Title", "")).strip())
+            wid = r["work_id"]
+            k = clean_str(r.get("kind_norm", ""))
+            L = clean_str(r.get("language_full", ""))
+            href = link(f"{k}/{L}/{wid}.html")
+
+            parts: List[str] = [f'<li class="venue-item venue-item--{html.escape(_type_slug(k))}">']
+
+            if not is_book:
+                k_label = html.escape(kind_display(k))
+                parts.append(f'<span class="badge badge--{html.escape(_type_slug(k))}">{k_label}</span> ')
+
+            parts.append(f'<a class="venue-item__title" href="{href}">{title}</a>')
+
+            if not is_book:
                 m = clean_str(r.get("Month", ""))
                 when_parts = [p for p in [m, (y_display if y_display != "(year unknown)" else "")] if p]
-                when = " ".join(when_parts).strip()
-                when = f" ({when})" if when else ""
+                when_txt = " ".join(when_parts).strip()
+                if when_txt:
+                    parts.append(f'<span class="venue-item__when"> ({html.escape(when_txt)})</span>')
 
-                block_lines.append(f"- **{k_label}:** [{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
+                pubtype_row = clean_str(r.get("Pubtype", "")).lower()
+                online = _row_online_url(r)
+                if online and ("online" in pubtype_row or "online" in venue_type.lower()):
+                    parts.append(f' <a class="venue-item__online" href="{html.escape(online)}">Online</a>')
+
+            parts.append("</li>")
+            return "".join(parts)
+
+        if is_book:
+            block_lines.append(f'<ul class="venue-list venue-list--{venue_type_slug}">')
+            for _, r in sub.iterrows():
+                block_lines.append(_li_html(r, y_display=""))
+            block_lines.append("</ul>")
             block_lines.append("")
+        else:
+            for y_val, g1 in sub.groupby(sub["YearNum"], sort=True):
+                y_display = str(int(y_val)) if pd.notna(y_val) else "(year unknown)"
+                block_lines += [f"## {y_display}", ""]
+                block_lines.append(f'<ul class="venue-list venue-list--{venue_type_slug}">')
+                for _, r in g1.iterrows():
+                    block_lines.append(_li_html(r, y_display=y_display))
+                block_lines.append("</ul>")
+                block_lines.append("")
 
         write_md_update_block_only(
             base / slug / "index.md",

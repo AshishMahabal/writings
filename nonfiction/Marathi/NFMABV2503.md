@@ -6,7 +6,7 @@ kind: nonfiction
 subtype: गणित
 ---
 
-# आपणव आपले जेलर
+# आपणच आपले जेलर
 
 *(Text to be added here.)*
 

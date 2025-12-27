@@ -10,5 +10,7 @@ language: English
 <!-- AUTO:VENUE_ENTRIES:START -->
 ## 2017
 
-- **Fiction:** [ये रे माझ्या मागल्या](/writings/fiction/Marathi/SFB0104043.html) (दिवाळी 2017)
+<ul class="venue-list venue-list--magazine">
+<li class="venue-item venue-item--fiction"><span class="badge badge--fiction">Fiction</span> <a class="venue-item__title" href="/writings/fiction/Marathi/SFB0104043.html">ये रे माझ्या मागल्या</a><span class="venue-item__when"> (दिवाळी 2017)</span></li>
+</ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

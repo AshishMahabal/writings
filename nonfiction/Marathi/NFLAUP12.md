@@ -12,10 +12,6 @@ subtype: भाषा
 
 ## Publication history
 
-This page is the canonical work page. Publication instances are listed via the CSV-driven Publications index.
-
-## Publication history
-
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2012 — Online Magazine: [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html) — [2012](/writings/publications/years/2012/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

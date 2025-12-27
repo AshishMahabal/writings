@@ -439,6 +439,7 @@ def generate_root_index() -> None:
             f"- [Fiction]({link('fiction/index.html')})",
             f"- [Non-Fiction]({link('nonfiction/index.html')})",
             f"- [Publications]({link('publications/index.html')})",
+            f"- [Contacts]({link('index.html#contact')})",
             "",
         ]
     )

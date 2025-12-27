@@ -29,7 +29,6 @@ import argparse
 import hashlib
 import os
 import re
-import html
 import unicodedata
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -546,6 +545,45 @@ def kind_display(kind_norm: str) -> str:
         return "Poem"
     return k.title() if k else "Work"
 
+
+
+# ---- Subtype badges (Marathi -> English) ----
+SUBTYPE_MAP = {
+    "बुद्धिप्रामाण्यवाद": "Rationalism",
+    "विज्ञानकथा": "Sci-Fi",
+    "कला": "Arts",
+    "ललित": "Belles-lettres",
+    "विज्ञान": "Science",
+    "भाषा": "Language",
+    "प्रवास": "Travel",
+    "सामाजिक": "Social",
+    "गणित": "Math",
+    "साहित्य": "Literature",
+}
+
+_BADGE_CLEAN_RE = re.compile(r"[^\w\s-]", flags=re.UNICODE)
+_BADGE_WS_RE = re.compile(r"\s+")
+
+def slug_class(s: str) -> str:
+    s = clean_str(s).lower()
+    s = _BADGE_CLEAN_RE.sub("", s)
+    s = _BADGE_WS_RE.sub("-", s).strip("-")
+    return s or "tag"
+
+def parse_subtypes(raw: str) -> List[str]:
+    """Parse comma-separated subtype string; map Marathi tokens to English labels."""
+    raw = clean_str(raw)
+    if not raw:
+        return []
+    parts = [p.strip() for p in raw.split(",")]
+    parts = [p for p in parts if p]
+    return [SUBTYPE_MAP.get(p, p) for p in parts]
+
+def badge_html(label: str, kind: str) -> str:
+    """kind: 'kind' or 'subtype' (affects CSS class namespace)."""
+    cls = slug_class(label)
+    return f'<span class="badge badge--{kind} badge--{kind}-{cls}">{label}</span>'
+
 def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     base = Path("publications") / "venues"
     base.mkdir(parents=True, exist_ok=True)
@@ -553,7 +591,12 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
     venues = sorted({clean_str(v) for v in df["Venue"].tolist() if clean_str(v)})
 
     # Venues index (still fully generated; you can convert later the same way)
-    lines = ["# Venues", "", "Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).", ""]
+    lines = [
+        "# Venues",
+        "",
+        "Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).",
+        "",
+    ]
     for v in venues:
         slug = venue_slug_map[v]
         lines.append(f"- [{v}]({link(f'publications/venues/{slug}/index.html')})")
@@ -590,89 +633,77 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
 
         h1 = f"# {v} ({venue_type})" if venue_type else f"# {v}"
 
-        # This heading gets used ONLY when the file does not exist (or is missing markers)
-        # Put your own prose ABOVE the marker in the .md file later.
         heading_text = "\n".join(
             [
                 h1,
                 "",
                 f"- [Back to venues]({link('publications/venues/index.html')})",
                 "",
-                # Optional starter prose placeholder (edit freely later)
-                # "*(Add a short description of this venue here.)*",
-                # "",
             ]
         )
 
-        # Build ONLY the auto-updated block content
+        # Rendering mode: compact for Book; grouped-by-year for others
+        compact = clean_str(venue_type).lower() == "book"
+
+        def _entry_li(r: pd.Series, y_display: str, show_when: bool) -> str:
+            title = r["Title"]
+            wid = r["work_id"]
+            k_norm = clean_str(r.get("kind_norm", ""))
+            L = clean_str(r.get("language_full", ""))
+            k = clean_str(r.get("kind_norm", ""))
+
+            k_label = kind_display(k_norm)  # Fiction / Non-fiction / etc.
+
+            m = clean_str(r.get("Month", ""))
+            when_parts = [p for p in [m, (y_display if y_display != "(year unknown)" else "")] if p]
+            when_txt = " ".join(when_parts).strip()
+            when_html = f'<span class="venue-item__when"> ({when_txt})</span>' if (show_when and when_txt) else ""
+
+            # Internal work link
+            url = link(f"{k}/{L}/{wid}.html")
+
+            # Optional external/online link. Column name in your sheet: 'Link'
+            external = clean_str(r.get("Link", "")) or clean_str(r.get("ExternalURL", "")) or clean_str(r.get("OnlineURL", ""))
+            is_online_pub = "online" in clean_str(r.get("Pubtype", "")).lower()
+            online_html = f' <a class="venue-item__online" href="{external}">Online</a>' if (external and is_online_pub) else ""
+
+            # Subtype badges (comma-separated supported)
+            subtype_raw = clean_str(r.get("Subtype", ""))
+            subtype_labels = parse_subtypes(subtype_raw)
+            subtype_badges = " ".join(badge_html(lbl, "subtype") for lbl in subtype_labels)
+
+            # Kind badge at end
+            kind_badge = badge_html(k_label, "kind") if k_label else ""
+
+            badges = " ".join([b for b in [subtype_badges, kind_badge] if b]).strip()
+            badges_html = f' <span class="venue-item__badges">{badges}</span>' if badges else ""
+
+            item_classes = ["venue-item"]
+            if k_label:
+                item_classes.append(f"venue-item--{slug_class(k_label)}")
+
+            return (
+                f'<li class="{" ".join(item_classes)}">'
+                f'<a class="venue-item__title" href="{url}">{title}</a>'
+                f'{when_html}{online_html}{badges_html}'
+                f"</li>"
+            )
+
         block_lines: List[str] = []
 
-        # Rendering rules:
-        # - Books: compact list (no year headings, no kind label, no per-item date)
-        # - Everything else: group by year, show kind label + date (Month Year)
-        is_book = (venue_type.lower() == "book")
-
-        def _type_slug(s: str) -> str:
-            s = clean_str(s).lower()
-            s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-            return s or "unknown"
-
-        venue_type_slug = _type_slug(venue_type)
-
-        def _row_online_url(r: pd.Series) -> str:
-            # Optional column(s) you may add later; harmless if missing.
-            for key in ("OnlineURL", "OnlineUrl", "OnlineLink", "ExternalURL"):
-                try:
-                    u = clean_str(r.get(key, ""))
-                except Exception:
-                    u = ""
-                if u:
-                    return u
-            return ""
-
-        def _li_html(r: pd.Series, y_display: str) -> str:
-            title = html.escape(str(r.get("Title", "")).strip())
-            wid = r["work_id"]
-            k = clean_str(r.get("kind_norm", ""))
-            L = clean_str(r.get("language_full", ""))
-            href = link(f"{k}/{L}/{wid}.html")
-
-            parts: List[str] = [f'<li class="venue-item venue-item--{html.escape(_type_slug(k))}">']
-
-            if not is_book:
-                k_label = html.escape(kind_display(k))
-                parts.append(f'<span class="badge badge--{html.escape(_type_slug(k))}">{k_label}</span> ')
-
-            parts.append(f'<a class="venue-item__title" href="{href}">{title}</a>')
-
-            if not is_book:
-                m = clean_str(r.get("Month", ""))
-                when_parts = [p for p in [m, (y_display if y_display != "(year unknown)" else "")] if p]
-                when_txt = " ".join(when_parts).strip()
-                if when_txt:
-                    parts.append(f'<span class="venue-item__when"> ({html.escape(when_txt)})</span>')
-
-                pubtype_row = clean_str(r.get("Pubtype", "")).lower()
-                online = _row_online_url(r)
-                if online and ("online" in pubtype_row or "online" in venue_type.lower()):
-                    parts.append(f' <a class="venue-item__online" href="{html.escape(online)}">Online</a>')
-
-            parts.append("</li>")
-            return "".join(parts)
-
-        if is_book:
-            block_lines.append(f'<ul class="venue-list venue-list--{venue_type_slug}">')
+        if compact:
+            block_lines.append(f'<ul class="venue-list venue-list--book">')
             for _, r in sub.iterrows():
-                block_lines.append(_li_html(r, y_display=""))
+                block_lines.append(_entry_li(r, y_display="", show_when=False))
             block_lines.append("</ul>")
             block_lines.append("")
         else:
             for y_val, g1 in sub.groupby(sub["YearNum"], sort=True):
                 y_display = str(int(y_val)) if pd.notna(y_val) else "(year unknown)"
                 block_lines += [f"## {y_display}", ""]
-                block_lines.append(f'<ul class="venue-list venue-list--{venue_type_slug}">')
+                block_lines.append(f'<ul class="venue-list venue-list--{slug_class(venue_type or "venue")}">')
                 for _, r in g1.iterrows():
-                    block_lines.append(_li_html(r, y_display=y_display))
+                    block_lines.append(_entry_li(r, y_display=y_display, show_when=True))
                 block_lines.append("</ul>")
                 block_lines.append("")
 
@@ -684,7 +715,6 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             "\n".join(block_lines).rstrip(),
             heading=heading_text,
         )
-
 
 def main() -> None:
     require_site_root()

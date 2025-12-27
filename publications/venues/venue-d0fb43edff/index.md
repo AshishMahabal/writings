@@ -11,41 +11,41 @@ language: English
 ## 2019
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS1904.html">घरोघरी अतिरेकी जन्मती</a><span class="venue-item__when"> (एप्रिल 2019)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS1904.html">घरोघरी अतिरेकी जन्मती</a><span class="venue-item__when"> (एप्रिल 2019)</span> <a class="venue-item__online" href="https://aisiakshare.com/node/8594">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2020
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2007.html">पुन्हा-पुन्हा घडणारे अघटित</a><span class="venue-item__when"> (जुलै 2020)</span></li>
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSCAS2005.html">विषाणूंच्या अगम्य गमती</a><span class="venue-item__when"> (मे 2020)</span></li>
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2010.html">स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत</a><span class="venue-item__when"> (ऑक्टोबर 2020)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2007.html">पुन्हा-पुन्हा घडणारे अघटित</a><span class="venue-item__when"> (जुलै 2020)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSCAS2005.html">विषाणूंच्या अगम्य गमती</a><span class="venue-item__when"> (मे 2020)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2010.html">स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत</a><span class="venue-item__when"> (ऑक्टोबर 2020)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2021
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a><span class="venue-item__when"> (ऑगस्ट 2021)</span></li>
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a><span class="venue-item__when"> (जानेवारी 2021)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a><span class="venue-item__when"> (ऑगस्ट 2021)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a><span class="venue-item__when"> (जानेवारी 2021)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2022
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2207.html">न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण</a><span class="venue-item__when"> (Jul 2022)</span></li>
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2210.html">न्यायासाठी संवाद आवश्यक</a><span class="venue-item__when"> (Oct 2022)</span></li>
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2201.html">विविधतेमध्ये अनेकता</a><span class="venue-item__when"> (जानेवारी 2022)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2207.html">न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण</a><span class="venue-item__when"> (Jul 2022)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2210.html">न्यायासाठी संवाद आवश्यक</a><span class="venue-item__when"> (Oct 2022)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2201.html">विविधतेमध्ये अनेकता</a><span class="venue-item__when"> (जानेवारी 2022)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2023
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2307.html">कृत्रिम बुद्धिमत्ता : आळं की आळा</a><span class="venue-item__when"> (Jul 2023)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2307.html">कृत्रिम बुद्धिमत्ता : आळं की आळा</a><span class="venue-item__when"> (Jul 2023)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2025
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2510.html">आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या</a><span class="venue-item__when"> (Oct 2025)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2510.html">आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या</a><span class="venue-item__when"> (Oct 2025)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

@@ -27,6 +27,6 @@ language: English
 ## 2016
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--fiction"><span class="badge badge--fiction">Fiction</span> <a class="venue-item__title" href="/writings/fiction/Marathi/SFB0106058.html">नातीपरीक्षा</a><span class="venue-item__when"> (2016)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0106058.html">नातीपरीक्षा</a><span class="venue-item__when"> (2016)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

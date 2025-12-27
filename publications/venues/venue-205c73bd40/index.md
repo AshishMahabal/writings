@@ -11,6 +11,6 @@ language: English
 ## 2021
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--nonfiction"><span class="badge badge--nonfiction">Non-Fiction</span> <a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSCPR2111.html">भारतीय खगोल - गणित परंपरा</a><span class="venue-item__when"> (Nov-Dec 2021)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSCPR2111.html">भारतीय खगोल - गणित परंपरा</a><span class="venue-item__when"> (Nov-Dec 2021)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

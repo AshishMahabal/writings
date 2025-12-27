@@ -11,32 +11,32 @@ language: English
 
 ### धनंजय
 
-- [स्वर्गयातना](/writings/fiction/Marathi/SFDH25.html) (दिवाळी 2025)
+- [स्वर्गयातना](/writings/fiction/Marathi/SFDH25.html) (दिवाळी 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### नवल
 
-- [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/writings/fiction/Marathi/SFNV25.html) (दिवाळी 2025)
+- [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/writings/fiction/Marathi/SFNV25.html) (दिवाळी 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### युगवाणी
 
-- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025)
+- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-सहतय">सााहित्य</span></span>
 
 ### साइकिल
 
-- [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) (Feb-Mar 2025)
-- [अन्तरिक्ष में 286 दिन](/writings/nonfiction/Hindi/NFSCCY2504H.html) (Apr-May 2025)
-- [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) (Jun-Jul 2025)
+- [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) (Feb-Mar 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [अन्तरिक्ष में 286 दिन](/writings/nonfiction/Hindi/NFSCCY2504H.html) (Apr-May 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) (Jun-Jul 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 
 ## Online Magazine
 
 ### BMM Vrutta
 
-- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
+- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-math">Math</span></span>
 
 ### आजचा सुधारक
 
-- [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
+- [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### ऐसी अक्षरे
 
-- [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) (दिवाळी 2025)
+- [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) (दिवाळी 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>

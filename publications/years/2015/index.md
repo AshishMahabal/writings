@@ -11,20 +11,20 @@ language: English
 
 ### मन्वंतर
 
-- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2015)
+- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Magazine
 
 ### धनंजय
 
-- [घोस्ट रायटर](/writings/fiction/Marathi/SFB0112119.html) (दिवाळी 2015)
+- [घोस्ट रायटर](/writings/fiction/Marathi/SFB0112119.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### नवल
 
-- [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) (दिवाळी 2015)
+- [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Online Magazine
 
 ### MMLA
 
-- [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015)
+- [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>

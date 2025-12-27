@@ -439,7 +439,6 @@ def generate_root_index() -> None:
             f"- [Fiction]({link('fiction/index.html')})",
             f"- [Non-Fiction]({link('nonfiction/index.html')})",
             f"- [Publications]({link('publications/index.html')})",
-            f"- [Contacts]({link('index.html#contact')})",
             "",
         ]
     )
@@ -596,16 +595,39 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
     d["YearNum"] = d["YearNum"].astype(int)
     d["MonthKey"] = d["Month"].apply(month_key)
 
+    # Precompute badge labels per row (kind + subtypes)
+    d["_kind_label"] = d["kind_norm"].apply(kind_display)
+    d["_subtype_labels"] = d.get("Subtype", "").apply(lambda x: parse_subtypes(clean_str(x)))
+
     years = sorted(d["YearNum"].unique().tolist())
     base = Path("publications") / "years"
     base.mkdir(parents=True, exist_ok=True)
 
-    lines = ["# Publications by year", ""]
+    # Year index with counts + unique badges per year
+    lines: List[str] = ["# Publications by year", ""]
     for y in years:
-        lines.append(f"- [{y}]({link(f'publications/years/{y}/index.html')})")
+        suby = d[d["YearNum"] == y].copy()
+        n = int(len(suby))
+
+        kind_badges = sorted({clean_str(x) for x in suby["_kind_label"].tolist() if clean_str(x)})
+        subtype_badges = sorted({lbl for labels in suby["_subtype_labels"].tolist() for lbl in (labels or []) if clean_str(lbl)})
+
+        badges_html = ""
+        if kind_badges or subtype_badges:
+            parts: List[str] = []
+            # subtypes first (usually the more "content" signal)
+            parts += [badge_html(lbl, "subtype") for lbl in subtype_badges]
+            parts += [badge_html(lbl, "kind") for lbl in kind_badges]
+            badges_html = f' <span class="year-item__badges">{" ".join(parts)}</span>'
+
+        lines.append(
+            f'- <span class="year-item"><a href="{link(f"publications/years/{y}/index.html")}">{y}</a>'
+            f' <span class="year-item__count">({n})</span>{badges_html}</span>'
+        )
     lines.append("")
     write_md_overwrite(base / "index.md", {"title": "Publications by year", "language": "English"}, "\n".join(lines))
 
+    # Individual year pages (fully generated)
     for y in years:
         sub = d[d["YearNum"] == y].copy()
         sub["Venue"] = sub["Venue"].astype("string").str.strip()
@@ -613,7 +635,12 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
         ydir = base / str(y)
         ydir.mkdir(parents=True, exist_ok=True)
 
-        body: List[str] = [f"# Publications in {y}", "", f"- [Back to years]({link('publications/years/index.html')})", ""]
+        body: List[str] = [
+            f"# Publications in {y}",
+            "",
+            f"- [Back to years]({link('publications/years/index.html')})",
+            "",
+        ]
         for pubtype, g1 in sub.groupby("Pubtype", sort=True):
             body += [f"## {pubtype}", ""]
             for venue, g2 in g1.groupby("Venue", sort=True):
@@ -623,11 +650,21 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                     wid = r["work_id"]
                     k = r["kind_norm"]
                     L = r["language_full"]
-                    m = clean_str(r.get("Month", ""))
-                    m = f"{m} " if m else ""
-                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({m}{y})")
+                    mtxt = clean_str(r.get("Month", ""))
+                    mtxt = f"{mtxt} " if mtxt else ""
+                    # Put badges at end of the row (consistent with your preference)
+                    kind_label = kind_display(k)
+                    sub_labels = parse_subtypes(clean_str(r.get("Subtype", "")))
+                    badges = []
+                    if kind_label:
+                        badges.append(badge_html(kind_label, "kind"))
+                    for sl in (sub_labels or []):
+                        badges.append(badge_html(sl, "subtype"))
+                    badges_html = f' <span class="row-badges">{" ".join(badges)}</span>' if badges else ""
+                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){badges_html}")
                 body.append("")
         write_md_overwrite(ydir / "index.md", {"title": f"Publications {y}", "language": "English"}, "\n".join(body))
+
 
 def kind_display(kind_norm: str) -> str:
     k = clean_str(kind_norm).lower()
@@ -691,9 +728,39 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
         "Where the pieces appeared (magazines, newsletters, books, anthologies, etc.).",
         "",
     ]
+    # Precompute for speed
+    d_index = df.copy()
+    d_index["YearNum"] = d_index["Year"].apply(year_int)
+    d_index["_kind_label"] = d_index["kind_norm"].apply(kind_display)
+    d_index["_subtype_labels"] = d_index.get("Subtype", "").apply(lambda x: parse_subtypes(clean_str(x)))
+    d_index["Venue"] = d_index["Venue"].astype("string").str.strip()
+
     for v in venues:
         slug = venue_slug_map[v]
-        lines.append(f"- [{v}]({link(f'publications/venues/{slug}/index.html')})")
+        sub = d_index[d_index["Venue"] == v].copy()
+        n = int(len(sub))
+
+        # year range (ignore unknowns)
+        yrs = [int(y) for y in sub["YearNum"].dropna().tolist()]
+        yr_span = ""
+        if yrs:
+            y0, y1 = min(yrs), max(yrs)
+            yr_span = f" [{y0}–{y1}]" if y0 != y1 else f" [{y0}]"
+
+        kind_badges = sorted({clean_str(x) for x in sub["_kind_label"].tolist() if clean_str(x)})
+        subtype_badges = sorted({lbl for labels in sub["_subtype_labels"].tolist() for lbl in (labels or []) if clean_str(lbl)})
+
+        badges_html = ""
+        if kind_badges or subtype_badges:
+            parts: List[str] = []
+            parts += [badge_html(lbl, "subtype") for lbl in subtype_badges]
+            parts += [badge_html(lbl, "kind") for lbl in kind_badges]
+            badges_html = f' <span class="venue-index__badges">{" ".join(parts)}</span>'
+
+        lines.append(
+            f'- <span class="venue-index__item"><a href="{link(f"publications/venues/{slug}/index.html")}">{v}</a> '
+            f'<span class="venue-index__meta">({n}){yr_span}</span>{badges_html}</span>'
+        )
     lines.append("")
     write_md_overwrite(base / "index.md", {"title": "Venues", "language": "English"}, "\n".join(lines))
 
@@ -810,6 +877,56 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             heading=heading_text,
         )
 
+
+def generate_badge_summary(df: pd.DataFrame) -> None:
+    """Generate a lightweight tag/badge summary page (handy for you; safe to expose publicly too)."""
+    d = df.copy()
+    d["_kind_label"] = d["kind_norm"].apply(kind_display)
+    d["_subtype_labels"] = d.get("Subtype", "").apply(lambda x: parse_subtypes(clean_str(x)))
+
+    total_rows = int(len(d))
+    total_works = int(d["work_id"].nunique())
+
+    # Kind counts (by appearances/rows)
+    kind_counts: Dict[str, int] = {}
+    for k in d["_kind_label"].tolist():
+        k = clean_str(k)
+        if not k:
+            continue
+        kind_counts[k] = kind_counts.get(k, 0) + 1
+
+    # Subtype counts (by appearances/rows; multi-subtype rows contribute to each)
+    subtype_counts: Dict[str, int] = {}
+    for labels in d["_subtype_labels"].tolist():
+        for lbl in (labels or []):
+            lbl = clean_str(lbl)
+            if not lbl:
+                continue
+            subtype_counts[lbl] = subtype_counts.get(lbl, 0) + 1
+
+    base = Path("publications") / "tags"
+    base.mkdir(parents=True, exist_ok=True)
+
+    lines: List[str] = []
+    lines += [
+        "# Badges / tags summary",
+        "",
+        f"Pieces (rows): **{total_rows}** · Unique works: **{total_works}**",
+        "",
+        "## Kind",
+        "",
+    ]
+    for lbl in sorted(kind_counts.keys()):
+        lines.append(f'- {badge_html(lbl, "kind")} <span class="tag-item__count">({kind_counts[lbl]})</span>')
+    lines += ["", "## Subtype", ""]
+    for lbl in sorted(subtype_counts.keys()):
+        lines.append(f'- {badge_html(lbl, "subtype")} <span class="tag-item__count">({subtype_counts[lbl]})</span>')
+    lines.append("")
+
+    write_md_overwrite(base / "index.md", {"title": "Badges summary", "language": "English"}, "\n".join(lines))
+
+
+
 def main() -> None:
     require_site_root()
     ap = argparse.ArgumentParser()
@@ -841,6 +958,7 @@ def main() -> None:
 
     generate_publications_index(df, venue_slug_map)
     generate_publications_year_indexes(df)
+    generate_badge_summary(df)
     generate_venue_pages(df, venue_slug_map)
 
     print("Done (v6). Next: run ./build.sh")

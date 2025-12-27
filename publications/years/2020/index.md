@@ -11,16 +11,16 @@ language: English
 
 ### धनंजय
 
-- [सावट](/writings/fiction/Marathi/SFDH20.html) (दिवाळी 2020)
+- [सावट](/writings/fiction/Marathi/SFDH20.html) (दिवाळी 2020) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Online Magazine
 
 ### आजचा सुधारक
 
-- [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (जुलै 2020)
-- [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (मे 2020)
-- [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020)
+- [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (जुलै 2020) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (मे 2020) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### ऐसी अक्षरे
 
-- [सत्यमेवा जयते](/writings/fiction/Marathi/SFAA20.html) (दिवाळी 2020)
+- [सत्यमेवा जयते](/writings/fiction/Marathi/SFAA20.html) (दिवाळी 2020) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>

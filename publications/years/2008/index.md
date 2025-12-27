@@ -11,4 +11,4 @@ language: English
 
 ### मायबोली
 
-- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/writings/fiction/Marathi/SFB0118156.html) (दिवाळी 2008)
+- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/writings/fiction/Marathi/SFB0118156.html) (दिवाळी 2008) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>

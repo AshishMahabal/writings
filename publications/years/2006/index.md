@@ -11,4 +11,4 @@ language: English
 
 ### मायबोली
 
-- [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) (दिवाळी 2006)
+- [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) (दिवाळी 2006) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span></span>

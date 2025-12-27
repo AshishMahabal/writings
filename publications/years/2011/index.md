@@ -11,8 +11,8 @@ language: English
 
 ### उपक्रम
 
-- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) (दिवाळी 2011)
+- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) (दिवाळी 2011) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### मायबोली
 
-- [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) (दिवाळी 2011)
+- [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) (दिवाळी 2011) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>

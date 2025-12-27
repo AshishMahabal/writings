@@ -11,29 +11,29 @@ language: English
 
 ### विज्ञानिनी भाग २
 
-- [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (2014)
+- [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (2014) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Magazine
 
 ### आरती
 
-- [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (May-June 2014)
+- [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (May-June 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### मविप
 
-- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (दिवाळी 2014)
-- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) (मे 2014)
+- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) (मे 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 
 ## Online Magazine
 
 ### MMLA
 
-- [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) (दिवाळी 2014)
+- [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>
 
 ### ऐसी अक्षरे
 
-- [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) (दिवाळी 2014)
+- [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### मायबोली
 
-- [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) (दिवाळी 2014)
+- [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>

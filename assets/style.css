@@ -193,3 +193,28 @@ form.contact-form {
   outline-offset: 2px;
 }
 
+.year-item__count { opacity: 0.7; margin-left: 0.25rem; }
+.year-item__badges { margin-left: 0.5rem; }
+.row-badges { margin-left: 0.5rem; }
+.tag-item__count { opacity: 0.7; }
+
+.venue-index__item,
+.year-item {
+  display: inline-block;
+  margin: 0.15rem 0;
+}
+
+.venue-index__meta,
+.year-item__count,
+.tag-item__count {
+  opacity: 0.7;
+  margin-left: 0.25rem;
+}
+
+.venue-index__badges,
+.year-item__badges,
+.row-badges {
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+

@@ -3,7 +3,7 @@ id: SFAN01E
 title: Memoirs of a Status Quo
 language: English
 kind: fiction
-subtype: विज्ञान
+subtype: विज्ञानकथा
 ---
 
 # Memoirs of a Status Quo

@@ -47,6 +47,10 @@ KIND_MAP = {
 
 AUTO_START = "<!-- AUTO:PUBLICATION_HISTORY:START -->"
 AUTO_END = "<!-- AUTO:PUBLICATION_HISTORY:END -->"
+
+WORK_HERO_START = "<!-- AUTO:WORK_HERO:START -->"
+WORK_HERO_END = "<!-- AUTO:WORK_HERO:END -->"
+
 FM_BOUNDARY = re.compile(r"^---\s*$", flags=re.M)
 
 
@@ -212,15 +216,103 @@ def replace_pubhistory_block(body: str, new_block_md: str) -> str:
     return before + mid + after
 
 
-def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_md: str) -> None:
+
+def ensure_workhero_block(body: str) -> str:
+    """Ensure hero marker block exists at top of body (after H1), if not present."""
+    if WORK_HERO_START in body and WORK_HERO_END in body:
+        return body
+    lines = body.splitlines()
+    insert_at = 0
+    for i, line in enumerate(lines):
+        if line.lstrip().startswith("# "):
+            insert_at = i + 1
+            if insert_at < len(lines) and lines[insert_at].strip() == "":
+                insert_at += 1
+            break
+    block = [WORK_HERO_START, "", WORK_HERO_END, ""]
+    lines[insert_at:insert_at] = block
+    return "\n".join(lines)
+
+def replace_workhero_block(body: str, new_block_md: str) -> str:
+    body2 = ensure_workhero_block(body)
+    start = body2.find(WORK_HERO_START)
+    end = body2.find(WORK_HERO_END)
+    if start == -1 or end == -1 or end < start:
+        return body2
+    before = body2[: start + len(WORK_HERO_START)]
+    after = body2[end:]
+    mid = "\n" + new_block_md.strip() + "\n" if new_block_md.strip() else "\n"
+    return before + mid + after
+
+def find_workhero_image(work_id: str) -> str:
+    """Return the site-relative src path if an image exists for this work_id, else ""."""
+    exts = [".png", ".jpg", ".jpeg", ".webp"]
+    rel_dir = Path("assets") / "images" / "stories"
+    for ext in exts:
+        rel = rel_dir / f"{work_id}-page1{ext}"
+        if rel.exists():
+            return link(rel.as_posix())
+    return ""
+
+def pick_preferred_appearance_for_hero(g: pd.DataFrame) -> Tuple[str, str]:
+    """
+    Choose which appearance to cite in the hero caption.
+    Prefers Book > Anthology > Magazine > Online Magazine > others, then earliest by date.
+    Returns (venue, year_str).
+    """
+    gg = g.copy()
+    gg["YearNum"] = gg["Year"].apply(year_int)
+    gg["MonthKey"] = gg["Month"].apply(month_key)
+    gg["PubtypeClean"] = gg["Pubtype"].apply(lambda x: clean_str(x).lower())
+    rank = {"book": 0, "anthology": 1, "magazine": 2, "online magazine": 3}
+    gg["PubRank"] = gg["PubtypeClean"].map(lambda s: rank.get(s, 9))
+    gg = gg.sort_values(["PubRank", "YearNum", "MonthKey", "Venue"], kind="mergesort")
+    if len(gg) == 0:
+        return ("", "")
+    venue = clean_str(gg["Venue"].iloc[0])
+    y_txt = year_str(gg["Year"].iloc[0])
+    return (venue, y_txt)
+
+def workhero_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str], work_id: str, title: str) -> str:
+    """If a hero image exists for work_id, return the HTML+caption block; else ""."""
+    src = find_workhero_image(work_id)
+    if not src:
+        return ""
+    venue, y_txt = pick_preferred_appearance_for_hero(g)
+    if venue:
+        vslug = venue_slug_map.get(venue, slugify(venue))
+        vlink = link(f"publications/venues/{vslug}/index.html")
+        vmd = f"[{venue}]({vlink})"
+    else:
+        vmd = "(venue unknown)"
+    when = f" ({y_txt})" if y_txt else ""
+    return "\n".join(
+        [
+            '<div class="work-hero">',
+            f'<img src="{src}" alt="Opening of {title}">',
+            "</div>",
+            "",
+            f"First half of page 1. Appeared in {vmd}{when}.",
+        ]
+    )
+
+def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_md: str, workhero_md: str = "") -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists():
         existing = path.read_text(encoding="utf-8")
         _, body = split_front_matter(existing)
         body = replace_pubhistory_block(body, pubhistory_md)
+        if workhero_md.strip():
+            # Avoid duplicating if the same image was already manually inserted outside the auto block
+            m = re.search(r'<img\s+[^>]*src="([^"]+)"', workhero_md)
+            src = m.group(1) if m else ""
+            if (not src) or (src not in body):
+                body = replace_workhero_block(body, workhero_md)
         path.write_text(dump_front_matter(front_matter) + "\n" + body, encoding="utf-8")
     else:
         body = replace_pubhistory_block(body_if_new, pubhistory_md)
+        if workhero_md.strip():
+            body = replace_workhero_block(body, workhero_md)
         path.write_text(dump_front_matter(front_matter) + "\n" + body.strip() + "\n", encoding="utf-8")
 
 
@@ -375,7 +467,8 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
             fm["translation"] = translation
 
         pub_md = pubhistory_md_for_work(g, venue_slug_map)
-        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md)
+        hero_md = workhero_md_for_work(g, venue_slug_map, work_id, title)
+        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md, workhero_md=hero_md)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:

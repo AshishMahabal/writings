@@ -218,3 +218,9 @@ form.contact-form {
   white-space: nowrap;
 }
 
+.badge--meta {
+  border-style: dotted;
+  font-size: 0.78em;
+  opacity: 0.75;
+}
+

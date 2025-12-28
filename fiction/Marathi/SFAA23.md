@@ -4,6 +4,7 @@ title: जित्याची खोड
 language: Marathi
 kind: fiction
 subtype: विज्ञानकथा
+translation: 'Yes'
 ---
 
 # जित्याची खोड

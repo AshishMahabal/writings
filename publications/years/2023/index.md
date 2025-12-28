@@ -54,4 +54,4 @@ language: English
 
 ### ऐसी अक्षरे
 
-- [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) (दिवाळी 2023) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) (दिवाळी 2023) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--meta badge--meta-translation">Translation</span></span>

@@ -17,7 +17,7 @@ language: English
 
 ### सावली
 
-- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) (2009) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-belles-lettres">Belles-lettres</span></span>
+- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) (2009) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-belles-lettres">Belles-lettres</span> <span class="badge badge--meta badge--meta-translation">Translation</span></span>
 
 ## Online Magazine
 

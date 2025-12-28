@@ -660,6 +660,9 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                         badges.append(badge_html(kind_label, "kind"))
                     for sl in (sub_labels or []):
                         badges.append(badge_html(sl, "subtype"))
+                    translation_val = clean_str(r.get("Translation", ""))
+                    if translation_val:
+                        badges.append(badge_html("Translation", "meta"))
                     badges_html = f' <span class="row-badges">{" ".join(badges)}</span>' if badges else ""
                     body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){badges_html}")
                 body.append("")
@@ -711,7 +714,7 @@ def parse_subtypes(raw: str) -> List[str]:
     return [SUBTYPE_MAP.get(p, p) for p in parts]
 
 def badge_html(label: str, kind: str) -> str:
-    """kind: 'kind' or 'subtype' (affects CSS class namespace)."""
+    """kind: 'kind', 'subtype', or 'meta' (affects CSS class namespace)."""
     cls = slug_class(label)
     return f'<span class="badge badge--{kind} badge--{kind}-{cls}">{label}</span>'
 
@@ -836,7 +839,10 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             # Kind badge at end
             kind_badge = badge_html(k_label, "kind") if k_label else ""
 
-            badges = " ".join([b for b in [subtype_badges, kind_badge] if b]).strip()
+            translation_val = clean_str(r.get("Translation", ""))
+            translation_badge = badge_html("Translation", "meta") if translation_val else ""
+
+            badges = " ".join([b for b in [subtype_badges, kind_badge, translation_badge] if b]).strip()
             badges_html = f' <span class="venue-item__badges">{badges}</span>' if badges else ""
 
             item_classes = ["venue-item"]

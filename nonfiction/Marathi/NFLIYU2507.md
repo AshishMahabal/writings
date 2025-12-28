@@ -3,7 +3,7 @@ id: NFLIYU2507
 title: जयंत नारळीकरांच्या मराठी साहित्याचा पैस
 language: Marathi
 kind: nonfiction
-subtype: सााहित्य
+subtype: साहित्य
 ---
 
 # जयंत नारळीकरांच्या मराठी साहित्याचा पैस

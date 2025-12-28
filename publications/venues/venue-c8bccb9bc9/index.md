@@ -47,7 +47,7 @@ language: English
 ## 2023
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFAA23.html">जित्याची खोड</a><span class="venue-item__when"> (दिवाळी 2023)</span> <a class="venue-item__online" href="https://aisiakshare.com/node/8860">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFAA23.html">जित्याची खोड</a><span class="venue-item__when"> (दिवाळी 2023)</span> <a class="venue-item__online" href="https://aisiakshare.com/node/8860">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--meta badge--meta-translation">Translation</span></span></li>
 </ul>
 
 ## 2024

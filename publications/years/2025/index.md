@@ -19,7 +19,7 @@ language: English
 
 ### युगवाणी
 
-- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-सहतय">सााहित्य</span></span>
+- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) (Jul-Aug-Sep 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-literature">Literature</span></span>
 
 ### साइकिल
 

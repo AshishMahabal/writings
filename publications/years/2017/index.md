@@ -31,6 +31,6 @@ language: English
 
 ## Online Magazine
 
-### MMLA
+### MMLA (Diwali Ank)
 
 - [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) (दिवाळी 2017) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>

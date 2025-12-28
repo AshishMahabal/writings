@@ -25,6 +25,6 @@ language: English
 
 ## Online Magazine
 
-### MMLA
+### MMLA (Diwali Ank)
 
 - [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>

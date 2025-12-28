@@ -8,6 +8,10 @@ subtype: विज्ञानकथा
 
 # स्वर्गयातना
 
+<!-- AUTO:WORK_META:START -->
+*Co-authored with:* Simantini
+<!-- AUTO:WORK_META:END -->
+
 *(Text to be added here.)*
 
 ## Publication history

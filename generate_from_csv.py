@@ -51,6 +51,18 @@ AUTO_END = "<!-- AUTO:PUBLICATION_HISTORY:END -->"
 WORK_HERO_START = "<!-- AUTO:WORK_HERO:START -->"
 WORK_HERO_END = "<!-- AUTO:WORK_HERO:END -->"
 
+# Optional: display-time context suffix for venues (keeps canonical venue identity unchanged)
+# If your CSV has a column VenueContext, that will override these defaults per-row.
+VENUE_CONTEXT_SUFFIX: Dict[str, str] = {
+    "Aisi Akshare": "Diwali Special",
+    "Maayboli": "Diwali Issue",
+    "MMLA": "Diwali Ank",
+}
+
+WORK_META_START = "<!-- AUTO:WORK_META:START -->"
+WORK_META_END = "<!-- AUTO:WORK_META:END -->"
+
+
 FM_BOUNDARY = re.compile(r"^---\s*$", flags=re.M)
 
 
@@ -244,6 +256,75 @@ def replace_workhero_block(body: str, new_block_md: str) -> str:
     mid = "\n" + new_block_md.strip() + "\n" if new_block_md.strip() else "\n"
     return before + mid + after
 
+
+def ensure_workmeta_block(body: str) -> str:
+    """Ensure work meta marker block exists just after the hero block (or after H1)."""
+    if WORK_META_START in body and WORK_META_END in body:
+        return body
+    lines = body.splitlines()
+
+    # Prefer inserting after the WORK_HERO block if present
+    insert_at = 0
+    if WORK_HERO_END in body:
+        for i, line in enumerate(lines):
+            if line.strip() == WORK_HERO_END:
+                insert_at = i + 1
+                if insert_at < len(lines) and lines[insert_at].strip() == "":
+                    insert_at += 1
+                break
+    else:
+        # Fallback: after H1
+        for i, line in enumerate(lines):
+            if line.lstrip().startswith("# "):
+                insert_at = i + 1
+                if insert_at < len(lines) and lines[insert_at].strip() == "":
+                    insert_at += 1
+                break
+
+    block = [WORK_META_START, "", WORK_META_END, ""]
+    lines[insert_at:insert_at] = block
+    return "\n".join(lines)
+
+
+def replace_workmeta_block(body: str, new_block_md: str) -> str:
+    body2 = ensure_workmeta_block(body)
+    start = body2.find(WORK_META_START)
+    end = body2.find(WORK_META_END)
+    if start == -1 or end == -1 or end < start:
+        return body2
+    before = body2[: start + len(WORK_META_START)]
+    after = body2[end:]
+    mid = "\n" + new_block_md.strip() + "\n" if new_block_md.strip() else "\n"
+    return before + mid + after
+
+
+def workmeta_md_for_work(g: pd.DataFrame) -> str:
+    """Auto meta block: co-authors and pen name."""
+    coauthors = ""
+    penname = ""
+
+    if "Coauthors" in g.columns:
+        for x in g["Coauthors"].tolist():
+            x = clean_str(x)
+            if x:
+                coauthors = x
+                break
+
+    if "Penname" in g.columns:
+        for x in g["Penname"].tolist():
+            x = clean_str(x)
+            if x:
+                penname = x
+                break
+
+    lines: List[str] = []
+    if coauthors:
+        lines.append(f"*Co-authored with:* {coauthors}  ")
+    if penname:
+        lines.append(f"*Published under the pen name:* {penname}  ")
+
+    return "\n".join(lines).strip()
+
 def find_workhero_image(work_id: str) -> str:
     """Return the site-relative src path if an image exists for this work_id, else ""."""
     exts = [".png", ".jpg", ".jpeg", ".webp"]
@@ -296,7 +377,7 @@ def workhero_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str], work_i
         ]
     )
 
-def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_md: str, workhero_md: str = "") -> None:
+def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_md: str, workhero_md: str = "", workmeta_md: str = "") -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists():
         existing = path.read_text(encoding="utf-8")
@@ -308,11 +389,15 @@ def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_m
             src = m.group(1) if m else ""
             if (not src) or (src not in body):
                 body = replace_workhero_block(body, workhero_md)
+        if workmeta_md.strip():
+            body = replace_workmeta_block(body, workmeta_md)
         path.write_text(dump_front_matter(front_matter) + "\n" + body, encoding="utf-8")
     else:
         body = replace_pubhistory_block(body_if_new, pubhistory_md)
         if workhero_md.strip():
             body = replace_workhero_block(body, workhero_md)
+        if workmeta_md.strip():
+            body = replace_workmeta_block(body, workmeta_md)
         path.write_text(dump_front_matter(front_matter) + "\n" + body.strip() + "\n", encoding="utf-8")
 
 
@@ -358,6 +443,19 @@ def link(path: str) -> str:
     p = "/" + path.lstrip("/")
     return f"{base}{p}"
 
+
+def venue_display(venue: str, row: Optional[pd.Series] = None) -> str:
+    """Return display name for venue, optionally with a context suffix."""
+    v = clean_str(venue)
+    if not v:
+        return ""
+    ctx = ""
+    if row is not None:
+        ctx = clean_str(row.get("VenueContext", ""))
+    if not ctx:
+        ctx = VENUE_CONTEXT_SUFFIX.get(v, "")
+    return f"{v} ({ctx})" if ctx else v
+
 def link_unused(path: str) -> str:
     return path.lstrip("/")
 
@@ -391,7 +489,8 @@ def pubhistory_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str]) -> s
 
         vslug = venue_slug_map.get(venue, slugify(venue))
         vlink = link(f"publications/venues/{vslug}/index.html")
-        venue_md = f"[{venue}]({vlink})" if venue else "(venue unknown)"
+        vdisp = venue_display(venue, r)
+        venue_md = f"[{vdisp}]({vlink})" if vdisp else "(venue unknown)"
 
         year_md = f"[{y_txt}]({link(f'publications/years/{y_txt}/index.html')})" if y_txt else ""
 
@@ -468,7 +567,8 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
 
         pub_md = pubhistory_md_for_work(g, venue_slug_map)
         hero_md = workhero_md_for_work(g, venue_slug_map, work_id, title)
-        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md, workhero_md=hero_md)
+        meta_md = workmeta_md_for_work(g)
+        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md, workhero_md=hero_md, workmeta_md=meta_md)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
@@ -644,7 +744,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
         for pubtype, g1 in sub.groupby("Pubtype", sort=True):
             body += [f"## {pubtype}", ""]
             for venue, g2 in g1.groupby("Venue", sort=True):
-                body += [f"### {venue}", ""]
+                body += [f"### {venue_display(venue)}", ""]
                 for _, r in g2.iterrows():
                     title = r["Title"]
                     wid = r["work_id"]
@@ -795,7 +895,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
         else:
             venue_type = "Mixed"
 
-        h1 = f"# {v} ({venue_type})" if venue_type else f"# {v}"
+        h1 = f"# {venue_display(v)} ({venue_type})" if venue_type else f"# {venue_display(v)}"
 
         heading_text = "\n".join(
             [

@@ -15,7 +15,7 @@ language: English
 
 ## Online Magazine
 
-### MMLA
+### MMLA (Diwali Ank)
 
 - [माझी काश्मीरी तिर्थयात्रा](/writings/nonfiction/Marathi/NFTRMM13.html) (दिवाळी 2013) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>
 

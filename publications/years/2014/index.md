@@ -26,7 +26,7 @@ language: English
 
 ## Online Magazine
 
-### MMLA
+### MMLA (Diwali Ank)
 
 - [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>
 

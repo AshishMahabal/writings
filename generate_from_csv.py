@@ -511,6 +511,7 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
 #    block.append(" |")
     block.append(
         f"[By year]({link('publications/years/index.html')}) · "
+        f"[By tag]({link('publications/tags/index.html')}) · "
         f"[By venue]({link('publications/venues/index.html')})"
     )
     block.append("")
@@ -836,6 +837,51 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             heading=heading_text,
         )
 
+def generate_badges_summary(df: pd.DataFrame) -> None:
+    base = Path("publications") / "tags"
+    base.mkdir(parents=True, exist_ok=True)
+
+    total_rows = len(df)
+    total_works = df["work_id"].nunique()
+
+    lines = [
+        "# Badges / tags summary",
+        "",
+        f"Pieces (rows): **{total_rows}** · Unique works: **{total_works}**",
+        "",
+        "## Kind",
+        "",
+    ]
+
+    # Kind counts
+    kind_counts = df["kind_norm"].value_counts()
+    for k, c in kind_counts.items():
+        k_label = kind_display(clean_str(k))
+        lines.append(
+            f'- <span class="badge badge--kind badge--kind-{slug_class(k_label)}">{k_label}</span> '
+            f'<span class="tag-item__count">({c})</span>'
+        )
+
+    lines += ["", "## Subtype", ""]
+
+    # Subtype counts
+    subtype_counts: Dict[str, int] = {}
+    for raw in df.get("Subtype", []):
+        for st in parse_subtypes(raw):
+            subtype_counts[st] = subtype_counts.get(st, 0) + 1
+
+    for st, c in sorted(subtype_counts.items()):
+        lines.append(
+            f'- <span class="badge badge--subtype badge--subtype-{slug_class(st)}">{st}</span> '
+            f'<span class="tag-item__count">({c})</span>'
+        )
+
+    write_md_overwrite(
+        base / "index.md",
+        {"title": "Badges summary", "language": "English"},
+        "\n".join(lines),
+    )
+
 def main() -> None:
     require_site_root()
     ap = argparse.ArgumentParser()
@@ -868,6 +914,8 @@ def main() -> None:
     generate_publications_index(df, venue_slug_map)
     generate_publications_year_indexes(df)
     generate_venue_pages(df, venue_slug_map)
+    generate_badges_summary(df)
+
 
     print("Done (v6). Next: run ./build.sh")
 

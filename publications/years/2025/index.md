@@ -31,6 +31,7 @@ language: English
 
 ### BMM Vrutta
 
+- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-math">Math</span></span>
 
 ### आजचा सुधारक

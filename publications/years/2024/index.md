@@ -7,6 +7,16 @@ language: English
 
 - [Back to years](/writings/publications/years/index.html)
 
+## Anthology
+
+### तर्कटपंजरी
+
+- [ज्योतिष्य ते ज्योतीर्विज्ञान](/writings/nonfiction/Marathi/NFRAANT56.html) (Oct 2024) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span></span>
+
+### तर्किष्ट
+
+- [ग्रहताऱ्यांची उपासना कशाला करायची?](/writings/nonfiction/Marathi/NFRAANT129.html) (Oct 2024) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span></span>
+
 ## Magazine
 
 ### धनंजय

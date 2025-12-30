@@ -10,13 +10,21 @@ Info related to publication venues ...
 <!-- AUTO:PUBLICATIONS_INDEX:START -->
 ## Browse
 
-[By year](/writings/publications/years/index.html) · [By venue](/writings/publications/venues/index.html)
+[By year](/writings/publications/years/index.html) · [By tag](/writings/publications/tags/index.html) · [By venue](/writings/publications/venues/index.html)
 
 ## Anthology
 
 ### [Inner Space and Outer Thoughts](/writings/publications/venues/inner-space-and-outer-thoughts/index.html)
 
 - [Memoirs of a Status Quo](/writings/fiction/English/SFAN01E.html) (2023)
+
+### [तर्कटपंजरी](/writings/publications/venues/venue-396e2763bf/index.html)
+
+- [ज्योतिष्य ते ज्योतीर्विज्ञान](/writings/nonfiction/Marathi/NFRAANT56.html) (Oct 2024)
+
+### [तर्किष्ट](/writings/publications/venues/venue-8e472101eb/index.html)
+
+- [ग्रहताऱ्यांची उपासना कशाला करायची?](/writings/nonfiction/Marathi/NFRAANT129.html) (Oct 2024)
 
 ### [पूर्वसंचित गोफ नात्यांचा](/writings/publications/venues/venue-1ac15ffdf1/index.html)
 
@@ -141,6 +149,7 @@ Info related to publication venues ...
 ### [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html)
 
 - [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022)
+- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025)
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
 
 ### [MMLA](/writings/publications/venues/mmla/index.html)

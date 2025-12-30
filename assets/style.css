@@ -316,3 +316,23 @@ details summary {
   text-decoration: underline;
 }
 
+.testimonial-photo {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  margin: 1.25rem auto 0.25rem;
+  border-radius: 12px;
+}
+
+.testimonial-photo--small {
+  max-width: 380px;   /* smaller, quieter */
+  opacity: 0.95;
+}
+
+.testimonial-caption {
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.75;
+  margin-bottom: 1.5rem;
+}
+

@@ -5,14 +5,6 @@ language: English
 
 A few early reactions to *घोस्ट रायटर आणि इतर विज्ञानकथा*.
 
-## A moment to cherish
-
-<img class="testimonial-photo"
-     src="/writings/assets/images/ghostwriter/NarlikarReadingGhostWriter.jpg"
-     alt="Prof. Jayant Narlikar reading Ghost Writer">
-
-*Prof. Jayant Narlikar reading* **Ghost Writer**.
-(*Photo credit: Prof. Ajit Kembhavi*)
 
 ## From Dr. Bal Phondke
 
@@ -54,3 +46,11 @@ A few early reactions to *घोस्ट रायटर आणि इतर �
 
 *More testimonials and references will be added here over time.*
 
+## A moment to cherish
+
+<img class="testimonial-photo"
+     src="/writings/assets/images/ghostwriter/NarlikarReadingGhostWriter.jpg"
+     alt="Prof. Jayant Narlikar reading Ghost Writer">
+
+*Prof. Jayant Narlikar reading* **Ghost Writer**.
+(*Photo credit: Prof. Ajit Kembhavi*)

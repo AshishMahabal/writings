@@ -1,9 +1,5 @@
 ---
-id: NFSOAA19
-title: मनुकांचा निवडक संयत आहार
-language: Marathi
-kind: nonfiction
-subtype: सामाजिक
+{}
 ---
 
 # मनुकांचा निवडक संयत आहार

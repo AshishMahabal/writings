@@ -1,9 +1,5 @@
 ---
-id: SFAA21
-title: यमांत
-language: Marathi
-kind: fiction
-subtype: विज्ञानकथा
+{}
 ---
 
 # यमांत

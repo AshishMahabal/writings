@@ -285,3 +285,20 @@ form.contact-form {
   margin: 0 auto;
 }
 
+.testimonial-photo {
+  display: block;
+  max-width: 520px;
+  width: 100%;
+  margin: 0.75rem auto 0.25rem;
+  border-radius: 12px;
+}
+
+details {
+  margin: 0.75rem 0 1.25rem;
+}
+
+details summary {
+  cursor: pointer;
+  opacity: 0.85;
+}
+

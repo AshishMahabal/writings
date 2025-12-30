@@ -1,9 +1,5 @@
 ---
-id: SFAA25
-title: नैकेश्वर
-language: Marathi
-kind: fiction
-subtype: विज्ञानकथा
+{}
 ---
 
 # नैकेश्वर

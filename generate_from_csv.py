@@ -417,6 +417,34 @@ def generate_root_index() -> None:
         block,
     )
 
+def write_work_meta_block(
+    out_path: Path,
+    g: pd.DataFrame,
+) -> None:
+    start_marker = "<!-- AUTO:WORK_META:START -->"
+    end_marker = "<!-- AUTO:WORK_META:END -->"
+
+    lines: List[str] = []
+
+    coauthors = clean_str(g["Coauthors"].iloc[0]) if "Coauthors" in g.columns else ""
+    penname = clean_str(g["Penname"].iloc[0]) if "Penname" in g.columns else ""
+
+    if coauthors:
+        lines.append(f"*Co-authored with:* {coauthors}")
+
+    if penname:
+        lines.append(f"*Published under the pen name:* {penname}")
+
+    if not lines:
+        return  # nothing to write
+
+    write_md_update_block_only(
+        out_path,
+        {},  # front matter unchanged
+        start_marker,
+        end_marker,
+        "\n".join(lines),
+    )
 
 def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     for work_id, g in df.groupby("work_id", sort=True):
@@ -432,8 +460,11 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
         if translation:
             fm["translation"] = translation
 
+        out_path = work_output_path(kind, lang_full, work_id)
         pub_md = pubhistory_md_for_work(g, venue_slug_map)
-        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md)
+        write_work_md(out_path, fm, work_stub_body(title), pub_md)
+
+        write_work_meta_block(out_path, g)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:

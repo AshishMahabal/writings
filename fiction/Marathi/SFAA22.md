@@ -1,9 +1,5 @@
 ---
-id: SFAA22
-title: मुंगी उडाली आकाशी
-language: Marathi
-kind: fiction
-subtype: विज्ञानकथा
+{}
 ---
 
 # मुंगी उडाली आकाशी

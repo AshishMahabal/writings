@@ -1,9 +1,5 @@
 ---
-id: SFAA24
-title: चेतागुंजन
-language: Marathi
-kind: fiction
-subtype: विज्ञानकथा
+{}
 ---
 
 # चेतागुंजन

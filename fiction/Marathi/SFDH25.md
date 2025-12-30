@@ -1,15 +1,11 @@
 ---
-id: SFDH25
-title: स्वर्गयातना
-language: Marathi
-kind: fiction
-subtype: विज्ञानकथा
+{}
 ---
 
 # स्वर्गयातना
 
 <!-- AUTO:WORK_META:START -->
-*Co-authored with:* Simantini
+*Co-authored with:* SK
 <!-- AUTO:WORK_META:END -->
 
 *(Text to be added here.)*

@@ -8,9 +8,6 @@ language: English
 
 <div class="hero-text">
 
-
-
-
 <!-- AUTO:VENUE_ENTRIES:START -->
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></div>
 
@@ -46,6 +43,11 @@ language: English
   <a href="https://www.bookganga.com/eBooks/Books/details/4733992183857805843?BookName=%e0%a4%98%e0%a5%8b%e0%a4%b8%e0%a5%8d%e0%a4%9f%20%e0%a4%b0%e0%a4%be%e0%a4%af%e0%a4%9f%e0%a4%b0%20%e0%a4%86%e0%a4%a3%e0%a4%bf%20%e0%a4%87%e0%a4%a4%e0%a4%b0%20%e0%a4%b5%e0%a4%bf%e0%a4%9c%e0%a5%8d%e0%a4%9e%e0%a4%be%e0%a4%a8%e0%a4%95%e0%a4%a5%e0%a4%be">BookGanga</a>
 </div>
 
+<p class="book-cta">
+  <a href="/writings/publications/venues/venue-54714bad4d/testimonials.html">
+    Read testimonials & reviews
+  </a>
+</p>
 
 <div class="video-embed">
   <iframe
@@ -60,8 +62,6 @@ language: English
   Interview on <em>आनंदाचे पान</em> (ABP माझा).
   <a href="https://youtu.be/HYLwflRB5Zg">Watch on YouTube</a>.
 </p>
-
-[Read testimonials & reviews](/writings/publications/venues/venue-54714bad4d/testimonials.html)
 
 </div>
 </div>

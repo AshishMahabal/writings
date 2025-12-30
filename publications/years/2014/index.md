@@ -21,8 +21,8 @@ language: English
 
 ### मविप
 
+- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) (May 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 - [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
-- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) (मे 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 
 ## Online Magazine
 

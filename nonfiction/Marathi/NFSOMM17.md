@@ -13,5 +13,5 @@ subtype: सामाजिक
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2017 — Online Magazine: [MMLA (Diwali Ank)](/writings/publications/venues/mmla/index.html) — [2017](/writings/publications/years/2017/index.html)
+- दिवाळी 2017 — Online Magazine: [MMLA](/writings/publications/venues/mmla/index.html) — [2017](/writings/publications/years/2017/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

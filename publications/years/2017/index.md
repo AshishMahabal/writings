@@ -11,7 +11,7 @@ language: English
 
 ### अनुभव
 
-- [नाऊ यु सी मी](/writings/fiction/Marathi/SFB0110105.html) (जून 2017) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [नाऊ यु सी मी](/writings/fiction/Marathi/SFB0110105.html) (Jun 2017) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### धनंजय
 

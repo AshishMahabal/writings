@@ -13,5 +13,5 @@ subtype: सामाजिक
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- एप्रिल 2019 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2019](/writings/publications/years/2019/index.html)
+- Apr 2019 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2019](/writings/publications/years/2019/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -17,7 +17,7 @@ language: English
 
 ### अनुभव
 
-- [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) (जानेवारी 2016) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) (Jan 2016) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### धनंजय
 

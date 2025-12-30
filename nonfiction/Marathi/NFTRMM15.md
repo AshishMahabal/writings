@@ -13,5 +13,5 @@ subtype: प्रवास
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2015 — Online Magazine: [MMLA (Diwali Ank)](/writings/publications/venues/mmla/index.html) — [2015](/writings/publications/years/2015/index.html)
+- दिवाळी 2015 — Online Magazine: [MMLA](/writings/publications/venues/mmla/index.html) — [2015](/writings/publications/years/2015/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

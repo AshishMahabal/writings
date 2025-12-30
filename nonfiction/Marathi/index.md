@@ -28,6 +28,7 @@ language: Marathi
 - [माझी काश्मीरी तिर्थयात्रा](/writings/nonfiction/Marathi/NFTRMM13.html) [MMLA, 2013]
 - [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) [उपक्रम, 2010]
 - [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, 2009]
+- [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) [अनुभव, 2021]
 - [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) [MMLA, 2014]
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) [आजचा सुधारक, 2022]
 - [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) [मविप, 2014]

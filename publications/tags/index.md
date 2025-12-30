@@ -5,19 +5,19 @@ language: English
 
 # Badges / tags summary
 
-Pieces (rows): **99** · Unique works: **79**
+Pieces (rows): **100** · Unique works: **80**
 
 ## Kind
 
 - <span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="tag-item__count">(56)</span>
-- <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="tag-item__count">(43)</span>
+- <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="tag-item__count">(44)</span>
 
 ## Subtype
 
 - <span class="badge badge--subtype badge--subtype-arts">Arts</span> <span class="tag-item__count">(1)</span>
 - <span class="badge badge--subtype badge--subtype-belles-lettres">Belles-lettres</span> <span class="tag-item__count">(1)</span>
 - <span class="badge badge--subtype badge--subtype-language">Language</span> <span class="tag-item__count">(1)</span>
-- <span class="badge badge--subtype badge--subtype-literature">Literature</span> <span class="tag-item__count">(1)</span>
+- <span class="badge badge--subtype badge--subtype-literature">Literature</span> <span class="tag-item__count">(2)</span>
 - <span class="badge badge--subtype badge--subtype-math">Math</span> <span class="tag-item__count">(1)</span>
 - <span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="tag-item__count">(2)</span>
 - <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="tag-item__count">(55)</span>

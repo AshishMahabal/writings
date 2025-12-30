@@ -22,7 +22,7 @@ I also write non-fiction in Marathi and in English (astronomy, rationalism, essa
 मी गेली अनेक वर्षे मराठीत विज्ञानकथा लिहीत आहे. मुख्यतः दिवाळी अंकांमधून प्रकाशित झालेल्या या कथांपैकी १८ कथांचे पहिले पुस्तक २०२३ साली प्रकाशित झाले.
 याशिवाय मी खगोलशास्त्र, विज्ञान, विवेकवाद, प्रवास आणि ललित लेखनही करतो.
 
-On this site you will find details of my non-professional writings (mind you, I said non-professional, and not un-professional). The professioanl i.e. academic writings can be found is usual places like [Google Scholar](https://scholar.google.com/citations?user=Ww9DSqAAAAAJ&hl=en), [arXiv](https://arxiv.org/search/?query=mahabal+a&searchtype=all&abstracts=show&order=-announced_date_first&size=500), [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22mahabal%22&sort=date%20desc%2C%20bibcode%20desc&p_=0), or my work website: [aschig's Universe](https://sites.astro.caltech.edu/~aam/) (but that is often hopelessly outdated - work, you know).
+On this site you will find details of my non-professional writings (mind you, I said non-professional, and not un-professional). The professioanl i.e. academic writings can be found in usual places like [Google Scholar](https://scholar.google.com/citations?user=Ww9DSqAAAAAJ&hl=en), [arXiv](https://arxiv.org/search/?query=mahabal+a&searchtype=all&abstracts=show&order=-announced_date_first&size=500), [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22mahabal%22&sort=date%20desc%2C%20bibcode%20desc&p_=0), or my work website: [aschig's Universe](https://sites.astro.caltech.edu/~aam/) (but that is often hopelessly outdated - work, you know).
 </div>
 
 <div class="hero-media">
@@ -48,6 +48,7 @@ For readings, conversations, or a note—feel free to reach out.
 I try to respond within the week, travel permitting.
 
 I’m happy to consider:
+
 - Story readings (in-person / virtual)
 - Talks and conversations on science, AI, and storytelling
 - Workshops and guest sessions
@@ -89,3 +90,4 @@ I’m happy to consider:
 
   <button type="submit">Send</button>
 </form>
+

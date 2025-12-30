@@ -47,23 +47,65 @@ KIND_MAP = {
 
 AUTO_START = "<!-- AUTO:PUBLICATION_HISTORY:START -->"
 AUTO_END = "<!-- AUTO:PUBLICATION_HISTORY:END -->"
+FM_BOUNDARY = re.compile(r"^---\s*$", flags=re.M)
 
-WORK_HERO_START = "<!-- AUTO:WORK_HERO:START -->"
-WORK_HERO_END = "<!-- AUTO:WORK_HERO:END -->"
-
-# Optional: display-time context suffix for venues (keeps canonical venue identity unchanged)
-# If your CSV has a column VenueContext, that will override these defaults per-row.
 VENUE_CONTEXT_SUFFIX: Dict[str, str] = {
     "Aisi Akshare": "Diwali Special",
     "Maayboli": "Diwali Issue",
     "MMLA": "Diwali Ank",
 }
 
-WORK_META_START = "<!-- AUTO:WORK_META:START -->"
-WORK_META_END = "<!-- AUTO:WORK_META:END -->"
+
+_BADGE_CLEAN_RE = re.compile(r"[^\w\s-]", flags=re.UNICODE)
+
+_BADGE_WS_RE = re.compile(r"\s+")
+
+SUBTYPE_MAP = {
+    "बुद्धिप्रामाण्यवाद": "Rationalism",
+    "विज्ञानकथा": "Sci-Fi",
+    "कला": "Arts",
+    "ललित": "Belles-lettres",
+    "विज्ञान": "Science",
+    "भाषा": "Language",
+    "प्रवास": "Travel",
+    "सामाजिक": "Social",
+    "गणित": "Math",
+    "साहित्य": "Literature",
+}
+
+def slug_class(s: str) -> str:
+    s = clean_str(s).lower()
+    s = _BADGE_CLEAN_RE.sub("", s)
+    s = _BADGE_WS_RE.sub("-", s).strip("-")
+    return s or "tag"
+
+def badge_html(label: str, kind: str) -> str:
+    """kind: 'kind', 'subtype', or 'meta' (affects CSS class namespace)."""
+    cls = slug_class(label)
+    return f'<span class="badge badge--{kind} badge--{kind}-{cls}">{label}</span>'
+
+def parse_subtypes(raw: str) -> List[str]:
+    """Parse comma-separated subtype string; map Marathi tokens to English labels."""
+    raw = clean_str(raw)
+    if not raw:
+        return []
+    parts = [p.strip() for p in raw.split(",")]
+    parts = [p for p in parts if p]
+    return [SUBTYPE_MAP.get(p, p) for p in parts]
+
+def venue_display(venue: str, row: Optional[pd.Series] = None) -> str:
+    """Return display name for venue, optionally with a context suffix."""
+    v = clean_str(venue)
+    if not v:
+        return ""
+    ctx = ""
+    if row is not None:
+        ctx = clean_str(row.get("VenueContext", ""))
+    if not ctx:
+        ctx = VENUE_CONTEXT_SUFFIX.get(v, "")
+    return f"{v} ({ctx})" if ctx else v
 
 
-FM_BOUNDARY = re.compile(r"^---\s*$", flags=re.M)
 
 
 def norm_lang_full(x: object) -> str:
@@ -228,176 +270,15 @@ def replace_pubhistory_block(body: str, new_block_md: str) -> str:
     return before + mid + after
 
 
-
-def ensure_workhero_block(body: str) -> str:
-    """Ensure hero marker block exists at top of body (after H1), if not present."""
-    if WORK_HERO_START in body and WORK_HERO_END in body:
-        return body
-    lines = body.splitlines()
-    insert_at = 0
-    for i, line in enumerate(lines):
-        if line.lstrip().startswith("# "):
-            insert_at = i + 1
-            if insert_at < len(lines) and lines[insert_at].strip() == "":
-                insert_at += 1
-            break
-    block = [WORK_HERO_START, "", WORK_HERO_END, ""]
-    lines[insert_at:insert_at] = block
-    return "\n".join(lines)
-
-def replace_workhero_block(body: str, new_block_md: str) -> str:
-    body2 = ensure_workhero_block(body)
-    start = body2.find(WORK_HERO_START)
-    end = body2.find(WORK_HERO_END)
-    if start == -1 or end == -1 or end < start:
-        return body2
-    before = body2[: start + len(WORK_HERO_START)]
-    after = body2[end:]
-    mid = "\n" + new_block_md.strip() + "\n" if new_block_md.strip() else "\n"
-    return before + mid + after
-
-
-def ensure_workmeta_block(body: str) -> str:
-    """Ensure work meta marker block exists just after the hero block (or after H1)."""
-    if WORK_META_START in body and WORK_META_END in body:
-        return body
-    lines = body.splitlines()
-
-    # Prefer inserting after the WORK_HERO block if present
-    insert_at = 0
-    if WORK_HERO_END in body:
-        for i, line in enumerate(lines):
-            if line.strip() == WORK_HERO_END:
-                insert_at = i + 1
-                if insert_at < len(lines) and lines[insert_at].strip() == "":
-                    insert_at += 1
-                break
-    else:
-        # Fallback: after H1
-        for i, line in enumerate(lines):
-            if line.lstrip().startswith("# "):
-                insert_at = i + 1
-                if insert_at < len(lines) and lines[insert_at].strip() == "":
-                    insert_at += 1
-                break
-
-    block = [WORK_META_START, "", WORK_META_END, ""]
-    lines[insert_at:insert_at] = block
-    return "\n".join(lines)
-
-
-def replace_workmeta_block(body: str, new_block_md: str) -> str:
-    body2 = ensure_workmeta_block(body)
-    start = body2.find(WORK_META_START)
-    end = body2.find(WORK_META_END)
-    if start == -1 or end == -1 or end < start:
-        return body2
-    before = body2[: start + len(WORK_META_START)]
-    after = body2[end:]
-    mid = "\n" + new_block_md.strip() + "\n" if new_block_md.strip() else "\n"
-    return before + mid + after
-
-
-def workmeta_md_for_work(g: pd.DataFrame) -> str:
-    """Auto meta block: co-authors and pen name."""
-    coauthors = ""
-    penname = ""
-
-    if "Coauthors" in g.columns:
-        for x in g["Coauthors"].tolist():
-            x = clean_str(x)
-            if x:
-                coauthors = x
-                break
-
-    if "Penname" in g.columns:
-        for x in g["Penname"].tolist():
-            x = clean_str(x)
-            if x:
-                penname = x
-                break
-
-    lines: List[str] = []
-    if coauthors:
-        lines.append(f"*Co-authored with:* {coauthors}  ")
-    if penname:
-        lines.append(f"*Published under the pen name:* {penname}  ")
-
-    return "\n".join(lines).strip()
-
-def find_workhero_image(work_id: str) -> str:
-    """Return the site-relative src path if an image exists for this work_id, else ""."""
-    exts = [".png", ".jpg", ".jpeg", ".webp"]
-    rel_dir = Path("assets") / "images" / "stories"
-    for ext in exts:
-        rel = rel_dir / f"{work_id}-page1{ext}"
-        if rel.exists():
-            return link(rel.as_posix())
-    return ""
-
-def pick_preferred_appearance_for_hero(g: pd.DataFrame) -> Tuple[str, str]:
-    """
-    Choose which appearance to cite in the hero caption.
-    Prefers Book > Anthology > Magazine > Online Magazine > others, then earliest by date.
-    Returns (venue, year_str).
-    """
-    gg = g.copy()
-    gg["YearNum"] = gg["Year"].apply(year_int)
-    gg["MonthKey"] = gg["Month"].apply(month_key)
-    gg["PubtypeClean"] = gg["Pubtype"].apply(lambda x: clean_str(x).lower())
-    rank = {"book": 0, "anthology": 1, "magazine": 2, "online magazine": 3}
-    gg["PubRank"] = gg["PubtypeClean"].map(lambda s: rank.get(s, 9))
-    gg = gg.sort_values(["PubRank", "YearNum", "MonthKey", "Venue"], kind="mergesort")
-    if len(gg) == 0:
-        return ("", "")
-    venue = clean_str(gg["Venue"].iloc[0])
-    y_txt = year_str(gg["Year"].iloc[0])
-    return (venue, y_txt)
-
-def workhero_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str], work_id: str, title: str) -> str:
-    """If a hero image exists for work_id, return the HTML+caption block; else ""."""
-    src = find_workhero_image(work_id)
-    if not src:
-        return ""
-    venue, y_txt = pick_preferred_appearance_for_hero(g)
-    if venue:
-        vslug = venue_slug_map.get(venue, slugify(venue))
-        vlink = link(f"publications/venues/{vslug}/index.html")
-        vmd = f"[{venue}]({vlink})"
-    else:
-        vmd = "(venue unknown)"
-    when = f" ({y_txt})" if y_txt else ""
-    return "\n".join(
-        [
-            '<div class="work-hero">',
-            f'<img src="{src}" alt="Opening of {title}">',
-            "</div>",
-            "",
-            f"First half of page 1. Appeared in {vmd}{when}.",
-        ]
-    )
-
-def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_md: str, workhero_md: str = "", workmeta_md: str = "") -> None:
+def write_work_md(path: Path, front_matter: Dict, body_if_new: str, pubhistory_md: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists():
         existing = path.read_text(encoding="utf-8")
         _, body = split_front_matter(existing)
         body = replace_pubhistory_block(body, pubhistory_md)
-        if workhero_md.strip():
-            # Avoid duplicating if the same image was already manually inserted outside the auto block
-            m = re.search(r'<img\s+[^>]*src="([^"]+)"', workhero_md)
-            src = m.group(1) if m else ""
-            if (not src) or (src not in body):
-                body = replace_workhero_block(body, workhero_md)
-        if workmeta_md.strip():
-            body = replace_workmeta_block(body, workmeta_md)
         path.write_text(dump_front_matter(front_matter) + "\n" + body, encoding="utf-8")
     else:
         body = replace_pubhistory_block(body_if_new, pubhistory_md)
-        if workhero_md.strip():
-            body = replace_workhero_block(body, workhero_md)
-        if workmeta_md.strip():
-            body = replace_workmeta_block(body, workmeta_md)
         path.write_text(dump_front_matter(front_matter) + "\n" + body.strip() + "\n", encoding="utf-8")
 
 
@@ -443,19 +324,6 @@ def link(path: str) -> str:
     p = "/" + path.lstrip("/")
     return f"{base}{p}"
 
-
-def venue_display(venue: str, row: Optional[pd.Series] = None) -> str:
-    """Return display name for venue, optionally with a context suffix."""
-    v = clean_str(venue)
-    if not v:
-        return ""
-    ctx = ""
-    if row is not None:
-        ctx = clean_str(row.get("VenueContext", ""))
-    if not ctx:
-        ctx = VENUE_CONTEXT_SUFFIX.get(v, "")
-    return f"{v} ({ctx})" if ctx else v
-
 def link_unused(path: str) -> str:
     return path.lstrip("/")
 
@@ -489,8 +357,7 @@ def pubhistory_md_for_work(g: pd.DataFrame, venue_slug_map: Dict[str, str]) -> s
 
         vslug = venue_slug_map.get(venue, slugify(venue))
         vlink = link(f"publications/venues/{vslug}/index.html")
-        vdisp = venue_display(venue, r)
-        venue_md = f"[{vdisp}]({vlink})" if vdisp else "(venue unknown)"
+        venue_md = f"[{venue}]({vlink})" if venue else "(venue unknown)"
 
         year_md = f"[{y_txt}]({link(f'publications/years/{y_txt}/index.html')})" if y_txt else ""
 
@@ -566,9 +433,7 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
             fm["translation"] = translation
 
         pub_md = pubhistory_md_for_work(g, venue_slug_map)
-        hero_md = workhero_md_for_work(g, venue_slug_map, work_id, title)
-        meta_md = workmeta_md_for_work(g)
-        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md, workhero_md=hero_md, workmeta_md=meta_md)
+        write_work_md(work_output_path(kind, lang_full, work_id), fm, work_stub_body(title), pub_md)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
@@ -768,7 +633,6 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                 body.append("")
         write_md_overwrite(ydir / "index.md", {"title": f"Publications {y}", "language": "English"}, "\n".join(body))
 
-
 def kind_display(kind_norm: str) -> str:
     k = clean_str(kind_norm).lower()
     if k == "fiction":
@@ -778,45 +642,6 @@ def kind_display(kind_norm: str) -> str:
     if k == "poem":
         return "Poem"
     return k.title() if k else "Work"
-
-
-
-# ---- Subtype badges (Marathi -> English) ----
-SUBTYPE_MAP = {
-    "बुद्धिप्रामाण्यवाद": "Rationalism",
-    "विज्ञानकथा": "Sci-Fi",
-    "कला": "Arts",
-    "ललित": "Belles-lettres",
-    "विज्ञान": "Science",
-    "भाषा": "Language",
-    "प्रवास": "Travel",
-    "सामाजिक": "Social",
-    "गणित": "Math",
-    "साहित्य": "Literature",
-}
-
-_BADGE_CLEAN_RE = re.compile(r"[^\w\s-]", flags=re.UNICODE)
-_BADGE_WS_RE = re.compile(r"\s+")
-
-def slug_class(s: str) -> str:
-    s = clean_str(s).lower()
-    s = _BADGE_CLEAN_RE.sub("", s)
-    s = _BADGE_WS_RE.sub("-", s).strip("-")
-    return s or "tag"
-
-def parse_subtypes(raw: str) -> List[str]:
-    """Parse comma-separated subtype string; map Marathi tokens to English labels."""
-    raw = clean_str(raw)
-    if not raw:
-        return []
-    parts = [p.strip() for p in raw.split(",")]
-    parts = [p for p in parts if p]
-    return [SUBTYPE_MAP.get(p, p) for p in parts]
-
-def badge_html(label: str, kind: str) -> str:
-    """kind: 'kind', 'subtype', or 'meta' (affects CSS class namespace)."""
-    cls = slug_class(label)
-    return f'<span class="badge badge--{kind} badge--{kind}-{cls}">{label}</span>'
 
 def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     base = Path("publications") / "venues"
@@ -909,7 +734,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
         # Rendering mode: compact for Book; grouped-by-year for others
         compact = clean_str(venue_type).lower() == "book"
 
-        def _entry_li(r: pd.Series, y_display: str, show_when: bool) -> str:
+        def _entry_li(r: pd.Series, y_display: str, show_when: bool, show_badges: bool = True) -> str:
             title = r["Title"]
             wid = r["work_id"]
             k_norm = clean_str(r.get("kind_norm", ""))
@@ -943,7 +768,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             translation_badge = badge_html("Translation", "meta") if translation_val else ""
 
             badges = " ".join([b for b in [subtype_badges, kind_badge, translation_badge] if b]).strip()
-            badges_html = f' <span class="venue-item__badges">{badges}</span>' if badges else ""
+            badges_html = (f' <span class="venue-item__badges">{badges}</span>' if (show_badges and badges) else "")
 
             item_classes = ["venue-item"]
             if k_label:
@@ -956,12 +781,40 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
                 f"</li>"
             )
 
+        # If every entry in this venue shares the same badge signature,
+        # show that common badge set once at the top (and omit per-entry badges).
+        def _row_badge_signature(r: pd.Series) -> tuple:
+            subtype_labels = tuple(sorted(parse_subtypes(clean_str(r.get("Subtype", "")))))
+            k_label = kind_display(clean_str(r.get("kind_norm", "")))
+            has_translation = bool(clean_str(r.get("Translation", "")))
+            return (subtype_labels, k_label, has_translation)
+
+        sigs = [_row_badge_signature(r) for _, r in sub.iterrows()]
+        uniform_sig = sigs[0] if sigs else ((), "", False)
+        has_uniform_badges = bool(sigs) and all(s == uniform_sig for s in sigs) and (
+            bool(uniform_sig[0]) or bool(uniform_sig[1]) or bool(uniform_sig[2])
+        )
+
+        common_badges_html = ""
+        if has_uniform_badges:
+            subtype_labels, k_label, has_translation = uniform_sig
+            parts: List[str] = []
+            parts += [badge_html(lbl, "subtype") for lbl in subtype_labels]
+            if k_label:
+                parts.append(badge_html(k_label, "kind"))
+            if has_translation:
+                parts.append(badge_html("Translation", "meta"))
+            common_badges_html = f'<div class="venue-common-badges">{" ".join(parts)}</div>'
+
         block_lines: List[str] = []
+        if common_badges_html:
+            block_lines.append(common_badges_html)
+            block_lines.append("")
 
         if compact:
             block_lines.append(f'<ul class="venue-list venue-list--book">')
             for _, r in sub.iterrows():
-                block_lines.append(_entry_li(r, y_display="", show_when=False))
+                block_lines.append(_entry_li(r, y_display="", show_when=False, show_badges=not has_uniform_badges))
             block_lines.append("</ul>")
             block_lines.append("")
         else:
@@ -970,7 +823,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
                 block_lines += [f"## {y_display}", ""]
                 block_lines.append(f'<ul class="venue-list venue-list--{slug_class(venue_type or "venue")}">')
                 for _, r in g1.iterrows():
-                    block_lines.append(_entry_li(r, y_display=y_display, show_when=True))
+                    block_lines.append(_entry_li(r, y_display=y_display, show_when=True, show_badges=not has_uniform_badges))
                 block_lines.append("</ul>")
                 block_lines.append("")
 
@@ -982,56 +835,6 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             "\n".join(block_lines).rstrip(),
             heading=heading_text,
         )
-
-
-def generate_badge_summary(df: pd.DataFrame) -> None:
-    """Generate a lightweight tag/badge summary page (handy for you; safe to expose publicly too)."""
-    d = df.copy()
-    d["_kind_label"] = d["kind_norm"].apply(kind_display)
-    d["_subtype_labels"] = d.get("Subtype", "").apply(lambda x: parse_subtypes(clean_str(x)))
-
-    total_rows = int(len(d))
-    total_works = int(d["work_id"].nunique())
-
-    # Kind counts (by appearances/rows)
-    kind_counts: Dict[str, int] = {}
-    for k in d["_kind_label"].tolist():
-        k = clean_str(k)
-        if not k:
-            continue
-        kind_counts[k] = kind_counts.get(k, 0) + 1
-
-    # Subtype counts (by appearances/rows; multi-subtype rows contribute to each)
-    subtype_counts: Dict[str, int] = {}
-    for labels in d["_subtype_labels"].tolist():
-        for lbl in (labels or []):
-            lbl = clean_str(lbl)
-            if not lbl:
-                continue
-            subtype_counts[lbl] = subtype_counts.get(lbl, 0) + 1
-
-    base = Path("publications") / "tags"
-    base.mkdir(parents=True, exist_ok=True)
-
-    lines: List[str] = []
-    lines += [
-        "# Badges / tags summary",
-        "",
-        f"Pieces (rows): **{total_rows}** · Unique works: **{total_works}**",
-        "",
-        "## Kind",
-        "",
-    ]
-    for lbl in sorted(kind_counts.keys()):
-        lines.append(f'- {badge_html(lbl, "kind")} <span class="tag-item__count">({kind_counts[lbl]})</span>')
-    lines += ["", "## Subtype", ""]
-    for lbl in sorted(subtype_counts.keys()):
-        lines.append(f'- {badge_html(lbl, "subtype")} <span class="tag-item__count">({subtype_counts[lbl]})</span>')
-    lines.append("")
-
-    write_md_overwrite(base / "index.md", {"title": "Badges summary", "language": "English"}, "\n".join(lines))
-
-
 
 def main() -> None:
     require_site_root()
@@ -1064,7 +867,6 @@ def main() -> None:
 
     generate_publications_index(df, venue_slug_map)
     generate_publications_year_indexes(df)
-    generate_badge_summary(df)
     generate_venue_pages(df, venue_slug_map)
 
     print("Done (v6). Next: run ./build.sh")

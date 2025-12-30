@@ -65,8 +65,9 @@ Info related to publication venues ...
 
 ### [अनुभव](/writings/publications/venues/venue-59d8f87380/index.html)
 
-- [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) (जानेवारी 2016)
-- [नाऊ यु सी मी](/writings/fiction/Marathi/SFB0110105.html) (जून 2017)
+- [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) (Jan 2016)
+- [नाऊ यु सी मी](/writings/fiction/Marathi/SFB0110105.html) (Jun 2017)
+- [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) (Feb 2021)
 
 ### [आरती](/writings/publications/venues/venue-e7ed550e31/index.html)
 
@@ -106,8 +107,8 @@ Info related to publication venues ...
 ### [मविप](/writings/publications/venues/venue-dd1e06c88a/index.html)
 
 - [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) (दिवाळी 2013)
+- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) (May 2014)
 - [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (दिवाळी 2014)
-- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) (मे 2014)
 
 ### [मुशाफिरी](/writings/publications/venues/venue-34813f3efd/index.html)
 
@@ -151,15 +152,15 @@ Info related to publication venues ...
 
 ### [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html)
 
-- [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (एप्रिल 2019)
-- [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (जुलै 2020)
-- [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (मे 2020)
-- [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (ऑक्टोबर 2020)
-- [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) (ऑगस्ट 2021)
-- [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) (जानेवारी 2021)
+- [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (Apr 2019)
+- [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) (May 2020)
+- [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) (Jul 2020)
+- [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) (Oct 2020)
+- [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) (Jan 2021)
+- [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) (Aug 2021)
+- [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (Jan 2022)
 - [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) (Jul 2022)
 - [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) (Oct 2022)
-- [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) (जानेवारी 2022)
 - [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
 - [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
 

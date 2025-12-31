@@ -151,6 +151,7 @@ Info related to publication venues ...
 - [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022)
 - [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025)
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025)
+- [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) (Jan 2026)
 
 ### [MMLA](/writings/publications/venues/mmla/index.html)
 
@@ -173,6 +174,7 @@ Info related to publication venues ...
 - [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) (Oct 2022)
 - [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
 - [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
+- [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) (Jan 2026)
 
 ### [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html)
 

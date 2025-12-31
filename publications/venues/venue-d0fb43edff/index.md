@@ -49,4 +49,10 @@ language: English
 <ul class="venue-list venue-list--online-magazine">
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2510.html">आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या</a><span class="venue-item__when"> (Oct 2025)</span> <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
+
+## 2026
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2601.html">चैतन्याचा प्रश्न</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

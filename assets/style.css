@@ -266,12 +266,6 @@ form.contact-form {
   margin: 0 0 1.5rem;
 }
 
-.hero-media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .buy-links { text-align: center; margin-top: 0.6rem; }
 
 .hero-media {
@@ -334,5 +328,19 @@ details summary {
   font-size: 0.9em;
   opacity: 0.75;
   margin-bottom: 1.5rem;
+}
+
+.hero-media--press img {
+  max-width: 400px;
+}
+
+.hero-media.hero-media--press img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.hero-media.hero-media--press img {
+  display: block;
+  margin: 0.6rem auto;
 }
 

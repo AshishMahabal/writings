@@ -11,10 +11,7 @@ language: English
 
 
 [**Ghost Writer**](publications/venues/venue-54714bad4d/index.html) घोस्ट रायटर आणि इतर विज्ञानकथा, २०२३, समकालीन प्रकाशन
-
-[Amazon India](https://www.amazon.in/Ghost-Writer-Vidnyan-Katha-%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%A5%E0%A4%BE/dp/9392624131) ·
-[Kindle](https://www.amazon.in/GHOST-WRITER-%E0%A4%98%E0%A5%8B%e0%a4%b8%e0%a5%8d%e0%a4%9f-%e0%a4%b0%e0%a4%be%e0%a4%af%e0%a4%9f%e0%a4%b0-%e0%a4%b5%e0%a4%bf%e0%a4%9c%e0%a5%8d%e0%a4%9e%e0%a4%be%e0%a4%a8%e0%a4%95%e0%a4%a5%e0%a4%be-ebook/dp/B0CB1JCGZM/ref=tmm_kin_swatch_0) ·
-[BookGanga](https://www.bookganga.com/eBooks/Books/details/4733992183857805843?BookName=%e0%a4%98%e0%a5%8b%e0%a4%b8%e0%a5%8d%e0%a4%9f%20%e0%a4%b0%e0%a4%be%e0%a4%af%e0%a4%9f%e0%a4%b0%20%e0%a4%86%e0%a4%a3%e0%a4%bf%20%e0%a4%87%e0%a4%a4%e0%a4%b0%20%e0%a4%b5%e0%a4%bf%e0%a4%9c%e0%a5%8d%e0%a4%9e%e0%a4%be%e0%a4%a8%e0%a4%95%e0%a4%a5%e0%a4%be)
+[**Inner Space and Outer Thoughts**](publications/venues/inner-space-and-outer-thoughts/index.html) Sci-fi Anthology from Caltech and JPL, 2023
 
 I have been writing science fiction stories in Marathi for several years. Published primarily in Diwali issues, the first book with 18 of those came out in 2023.
 I also write non-fiction in Marathi and in English (astronomy, rationalism, essays, travelogues). 
@@ -28,6 +25,10 @@ On this site you will find details of my non-professional writings (mind you, I 
 <div class="hero-media">
   <a href="publications/venues/venue-54714bad4d/index.html">
     <img src="assets/images/books/ghost_writer_book_01.jpg" alt="Ghost Writer cover">
+  </a>
+  <br>
+  <a href="publications/venues/inner-space-and-outer-thoughts/index.html">
+    <img src="assets/images/anthologies/inner_space_and_outer_thoughts_anthology_english_01.jpg" alt="ISOT cover">
   </a>
 </div>
 

@@ -5,6 +5,11 @@ language: English
 
 A few early reactions to *घोस्ट रायटर आणि इतर विज्ञानकथा*.
 
+## From Niranjan Ghate's Preface
+
+<img class="testimonial-photo"
+     src="/writings/assets/images/ghostwriter/fromPreface.png"
+     alt="Book back cover">
 
 ## From Dr. Bal Phondke
 

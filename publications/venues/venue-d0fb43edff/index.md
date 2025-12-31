@@ -26,6 +26,7 @@ language: English
 
 <ul class="venue-list venue-list--online-magazine">
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a><span class="venue-item__when"> (Jan 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/01/6096/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0116145.html">कुपमंडूक</a><span class="venue-item__when"> (Aug 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7536/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a><span class="venue-item__when"> (Aug 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 

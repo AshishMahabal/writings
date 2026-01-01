@@ -31,4 +31,4 @@ language: English
 
 ### ऐसी अक्षरे
 
-- [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) (दिवाळी 2016) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) (दिवाळी 2016) <a class="venue-item__online" href="https://aisiakshare.com/node/5611">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>

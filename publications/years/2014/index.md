@@ -32,8 +32,8 @@ language: English
 
 ### ऐसी अक्षरे
 
-- [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) (दिवाळी 2014) <a class="venue-item__online" href="https://aisiakshare.com/node/3374">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### मायबोली
 
-- [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) (दिवाळी 2014) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) (दिवाळी 2014) <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2014/1559">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>

@@ -11,7 +11,7 @@ language: English
 
 ### उपक्रम
 
-- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) (दिवाळी 2011) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) (दिवाळी 2011) <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### मायबोली
 

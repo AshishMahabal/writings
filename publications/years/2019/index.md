@@ -25,8 +25,8 @@ language: English
 
 ### आजचा सुधारक
 
-- [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (Apr 2019) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) (Apr 2019) <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### ऐसी अक्षरे
 
-- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) (दिवाळी 2019) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) (दिवाळी 2019) <a class="venue-item__online" href="https://aisiakshare.com/node/7349">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>

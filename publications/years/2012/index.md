@@ -11,4 +11,4 @@ language: English
 
 ### उपक्रम
 
-- [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) (दिवाळी 2012) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-language">Language</span></span>
+- [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) (दिवाळी 2012) <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-language">Language</span></span>

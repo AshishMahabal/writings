@@ -50,8 +50,8 @@ language: English
 
 ### आजचा सुधारक
 
-- [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023) <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### ऐसी अक्षरे
 
-- [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) (दिवाळी 2023) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--meta badge--meta-translation">Translation</span></span>
+- [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) (दिवाळी 2023) <a class="venue-item__online" href="https://aisiakshare.com/node/8860">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--meta badge--meta-translation">Translation</span></span>

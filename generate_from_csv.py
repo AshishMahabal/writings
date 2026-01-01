@@ -661,7 +661,16 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                     if translation_val:
                         badges.append(badge_html("Translation", "meta"))
                     badges_html = f' <span class="row-badges">{" ".join(badges)}</span>' if badges else ""
-                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){badges_html}")
+                    external = (
+                        clean_str(r.get("Link", ""))
+                        or clean_str(r.get("ExternalURL", ""))
+                        or clean_str(r.get("OnlineURL", ""))
+                    )
+                    is_online_pub = "online" in clean_str(r.get("Pubtype", "")).lower()
+                    online_html = f' <a class="venue-item__online" href="{external}">Online</a>' if (external and is_online_pub) else ""
+#                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){badges_html}")
+                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){online_html}{badges_html}")
+
                 body.append("")
         write_md_overwrite(ydir / "index.md", {"title": f"Publications {y}", "language": "English"}, "\n".join(body))
 

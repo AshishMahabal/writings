@@ -36,4 +36,4 @@ language: English
 
 ### ऐसी अक्षरे
 
-- [चेतागुंजन](/writings/fiction/Marathi/SFAA24.html) (दिवाळी 2024) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [चेतागुंजन](/writings/fiction/Marathi/SFAA24.html) (दिवाळी 2024) <a class="venue-item__online" href="https://aisiakshare.com/index.php/node/9124">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>

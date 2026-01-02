@@ -7,15 +7,29 @@
   <link rel="stylesheet" href="$baseurl$/assets/style.css" />
 </head>
 <body>
-  <nav>
-    <a href="$baseurl$/index.html">Home</a>
-    <a href="$baseurl$/publications/venues/venue-54714bad4d/index.html">घोस्ट रायटर</a>
-    <a href="$baseurl$/publications/venues/inner-space-and-outer-thoughts/index.html">ISOT</a>
-    <a href="$baseurl$/fiction/index.html">Fiction</a>
-    <a href="$baseurl$/nonfiction/index.html">Non-Fiction</a>
-    <a href="$baseurl$/publications/index.html">Publications</a>
-    <a href="$baseurl$/index.html#contact">Contact</a>
-  </nav>
+<nav>
+  <a class="navlink $if(active_home)$nav-active$endif$"
+     href="$baseurl$/index.html">Home</a>
+
+  <a class="navlink $if(active_ghost_writer)$nav-active$endif$"
+     href="$baseurl$/publications/venues/venue-54714bad4d/index.html">घोस्ट रायटर</a>
+
+  <a class="navlink $if(active_isot)$nav-active$endif$"
+     href="$baseurl$/publications/venues/inner-space-and-outer-thoughts/index.html">ISOT</a>
+
+  <a class="navlink $if(active_fiction)$nav-active$endif$"
+     href="$baseurl$/fiction/index.html">Fiction</a>
+
+  <a class="navlink $if(active_nonfiction)$nav-active$endif$"
+     href="$baseurl$/nonfiction/index.html">Non-Fiction</a>
+
+  <a class="navlink $if(active_publications)$nav-active$endif$"
+     href="$baseurl$/publications/index.html">Publications</a>
+
+  <a class="navlink"
+     href="$baseurl$/index.html#contact">Contact</a>
+</nav>
+
   <hr />
   $body$
   <hr />

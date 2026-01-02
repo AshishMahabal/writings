@@ -1,5 +1,5 @@
 ---
-title: Writings
+title: Writings (Ashish Mahabal)
 language: English
 ---
 
@@ -7,11 +7,7 @@ language: English
 
 <div class="hero-text">
 
-# Writings
-
-
-[**Ghost Writer**](publications/venues/venue-54714bad4d/index.html) घोस्ट रायटर आणि इतर विज्ञानकथा, २०२३, समकालीन प्रकाशन
-[**Inner Space and Outer Thoughts**](publications/venues/inner-space-and-outer-thoughts/index.html) Sci-fi Anthology from Caltech and JPL, 2023
+# Writings (Ashish Mahabal)
 
 I have been writing science fiction stories in Marathi for several years. Published primarily in Diwali issues, the first book with 18 of those came out in 2023.
 I also write non-fiction in Marathi and in English (astronomy, rationalism, essays, travelogues). 
@@ -20,6 +16,9 @@ I also write non-fiction in Marathi and in English (astronomy, rationalism, essa
 याशिवाय मी खगोलशास्त्र, विज्ञान, विवेकवाद, प्रवास आणि ललित लेखनही करतो.
 
 On this site you will find details of my non-professional writings (mind you, I said non-professional, and not un-professional). The professioanl i.e. academic writings can be found in usual places like [Google Scholar](https://scholar.google.com/citations?user=Ww9DSqAAAAAJ&hl=en), [arXiv](https://arxiv.org/search/?query=mahabal+a&searchtype=all&abstracts=show&order=-announced_date_first&size=500), [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22mahabal%22&sort=date%20desc%2C%20bibcode%20desc&p_=0), or my work website: [aschig's Universe](https://sites.astro.caltech.edu/~aam/) (but that is often hopelessly outdated - work, you know).
+
+[**Ghost Writer**](publications/venues/venue-54714bad4d/index.html) घोस्ट रायटर आणि इतर विज्ञानकथा, २०२३, समकालीन प्रकाशन
+[**Inner Space and Outer Thoughts**](publications/venues/inner-space-and-outer-thoughts/index.html) Sci-fi Anthology from Caltech and JPL, 2023
 </div>
 
 <div class="hero-media">

@@ -330,7 +330,7 @@ def link_unused(path: str) -> str:
 def root_index_body() -> str:
     return "\n".join(
         [
-            "# Writings",
+            "# Writings (Ashish Mahabal)",
             "",
             "Science fiction (primarily Marathi) and non-fiction (astronomy, rationalism, essays).",
             "",
@@ -394,7 +394,7 @@ def earliest_pub_hint(g: pd.DataFrame) -> str:
 
 
 def generate_root_index() -> None:
-#    write_md_overwrite(Path("index.md"), {"title": "Writings", "language": "English"}, root_index_body())
+#    write_md_overwrite(Path("index.md"), {"title": "Writings (Ashish Mahabal)", "language": "English"}, root_index_body())
     start_marker = "<!-- AUTO:HOME_NAV:START -->"
     end_marker = "<!-- AUTO:HOME_NAV:END -->"
 
@@ -411,7 +411,7 @@ def generate_root_index() -> None:
 
     write_md_update_block_only(
         Path("index.md"),
-        {"title": "Writings", "language": "English"},
+        {"title": "Writings (Ashish Mahabal)", "language": "English"},
         start_marker,
         end_marker,
         block,

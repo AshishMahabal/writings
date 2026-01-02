@@ -10,13 +10,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 <!-- AUTO:NONFICTION_LIST:START -->
 ## By language
 
- | 
-[English](/writings/nonfiction/English/index.html)
- | 
-[Hindi](/writings/nonfiction/Hindi/index.html)
- | 
-[Marathi](/writings/nonfiction/Marathi/index.html)
- | 
+[English](/writings/nonfiction/English/index.html) · [Hindi](/writings/nonfiction/Hindi/index.html) · [Marathi](/writings/nonfiction/Marathi/index.html)
 
 ## All
 

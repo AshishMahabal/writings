@@ -481,10 +481,15 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
     block_lines: List[str] = []
     block_lines.append("## By language")
     block_lines.append("")
-    block_lines.append(" | ")
-    for L in langs:
-        block_lines.append(f"[{L}]({link(f'{kind}/{L}/index.html')})")
-        block_lines.append(" | ")
+#    block_lines.append(" | ")
+#    for L in langs:
+#        block_lines.append(f"[{L}]({link(f'{kind}/{L}/index.html')})")
+#        block_lines.append(" | ")
+    lang_links = [
+        f"[{L}]({link(f'{kind}/{L}/index.html')})"
+        for L in sorted(langs)
+    ]
+    block_lines.append(" · ".join(lang_links))
     block_lines.append("")
     block_lines.append("## All")
     block_lines.append("")

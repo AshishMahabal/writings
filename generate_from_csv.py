@@ -382,15 +382,33 @@ def earliest_pub_hint(g: pd.DataFrame) -> str:
     gg = gg.sort_values(["YearNum", "MonthKey", "Venue"], kind="mergesort")
     if not len(gg):
         return ""
+
     venue = clean_str(gg["Venue"].iloc[0])
     y_txt = year_str(gg["Year"].iloc[0])
+
     if venue and y_txt:
-        return f"[{venue}, {y_txt}]"
-    if venue:
-        return f"[{venue}]"
-    if y_txt:
-        return f"[{y_txt}]"
-    return ""
+        hint = f"[{venue}, {y_txt}]"
+    elif venue:
+        hint = f"[{venue}]"
+    elif y_txt:
+        hint = f"[{y_txt}]"
+    else:
+        hint = ""
+
+    # --- NEW: if this work has an online appearance with a URL, show "Online" ---
+    pubtype_s = gg.get("Pubtype", pd.Series([], dtype="string")).astype("string")
+    online_rows = gg[pubtype_s.str.lower().str.contains("online", na=False)]
+    if len(online_rows):
+        r0 = online_rows.iloc[0]
+        external = (
+            clean_str(r0.get("Link", ""))
+            or clean_str(r0.get("ExternalURL", ""))
+            or clean_str(r0.get("OnlineURL", ""))
+        )
+        if external:
+            hint = f'{hint} <a class="venue-item__online" href="{external}">Online</a>'.strip()
+
+    return hint
 
 
 def generate_root_index() -> None:

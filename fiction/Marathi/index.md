@@ -9,34 +9,34 @@ language: Marathi
 - [कचरा गो](/writings/fiction/Marathi/SFB0108075.html) [धनंजय, 2017]
 - [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) [सावली, 2009]
 - [कारटीची कथा](/writings/fiction/Marathi/SFHA19.html) [हंस, 2019]
-- [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) [ऐसी अक्षरे, 2014]
+- [कुपमंडूक](/writings/fiction/Marathi/SFB0116145.html) [ऐसी अक्षरे, 2014] <a class="venue-item__online" href="https://aisiakshare.com/node/3374">Online</a>
 - [कृष्णलीला](/writings/fiction/Marathi/SFB0117150.html) [मविप, 2013]
 - [क्वांटम हाईस्ट](/writings/fiction/Marathi/SFNV23.html) [नवल, 2023]
 - [घोस्ट रायटर](/writings/fiction/Marathi/SFB0112119.html) [धनंजय, 2015]
 - [चलो रतन](/writings/fiction/Marathi/SFDH23.html) [धनंजय, 2023]
-- [चेतागुंजन](/writings/fiction/Marathi/SFAA24.html) [ऐसी अक्षरे, 2024]
-- [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) [ऐसी अक्षरे, 2023]
+- [चेतागुंजन](/writings/fiction/Marathi/SFAA24.html) [ऐसी अक्षरे, 2024] <a class="venue-item__online" href="https://aisiakshare.com/index.php/node/9124">Online</a>
+- [जित्याची खोड](/writings/fiction/Marathi/SFAA23.html) [ऐसी अक्षरे, 2023] <a class="venue-item__online" href="https://aisiakshare.com/node/8860">Online</a>
 - [जैवमंथन](/writings/fiction/Marathi/SFNV24.html) [नवल, 2024]
 - [तेथे पाहिजे जातीचे](/writings/fiction/Marathi/SFB0115137.html) [धनंजय, 2018]
 - [दिव्यदृष्टी](/writings/fiction/Marathi/SFB0111112.html) [धनंजय, 2016]
 - [दुवे आडवे तिडवे](/writings/fiction/Marathi/SFDH22.html) [धनंजय, 2022]
-- [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) [ऐसी अक्षरे, 2016]
+- [धनुष्यातून सुटलेला बाण](/writings/fiction/Marathi/SFB0103030.html) [ऐसी अक्षरे, 2016] <a class="venue-item__online" href="https://aisiakshare.com/node/5611">Online</a>
 - [नाऊ यु सी मी](/writings/fiction/Marathi/SFB0110105.html) [अनुभव, 2017]
 - [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html) [पूर्वसंचित गोफ नात्यांचा, 2016]
-- [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) [ऐसी अक्षरे, 2025]
+- [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) [ऐसी अक्षरे, 2025] <a class="venue-item__online" href="https://aisiakshare.com/node/9377">Online</a>
 - [पाचविला पुजलेला प्रश्न](/writings/fiction/Marathi/SFB0102021.html) [नवल, 2018]
 - [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) [आरती, 2014]
 - [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) [अनुभव, 2016]
 - [बेिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) [नवल, 2016]
 - [मन तर सवय](/writings/fiction/Marathi/SFB0113123.html) [नवल, 2017]
 - [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/writings/fiction/Marathi/SFNV25.html) [नवल, 2025]
-- [मुंगी उडाली आकाशी](/writings/fiction/Marathi/SFAA22.html) [ऐसी अक्षरे, 2022]
-- [यमांत](/writings/fiction/Marathi/SFAA21.html) [ऐसी अक्षरे, 2021]
+- [मुंगी उडाली आकाशी](/writings/fiction/Marathi/SFAA22.html) [ऐसी अक्षरे, 2022] <a class="venue-item__online" href="https://aisiakshare.com/node/8594">Online</a>
+- [यमांत](/writings/fiction/Marathi/SFAA21.html) [ऐसी अक्षरे, 2021] <a class="venue-item__online" href="https://aisiakshare.com/node/8247">Online</a>
 - [याज्ञरक्ष](/writings/fiction/Marathi/SFDH24.html) [धनंजय, 2024]
 - [ये रे माझ्या मागल्या](/writings/fiction/Marathi/SFB0104043.html) [पुणे प्रतिष्ठान, 2017]
 - [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) [मविप, 2014]
 - [लक्ष्मीदासाची कथा मूळपदी](/writings/fiction/Marathi/SFDH19.html) [धनंजय, 2019]
-- [सत्यमेवा जयते](/writings/fiction/Marathi/SFAA20.html) [ऐसी अक्षरे, 2020]
-- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/writings/fiction/Marathi/SFB0118156.html) [मायबोली, 2008]
+- [सत्यमेवा जयते](/writings/fiction/Marathi/SFAA20.html) [ऐसी अक्षरे, 2020] <a class="venue-item__online" href="https://aisiakshare.com/node/7882">Online</a>
+- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/writings/fiction/Marathi/SFB0118156.html) [मायबोली, 2008] <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2008/30">Online</a>
 - [सावट](/writings/fiction/Marathi/SFDH20.html) [धनंजय, 2020]
 - [स्वर्गयातना](/writings/fiction/Marathi/SFDH25.html) [धनंजय, 2025]

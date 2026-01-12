@@ -175,6 +175,7 @@ Info related to publication venues ...
 - [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) (Jul 2023)
 - [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) (Oct 2025)
 - [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) (Jan 2026)
+- [देव, अनिवार्यता आणि मानवी अपेक्षा](/writings/nonfiction/Marathi/NFRAAS2601_2.html) (Jan 2026)
 
 ### [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html)
 

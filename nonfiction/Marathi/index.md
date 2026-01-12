@@ -18,6 +18,7 @@ language: Marathi
 - [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a>
 - [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) [युगवाणी, 2025]
 - [ज्योतिष्य ते ज्योतीर्विज्ञान](/writings/nonfiction/Marathi/NFRAANT56.html) [तर्कटपंजरी, 2024]
+- [देव, अनिवार्यता आणि मानवी अपेक्षा](/writings/nonfiction/Marathi/NFRAAS2601_2.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a>
 - [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) [मायबोली, 2011]
 - [नैसर्गिक भरार्‍या](/writings/nonfiction/Marathi/NFSCMB10.html) [मायबोली, 2010]
 - [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) [मायबोली, 2013]

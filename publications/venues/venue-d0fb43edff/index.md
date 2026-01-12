@@ -54,5 +54,6 @@ language: English
 
 <ul class="venue-list venue-list--online-magazine">
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2601.html">चैतन्याचा प्रश्न</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAAS2601_2.html">देव, अनिवार्यता आणि मानवी अपेक्षा</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

@@ -112,5 +112,11 @@ while IFS= read -r -d '' md; do
   render_one "$md" "$out" "$title" "$lang" "$page_section" "$book_key"
 done < <(find "$ROOT/fiction" "$ROOT/nonfiction" "$ROOT/publications" -name "*.md" -type f -print0 2>/dev/null)
 
+# Build Atom feed into site/feed.xml (after HTML exists)
+if [ -f "$ROOT/IndexOfPublished_revised.csv" ]; then
+  SITE_URL="${SITE_URL:-}" SITE_TITLE="${SITE_TITLE:-Writings (Ashish Mahabal)}" SITE_SUBTITLE="${SITE_SUBTITLE:-New items}" \
+    python3 "$ROOT/generate_from_csv.py" --feed "$ROOT/IndexOfPublished_revised.csv" "$SITE/feed.xml"
+fi
+
 echo "Built HTML into: $SITE"
 

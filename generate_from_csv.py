@@ -22,6 +22,9 @@ Usage:
 CI example:
   BASEURL="/writings" python3 generate_from_csv.py IndexOfPublished_revised.csv
   ./build.sh
+
+CLI feed example:
+  python3 generate_from_csv.py --feed IndexOfPublished_revised.csv site/feed.xml
 """
 from __future__ import annotations
 
@@ -35,6 +38,8 @@ from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 import yaml
+import datetime as dt
+import html
 
 LANG_CANON = {"Marathi": "Marathi", "Hindi": "Hindi", "English": "English"}
 KIND_MAP = {
@@ -92,6 +97,98 @@ def parse_subtypes(raw: str) -> List[str]:
     parts = [p.strip() for p in raw.split(",")]
     parts = [p for p in parts if p]
     return [SUBTYPE_MAP.get(p, p) for p in parts]
+
+def generate_atom_feed(df: pd.DataFrame, out_path: Path, max_items: int = 50) -> None:
+    """
+    Write an Atom feed to out_path (typically site/feed.xml after build).
+    Uses earliest publication date (Year/Month) per work as the item date.
+    Links match your build: kind/lang/work_id.html
+    """
+
+    def pub_date(row: pd.Series) -> Optional[dt.date]:
+        y = year_int(row.get("Year", None))
+        m = month_key(row.get("Month", None))
+        if y is None or m is None:
+            return None
+        try:
+            return dt.date(int(y), int(m), 1)
+        except Exception:
+            return None
+
+    # One representative row per work (the earliest pub date for that work)
+    rows = []
+    for work_id, g in df.groupby("work_id", sort=False):
+        gg = g.copy()
+        gg["_d"] = gg.apply(pub_date, axis=1)
+        gg = gg[gg["_d"].notna()].sort_values("_d", ascending=True)
+        if gg.empty:
+            continue
+        r = gg.iloc[0]
+        d = r["_d"]
+        title = clean_str(r.get("Title", ""))
+        kind = norm_kind(r.get("Kind", ""))
+        lang_full = norm_lang_full(r.get("Language", ""))
+        if not (work_id and title and kind and lang_full and d):
+            continue
+        rows.append((d, work_id, title, kind, lang_full, r))
+
+    rows.sort(key=lambda x: x[0], reverse=True)
+    rows = rows[:max_items]
+
+    site_url = os.environ.get("SITE_URL", "").strip().rstrip("/")  # e.g. https://ashishmahabal.github.io
+    feed_title = os.environ.get("SITE_TITLE", "Writings (Ashish Mahabal)").strip()
+    feed_subtitle = os.environ.get("SITE_SUBTITLE", "New items").strip()
+
+    # baseurl like "/writings" or "" from your helper
+    base = get_baseurl()  # already normalized in your code :contentReference[oaicite:5]{index=5}
+
+    def abs_link(rel: str) -> str:
+        # rel: "fiction/English/abc.html"
+        p = link(rel)  # returns "/writings/fiction/English/abc.html" :contentReference[oaicite:6]{index=6}
+        return (site_url + p) if site_url else p
+
+    feed_id = (site_url + base) if site_url else (base or "/")
+    feed_id = feed_id.rstrip("/") or "/"
+    self_url = abs_link("feed.xml")
+
+    updated = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+
+    entry_xml = []
+    for d, work_id, title, kind, lang_full, r in rows:
+        rel = f"{kind}/{lang_full}/{work_id}.html"
+        u = abs_link(rel)
+        published = dt.datetime(d.year, d.month, 1, 0, 0, 0).isoformat() + "Z"
+
+        venue = clean_str(r.get("Venue", ""))
+        subtype = clean_str(r.get("Subtype", ""))
+        bits = [b for b in [kind_display(kind), SUBTYPE_MAP.get(subtype, subtype) if subtype else "", venue] if b]
+        summary = html.escape(" · ".join(bits))
+
+        entry_xml.append(
+            f"""  <entry>
+    <title>{html.escape(title)}</title>
+    <link href="{html.escape(u)}"/>
+    <id>{html.escape(u)}</id>
+    <updated>{published}</updated>
+    <published>{published}</published>
+    <summary type="html">{summary}</summary>
+  </entry>"""
+        )
+
+    atom = f"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{html.escape(feed_title)}</title>
+  <subtitle>{html.escape(feed_subtitle)}</subtitle>
+  <link href="{html.escape(feed_id)}" rel="alternate"/>
+  <link href="{html.escape(self_url)}" rel="self"/>
+  <id>{html.escape(feed_id)}</id>
+  <updated>{updated}</updated>
+{chr(10).join(entry_xml)}
+</feed>
+"""
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(atom, encoding="utf-8")
 
 def venue_display(venue: str, row: Optional[pd.Series] = None) -> str:
     """Return display name for venue, optionally with a context suffix."""
@@ -948,10 +1045,19 @@ def generate_badges_summary(df: pd.DataFrame) -> None:
 def main() -> None:
     require_site_root()
     ap = argparse.ArgumentParser()
-    ap.add_argument("csv", type=str, help="Path to appearance-centric CSV (revised).")
+    ap.add_argument("--feed", action="store_true", help="Only emit Atom feed.xml and exit")
+    ap.add_argument("csv", help="Input CSV")
+    ap.add_argument("feed_out", nargs="?", default="", help="Feed output path when using --feed")
+#    ap.add_argument("csv", type=str, help="Path to appearance-centric CSV (revised).")
     args = ap.parse_args()
 
     df = pd.read_csv(Path(args.csv))
+    if args.feed:
+        if not args.feed_out:
+            raise SystemExit("With --feed you must provide feed_out path, e.g. site/feed.xml")
+        generate_atom_feed(df, out_path=Path(args.feed_out), max_items=50)
+        return
+
     required = {"work_id", "Title", "Pubtype", "Venue", "Kind", "Subtype", "Language", "Year", "Month"}
     missing = required - set(df.columns)
     if missing:

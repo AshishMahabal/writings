@@ -505,6 +505,15 @@ def earliest_pub_hint(g: pd.DataFrame) -> str:
         if external:
             hint = f'{hint} <a class="venue-item__online" href="{external}">Online</a>'.strip()
 
+    # --- NEW: if this work has an audio link, show "Audio" ---
+    if "Audio link" in gg.columns:
+        # Check all rows for an audio link (not just online appearances)
+        for _, row in gg.iterrows():
+            audio_url = clean_str(row.get("Audio link", ""))
+            if audio_url:
+                hint = f'{hint} <a class="venue-item__online" href="{audio_url}">Audio</a>'.strip()
+                break  # Only use the first audio link found
+
     return hint
 
 
@@ -690,7 +699,18 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
                 when = " ".join(when_parts).strip()
                 when = f" ({when})" if when else ""
 
-                block.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}")
+                external = (
+                    clean_str(r.get("Link", ""))
+                    or clean_str(r.get("ExternalURL", ""))
+                    or clean_str(r.get("OnlineURL", ""))
+                )
+                is_online_pub = "online" in clean_str(r.get("Pubtype", "")).lower()
+                online_html = f' <a class="venue-item__online" href="{external}">Online</a>' if (external and is_online_pub) else ""
+
+                audio_link = clean_str(r.get("Audio link", ""))
+                audio_html = f' <a class="venue-item__online" href="{audio_link}">Audio</a>' if audio_link else ""
+
+                block.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}{online_html}{audio_html}")
             block.append("")
 
     start_marker = "<!-- AUTO:PUBLICATIONS_INDEX:START -->"
@@ -780,6 +800,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                     translation_val = clean_str(r.get("Translation", ""))
                     if translation_val:
                         badges.append(badge_html("Translation", "meta"))
+                    audio_link = clean_str(r.get("Audio link", ""))
                     badges_html = f' <span class="row-badges">{" ".join(badges)}</span>' if badges else ""
                     external = (
                         clean_str(r.get("Link", ""))
@@ -788,8 +809,9 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
                     )
                     is_online_pub = "online" in clean_str(r.get("Pubtype", "")).lower()
                     online_html = f' <a class="venue-item__online" href="{external}">Online</a>' if (external and is_online_pub) else ""
+                    audio_html = f' <a class="venue-item__online" href="{audio_link}">Audio</a>' if audio_link else ""
 #                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){badges_html}")
-                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){online_html}{badges_html}")
+                    body.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}) ({mtxt}{y}){online_html}{audio_html}{badges_html}")
 
                 body.append("")
         write_md_overwrite(ydir / "index.md", {"title": f"Publications {y}", "language": "English"}, "\n".join(body))
@@ -917,6 +939,10 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             is_online_pub = "online" in clean_str(r.get("Pubtype", "")).lower()
             online_html = f' <a class="venue-item__online" href="{external}">Online</a>' if (external and is_online_pub) else ""
 
+            # Audio link
+            audio_link = clean_str(r.get("Audio link", ""))
+            audio_html = f' <a class="venue-item__online" href="{audio_link}">Audio</a>' if audio_link else ""
+
             # Subtype badges (comma-separated supported)
             subtype_raw = clean_str(r.get("Subtype", ""))
             subtype_labels = parse_subtypes(subtype_raw)
@@ -936,9 +962,9 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
                 item_classes.append(f"venue-item--{slug_class(k_label)}")
 
             return (
-                f'<li class="{" ".join(item_classes)}">'
+                f'<li class="{" ".join(item_classes)}">'  
                 f'<a class="venue-item__title" href="{url}">{title}</a>'
-                f'{when_html}{online_html}{badges_html}'
+                f'{when_html}{online_html}{audio_html}{badges_html}'
                 f"</li>"
             )
 

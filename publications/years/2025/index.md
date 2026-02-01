@@ -31,7 +31,7 @@ language: English
 
 ### BMM Vrutta
 
-- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-math">Math</span></span>
 
 ### आजचा सुधारक

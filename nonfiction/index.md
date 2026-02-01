@@ -44,6 +44,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) [आजचा सुधारक, 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/10/9320/">Online</a>
 - [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) [आजचा सुधारक, 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/07/2936/">Online</a>
 - [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) [MMLA, 2017]
+- [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a>
 - [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) [प्रसाद, 2021]
 - [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) [मायबोली, 2006] <a class="venue-item__online" href="https://www.maayboli.com/hitguj/messages/118369/118185.html?1161387673">Online</a>
 - [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) [ऐसी अक्षरे, 2019] <a class="venue-item__online" href="https://aisiakshare.com/node/7349">Online</a>
@@ -63,5 +64,5 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) [मुशाफिरी, 2019]
 - [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) [आजचा सुधारक, 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a>
 - [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) [उपक्रम, 2011] <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a>
-- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf">Online</a>
+- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
 <!-- AUTO:NONFICTION_LIST:END -->

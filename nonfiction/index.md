@@ -25,7 +25,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [मंगल में शेरलॉक](/writings/nonfiction/Hindi/NFSCCY2408H.html) [साइकिल, 2024]
 - [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) [MMLA, 2015]
 - [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) [आजचा सुधारक, 2025] <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a>
-- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a>
+- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a>
 - [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) [उपक्रम, 2012] <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a>
 - [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) [आजचा सुधारक, 2023] <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a>
 - [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) [आजचा सुधारक, 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a>

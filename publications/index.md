@@ -150,7 +150,7 @@ Info related to publication venues ...
 
 - [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) (Dec 2022) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/07/BMMNewsletterDec2022-1.pdf#page=10">Online</a>
 - [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
-- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a>
+- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) (Mar 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a>
 - [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) (Jan 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a>
 - [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) (Feb 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a>
 

@@ -1023,7 +1023,55 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             heading=heading_text,
         )
 
-def generate_badges_summary(df: pd.DataFrame) -> None:
+def build_publications_listing(d: pd.DataFrame, venue_slug_map: Dict[str, str]) -> List[str]:
+    d = d.copy()
+    d["Pubtype"] = d["Pubtype"].astype("string").str.strip()
+    d["Venue"] = d["Venue"].astype("string").str.strip()
+    d["YearNum"] = d["Year"].apply(year_int)
+    d["MonthKey"] = d["Month"].apply(month_key)
+
+    lines: List[str] = []
+    for pubtype, g1 in d.groupby("Pubtype", sort=True):
+        lines += [f"## {pubtype}", ""]
+        for venue, g2 in g1.groupby("Venue", sort=True):
+            vslug = venue_slug_map.get(venue, slugify(venue))
+            vlink = link(f"publications/venues/{vslug}/index.html")
+            lines += [f"### [{venue}]({vlink})", ""]
+            g2 = g2.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
+            for _, r in g2.iterrows():
+                title = r["Title"]
+                wid = r["work_id"]
+                k = r["kind_norm"]
+                L = r["language_full"]
+
+                when_parts: List[str] = []
+                m = clean_str(r.get("Month", ""))
+                if m:
+                    when_parts.append(m)
+                y_txt = year_str(r.get("Year", None))
+                if y_txt:
+                    when_parts.append(y_txt)
+                when = " ".join(when_parts).strip()
+                when = f" ({when})" if when else ""
+
+                external = (
+                    clean_str(r.get("Link", ""))
+                    or clean_str(r.get("ExternalURL", ""))
+                    or clean_str(r.get("OnlineURL", ""))
+                )
+                is_online_pub = "online" in clean_str(r.get("Pubtype", "")).lower()
+                online_html = f' <a class="venue-item__online" href="{external}">Online</a>' if (external and is_online_pub) else ""
+
+                audio_link = clean_str(r.get("Audio link", ""))
+                audio_html = f' <a class="venue-item__online" href="{audio_link}">Audio</a>' if audio_link else ""
+
+                lines.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}{online_html}{audio_html}")
+            lines.append("")
+
+    return lines
+
+
+def generate_badges_summary(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     base = Path("publications") / "tags"
     base.mkdir(parents=True, exist_ok=True)
 
@@ -1043,10 +1091,20 @@ def generate_badges_summary(df: pd.DataFrame) -> None:
     kind_counts = df["kind_norm"].value_counts()
     for k, c in kind_counts.items():
         k_label = kind_display(clean_str(k))
-        lines.append(
-            f'- <span class="badge badge--kind badge--kind-{slug_class(k_label)}">{k_label}</span> '
-            f'<span class="tag-item__count">({c})</span>'
-        )
+        k_norm = clean_str(k).lower()
+        kind_path = None
+        if k_norm == "fiction":
+            kind_path = "fiction/index.html"
+        elif k_norm == "nonfiction":
+            kind_path = "nonfiction/index.html"
+        elif k_norm == "poem":
+            kind_path = "poem/index.html"
+
+        badge = f'<span class="badge badge--kind badge--kind-{slug_class(k_label)}">{k_label}</span>'
+        if kind_path:
+            badge = f'<a href="{link(kind_path)}">{badge}</a>'
+
+        lines.append(f'- {badge} <span class="tag-item__count">({c})</span>')
 
     lines += ["", "## Subtype", ""]
 
@@ -1057,16 +1115,81 @@ def generate_badges_summary(df: pd.DataFrame) -> None:
             subtype_counts[st] = subtype_counts.get(st, 0) + 1
 
     for st, c in sorted(subtype_counts.items()):
+        st_slug = slugify(st)
+        st_link = link(f"publications/tags/{st_slug}/index.html")
         lines.append(
-            f'- <span class="badge badge--subtype badge--subtype-{slug_class(st)}">{st}</span> '
+            f'- <a href="{st_link}">'
+            f'<span class="badge badge--subtype badge--subtype-{slug_class(st)}">{st}</span></a> '
             f'<span class="tag-item__count">({c})</span>'
         )
+
+    # Availability counts
+    lines += ["", "## Availability", ""]
+
+    online_count = df["Pubtype"].astype("string").str.contains("online", case=False, na=False).sum()
+    audio_series = df.get("Audio link", pd.Series([], dtype="string"))
+    audio_count = audio_series.apply(lambda x: bool(clean_str(x))).sum()
+
+    lines.append(
+        f'- <a href="{link("publications/tags/online/index.html")}">Online</a> '
+        f'<span class="tag-item__count">({int(online_count)})</span>'
+    )
+    lines.append(
+        f'- <a href="{link("publications/tags/audio/index.html")}">Audio</a> '
+        f'<span class="tag-item__count">({int(audio_count)})</span>'
+    )
 
     write_md_overwrite(
         base / "index.md",
         {"title": "Badges summary", "language": "English"},
         "\n".join(lines),
     )
+
+    # Subtype pages
+    for st in sorted(subtype_counts.keys()):
+        st_slug = slugify(st)
+        out_dir = base / st_slug
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        sub_df = df[df.get("Subtype", "").apply(lambda x: st in parse_subtypes(clean_str(x)))]
+        page_lines = [
+            f"# Subtype: {st}",
+            "",
+            f"- [Back to tags]({link('publications/tags/index.html')})",
+            "",
+        ]
+        page_lines += build_publications_listing(sub_df, venue_slug_map)
+
+        write_md_overwrite(
+            out_dir / "index.md",
+            {"title": f"Subtype {st}", "language": "English"},
+            "\n".join(page_lines).rstrip(),
+        )
+
+    # Availability pages: Online and Audio
+    audio_series = df.get("Audio link", pd.Series([], dtype="string"))
+    availability = {
+        "online": df[df["Pubtype"].astype("string").str.contains("online", case=False, na=False)],
+        "audio": df[audio_series.apply(lambda x: bool(clean_str(x)))],
+    }
+
+    for key, sub_df in availability.items():
+        out_dir = base / key
+        out_dir.mkdir(parents=True, exist_ok=True)
+        title = key.title()
+        page_lines = [
+            f"# {title}",
+            "",
+            f"- [Back to tags]({link('publications/tags/index.html')})",
+            "",
+        ]
+        page_lines += build_publications_listing(sub_df, venue_slug_map)
+
+        write_md_overwrite(
+            out_dir / "index.md",
+            {"title": title, "language": "English"},
+            "\n".join(page_lines).rstrip(),
+        )
 
 def main() -> None:
     require_site_root()
@@ -1109,7 +1232,7 @@ def main() -> None:
     generate_publications_index(df, venue_slug_map)
     generate_publications_year_indexes(df)
     generate_venue_pages(df, venue_slug_map)
-    generate_badges_summary(df)
+    generate_badges_summary(df, venue_slug_map)
 
 
     print("Done (v6). Next: run ./build.sh")

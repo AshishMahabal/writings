@@ -35,6 +35,7 @@ import re
 import unicodedata
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+import sys
 
 import pandas as pd
 import yaml
@@ -254,6 +255,48 @@ def year_str(x: object) -> str:
     """Safe display year string; returns "" if missing/invalid."""
     y = year_int(x)
     return str(y) if y is not None else ""
+
+
+def csv_report(df: pd.DataFrame) -> List[str]:
+    lines: List[str] = []
+
+    total_rows = int(len(df))
+    total_works = int(df["work_id"].nunique()) if "work_id" in df.columns else 0
+    lines.append(f"CSV rows: {total_rows} · Unique works: {total_works}")
+
+    required_fields = ["work_id", "Title", "Pubtype", "Venue", "Kind", "Language"]
+    for col in required_fields:
+        if col in df.columns:
+            missing = int(df[col].apply(lambda x: clean_str(x) == "").sum())
+            if missing:
+                lines.append(f"WARNING: {col} missing in {missing} row(s)")
+
+    if "Year" in df.columns:
+        bad_year = int(df["Year"].apply(lambda x: bool(clean_str(x)) and year_int(x) is None).sum())
+        if bad_year:
+            lines.append(f"WARNING: Year not parseable in {bad_year} row(s)")
+
+    if "Kind" in df.columns:
+        kind_norm = df["Kind"].apply(norm_kind).apply(lambda x: clean_str(x).lower())
+        known_kinds = {"fiction", "nonfiction", "poem"}
+        unknown_kinds = sorted({k for k in kind_norm.tolist() if k and k not in known_kinds})
+        if unknown_kinds:
+            lines.append(f"WARNING: Unknown Kind values: {unknown_kinds}")
+
+    if "Language" in df.columns:
+        langs = df["Language"].apply(norm_lang_full)
+        known_langs = set(LANG_CANON.values())
+        unknown_langs = sorted({l for l in langs.tolist() if l and l not in known_langs and l != "Unknown"})
+        if unknown_langs:
+            lines.append(f"WARNING: Unknown Language values: {unknown_langs}")
+
+    subset = [c for c in ["work_id", "Venue", "Pubtype", "Year", "Month", "Language", "Kind"] if c in df.columns]
+    if subset:
+        dup_count = int(df.duplicated(subset=subset, keep=False).sum())
+        if dup_count:
+            lines.append(f"WARNING: {dup_count} duplicate row(s) by {subset}")
+
+    return lines
 
 
 def month_key(x: object) -> int:
@@ -1211,6 +1254,12 @@ def main() -> None:
     missing = required - set(df.columns)
     if missing:
         raise SystemExit(f"CSV missing required columns: {sorted(missing)}")
+
+    report_lines = csv_report(df)
+    if report_lines:
+        print("CSV validation:", file=sys.stderr)
+        for line in report_lines:
+            print(f"- {line}", file=sys.stderr)
 
     df = df.copy()
     df["language_full"] = df["Language"].apply(norm_lang_full)

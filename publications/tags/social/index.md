@@ -9,6 +9,10 @@ language: English
 
 ## Online Magazine
 
+### [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html)
+
+- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSCBV2603.html) (Mar 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
+
 ### [MMLA](/writings/publications/venues/mmla/index.html)
 
 - [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) (दिवाळी 2017)

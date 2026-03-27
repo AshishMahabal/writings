@@ -13,6 +13,7 @@ language: English
 
 - [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) (Jan 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 - [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) (Feb 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSCBV2603.html) (Mar 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### आजचा सुधारक
 

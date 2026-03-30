@@ -8,10 +8,13 @@ subtype: सामाजिक
 
 # कृत्रिम बुद्धिमत्ता : आळं की आळा
 
-*(Text to be added here.)*
+<!-- AUTO:WORK_LINKS:START -->
+<p class="work-links"><a class="work-link" href="https://www.sudharak.in/2023/07/11033/">Read online</a></p>
+<!-- AUTO:WORK_LINKS:END -->
+
 
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Jul 2023 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2023](/writings/publications/years/2023/index.html)
+- Jul 2023 — Online Magazine: [आजचा सुधारक](/publications/venues/venue-d0fb43edff/index.html) — [2023](/publications/years/2023/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

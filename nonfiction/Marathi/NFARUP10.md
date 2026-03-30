@@ -13,5 +13,5 @@ subtype: कला
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2010 — Online Magazine: [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html) — [2010](/writings/publications/years/2010/index.html)
+- दिवाळी 2010 — Online Magazine: [उपक्रम](/publications/venues/venue-8f54900029/index.html) — [2010](/publications/years/2010/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

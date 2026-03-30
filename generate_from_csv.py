@@ -613,6 +613,95 @@ def write_work_meta_block(
         "\n".join(lines),
     )
 
+def write_work_links_block(out_path: Path, g: pd.DataFrame) -> None:
+    start_marker = "<!-- AUTO:WORK_LINKS:START -->"
+    end_marker = "<!-- AUTO:WORK_LINKS:END -->"
+
+    links: List[str] = []
+    for _, r in g.iterrows():
+        url = clean_str(r.get("Link", "")) or clean_str(r.get("ExternalURL", "")) or clean_str(r.get("OnlineURL", ""))
+        if url and not any(url in l for l in links):
+            links.append(f'<a class="work-link" href="{url}">Read online</a>')
+        audio = clean_str(r.get("Audio link", ""))
+        if audio and not any(audio in l for l in links):
+            links.append(f'<a class="work-link" href="{audio}">Listen (audio)</a>')
+
+    if not links:
+        return
+
+    block_content = '<p class="work-links">' + " · ".join(links) + "</p>"
+    full_block = f"{start_marker}\n{block_content}\n{end_marker}"
+
+    text = out_path.read_text(encoding="utf-8")
+
+    # Remove placeholder text since we have real links
+    text = text.replace("\n*(Text to be added here.)*\n", "\n")
+
+    # If block already exists, replace it in place
+    if start_marker in text:
+        s = text.find(start_marker)
+        e = text.find(end_marker)
+        if s != -1 and e != -1:
+            text = text[:s] + full_block + text[e + len(end_marker):]
+            out_path.write_text(text, encoding="utf-8")
+            return
+
+    # Insert after the first heading line (# Title)
+    lines = text.split("\n")
+    insert_at = len(lines)
+    for i, line in enumerate(lines):
+        if line.startswith("# "):
+            insert_at = i + 1
+            break
+
+    lines.insert(insert_at, "\n" + full_block)
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_work_hero_block(out_path: Path, work_id: str, title: str, g: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
+    img_file = Path("assets/images/stories") / f"{work_id}-page1.png"
+    if not img_file.exists():
+        return
+
+    start_marker = "<!-- AUTO:WORK_HERO:START -->"
+    end_marker = "<!-- AUTO:WORK_HERO:END -->"
+
+    img_src = link(f"assets/images/stories/{work_id}-page1.png")
+
+    # Find the book venue for caption (look for Book pubtype)
+    caption = f"First half of page 1."
+    book_rows = g[g["Pubtype"].str.lower().str.contains("book", na=False)]
+    if len(book_rows):
+        venue = clean_str(book_rows.iloc[0]["Venue"])
+        year = year_str(book_rows.iloc[0]["Year"])
+        vslug = venue_slug_map.get(venue, slugify(venue))
+        vlink = link(f"publications/venues/{vslug}/index.html")
+        caption = f'First half of page 1. Appeared in [{venue}]({vlink}) ({year}).'
+
+    block = f'<div class="work-hero">\n<img src="{img_src}" alt="Opening of {title}">\n</div>\n\n{caption}'
+
+    text = out_path.read_text(encoding="utf-8")
+    full_block = f"{start_marker}\n{block}\n{end_marker}"
+
+    if start_marker in text:
+        s = text.find(start_marker)
+        e = text.find(end_marker)
+        if s != -1 and e != -1:
+            text = text[:s] + full_block + text[e + len(end_marker):]
+            out_path.write_text(text, encoding="utf-8")
+            return
+
+    # Insert after title heading
+    lines = text.split("\n")
+    insert_at = len(lines)
+    for i, line in enumerate(lines):
+        if line.startswith("# "):
+            insert_at = i + 1
+            break
+    lines.insert(insert_at, "\n" + full_block)
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     for work_id, g in df.groupby("work_id", sort=True):
         title = clean_str(g["Title"].iloc[0])
@@ -631,7 +720,9 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
         pub_md = pubhistory_md_for_work(g, venue_slug_map)
         write_work_md(out_path, fm, work_stub_body(title), pub_md)
 
+        write_work_hero_block(out_path, work_id, title, g, venue_slug_map)
         write_work_meta_block(out_path, g)
+        write_work_links_block(out_path, g)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:

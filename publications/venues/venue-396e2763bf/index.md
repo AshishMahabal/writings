@@ -14,6 +14,6 @@ language: English
 ## 2024
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAANT56.html">ज्योतिष्य ते ज्योतीर्विज्ञान</a><span class="venue-item__when"> (Oct 2024)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAANT56.html">ज्योतिष्य ते ज्योतीर्विज्ञान</a><span class="venue-item__when"> (Oct 2024)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

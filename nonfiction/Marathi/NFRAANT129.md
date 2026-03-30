@@ -13,5 +13,5 @@ subtype: बुद्धिप्रामाण्यवाद
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Oct 2024 — Anthology: [तर्किष्ट](/writings/publications/venues/venue-8e472101eb/index.html) — [2024](/writings/publications/years/2024/index.html)
+- Oct 2024 — Anthology: [तर्किष्ट](/publications/venues/venue-8e472101eb/index.html) — [2024](/publications/years/2024/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

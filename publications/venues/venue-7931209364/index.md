@@ -28,6 +28,6 @@ language: English
 ## 2014
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0117150.html">कृष्णलीला</a><span class="venue-item__when"> (2014)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0117150.html">कृष्णलीला</a><span class="venue-item__when"> (2014)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

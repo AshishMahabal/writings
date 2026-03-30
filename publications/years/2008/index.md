@@ -5,10 +5,10 @@ language: English
 
 # Publications in 2008
 
-- [Back to years](/writings/publications/years/index.html)
+- [Back to years](/publications/years/index.html)
 
 ## Online Magazine
 
 ### मायबोली
 
-- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/writings/fiction/Marathi/SFB0118156.html) (दिवाळी 2008) <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2008/30">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/fiction/Marathi/SFB0118156.html) (दिवाळी 2008) <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2008/30">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>

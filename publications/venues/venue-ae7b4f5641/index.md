@@ -13,6 +13,6 @@ language: English
 ## 2017
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0104043.html">ये रे माझ्या मागल्या</a><span class="venue-item__when"> (दिवाळी 2017)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0104043.html">ये रे माझ्या मागल्या</a><span class="venue-item__when"> (दिवाळी 2017)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

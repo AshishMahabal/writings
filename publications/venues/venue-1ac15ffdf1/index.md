@@ -29,6 +29,6 @@ language: English
 ## 2016
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0106058.html">नातीपरीक्षा</a><span class="venue-item__when"> (2016)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0106058.html">नातीपरीक्षा</a><span class="venue-item__when"> (2016)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

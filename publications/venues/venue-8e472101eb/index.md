@@ -14,6 +14,6 @@ language: English
 ## 2024
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAANT129.html">ग्रहताऱ्यांची उपासना कशाला करायची?</a><span class="venue-item__when"> (Oct 2024)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAANT129.html">ग्रहताऱ्यांची उपासना कशाला करायची?</a><span class="venue-item__when"> (Oct 2024)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

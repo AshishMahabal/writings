@@ -13,5 +13,5 @@ subtype: विज्ञान
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Jun-Jul 2025 — Magazine: [साइकिल](/writings/publications/venues/venue-72dcf424f4/index.html) — [2025](/writings/publications/years/2025/index.html)
+- Jun-Jul 2025 — Magazine: [साइकिल](/publications/venues/venue-72dcf424f4/index.html) — [2025](/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

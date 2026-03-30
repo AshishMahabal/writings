@@ -305,6 +305,16 @@ details summary {
   margin: 0.6rem auto;
 }
 
+.work-links {
+  margin: 0.75rem 0 1.25rem;
+  font-size: 1.05em;
+  font-weight: 500;
+}
+
+.work-link {
+  text-underline-offset: 4px;
+}
+
 .nav-active {
   font-weight: 700;
   text-decoration: underline;

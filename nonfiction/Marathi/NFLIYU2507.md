@@ -13,5 +13,5 @@ subtype: साहित्य
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Jul-Aug-Sep 2025 — Magazine: [युगवाणी](/writings/publications/venues/venue-c1b569855d/index.html) — [2025](/writings/publications/years/2025/index.html)
+- Jul-Aug-Sep 2025 — Magazine: [युगवाणी](/publications/venues/venue-c1b569855d/index.html) — [2025](/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -13,6 +13,6 @@ language: English
 ## 2021
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFSCPR2111.html">भारतीय खगोल - गणित परंपरा</a><span class="venue-item__when"> (Nov-Dec 2021)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCPR2111.html">भारतीय खगोल - गणित परंपरा</a><span class="venue-item__when"> (Nov-Dec 2021)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

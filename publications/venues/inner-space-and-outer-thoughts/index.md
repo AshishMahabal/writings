@@ -47,6 +47,6 @@ A few photographs from launch
 ## 2023
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/English/SFAN01E.html">Memoirs of a Status Quo</a><span class="venue-item__when"> (2023)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/English/SFAN01E.html">Memoirs of a Status Quo</a><span class="venue-item__when"> (2023)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

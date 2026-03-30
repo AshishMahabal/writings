@@ -14,5 +14,5 @@ translation: 'Yes'
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- 2009 — Magazine: [सावली](/writings/publications/venues/venue-a895e5e02f/index.html) — [2009](/writings/publications/years/2009/index.html)
+- 2009 — Magazine: [सावली](/publications/venues/venue-a895e5e02f/index.html) — [2009](/publications/years/2009/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

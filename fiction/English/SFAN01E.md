@@ -13,5 +13,5 @@ subtype: विज्ञानकथा
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- 2023 — Anthology: [Inner Space and Outer Thoughts](/writings/publications/venues/inner-space-and-outer-thoughts/index.html) — [2023](/writings/publications/years/2023/index.html)
+- 2023 — Anthology: [Inner Space and Outer Thoughts](/publications/venues/inner-space-and-outer-thoughts/index.html) — [2023](/publications/years/2023/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -13,5 +13,5 @@ subtype: विज्ञानकथा
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2019 — Magazine: [धनंजय](/writings/publications/venues/venue-a532506da6/index.html) — [2019](/writings/publications/years/2019/index.html)
+- दिवाळी 2019 — Magazine: [धनंजय](/publications/venues/venue-a532506da6/index.html) — [2019](/publications/years/2019/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

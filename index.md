@@ -37,9 +37,9 @@ On this site you will find details of my non-professional writings (mind you, I 
 <!-- AUTO:HOME_NAV:START -->
 ## Sections
 
-- [Fiction](/writings/fiction/index.html)
-- [Non-Fiction](/writings/nonfiction/index.html)
-- [Publications](/writings/publications/index.html)
+- [Fiction](/fiction/index.html)
+- [Non-Fiction](/nonfiction/index.html)
+- [Publications](/publications/index.html)
 <!-- AUTO:HOME_NAV:END -->
 
 ## Contact:

@@ -8,10 +8,13 @@ subtype: सामाजिक
 
 # विविधतेमध्ये अनेकता
 
-*(Text to be added here.)*
+<!-- AUTO:WORK_LINKS:START -->
+<p class="work-links"><a class="work-link" href="https://www.sudharak.in/2022/01/8039/">Read online</a></p>
+<!-- AUTO:WORK_LINKS:END -->
+
 
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Jan 2022 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2022](/writings/publications/years/2022/index.html)
+- Jan 2022 — Online Magazine: [आजचा सुधारक](/publications/venues/venue-d0fb43edff/index.html) — [2022](/publications/years/2022/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

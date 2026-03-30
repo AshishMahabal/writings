@@ -305,6 +305,21 @@ details summary {
   margin: 0.6rem auto;
 }
 
+.back-link {
+  font-size: 0.9em;
+  opacity: 0.6;
+  margin: 0 0 1.25rem;
+}
+
+.back-link a {
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 .work-links {
   margin: 0.75rem 0 1.25rem;
   font-size: 1.05em;

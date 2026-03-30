@@ -1126,7 +1126,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             common_badges_html = f'<div class="venue-common-badges">{" ".join(parts)}</div>'
 
         block_lines: List[str] = [
-            f"- [Back to venues]({link('publications/venues/index.html')})",
+            f'<p class="back-link"><a href="{link("publications/venues/index.html")}">&#8592; All venues</a></p>',
             "",
         ]
         if common_badges_html:

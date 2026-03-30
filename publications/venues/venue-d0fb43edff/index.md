@@ -6,7 +6,7 @@ language: English
 # आजचा सुधारक (Online Magazine)
 
 <!-- AUTO:VENUE_ENTRIES:START -->
-- [Back to venues](/publications/venues/index.html)
+<p class="back-link"><a href="/publications/venues/index.html">&#8592; All venues</a></p>
 
 ## 2026
 

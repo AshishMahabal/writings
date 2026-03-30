@@ -7,7 +7,7 @@ language: English
 
 
 <!-- AUTO:VENUE_ENTRIES:START -->
-- [Back to venues](/publications/venues/index.html)
+<p class="back-link"><a href="/publications/venues/index.html">&#8592; All venues</a></p>
 
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></div>
 

@@ -1021,7 +1021,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
     for v in venues:
         slug = venue_slug_map[v]
         sub = d[d["Venue"] == v].copy()
-        sub = sub.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort")
+        sub = sub.sort_values(["YearNum", "MonthKey", "Title"], kind="mergesort", ascending=[False, False, True])
 
         # Venue type once at top (if mixed types, show "Mixed")
         pubtypes = [
@@ -1140,7 +1140,7 @@ def generate_venue_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> No
             block_lines.append("</ul>")
             block_lines.append("")
         else:
-            for y_val, g1 in sub.groupby(sub["YearNum"], sort=True):
+            for y_val, g1 in sub.groupby(sub["YearNum"], sort=False):
                 y_display = str(int(y_val)) if pd.notna(y_val) else "(year unknown)"
                 block_lines += [f"## {y_display}", ""]
                 block_lines.append(f'<ul class="venue-list venue-list--{slug_class(venue_type or "venue")}">')

@@ -8,40 +8,11 @@ language: English
 <!-- AUTO:VENUE_ENTRIES:START -->
 - [Back to venues](/publications/venues/index.html)
 
-## 2019
+## 2026
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS1904.html">घरोघरी अतिरेकी जन्मती</a><span class="venue-item__when"> (Apr 2019)</span> <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2020
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCAS2005.html">विषाणूंच्या अगम्य गमती</a><span class="venue-item__when"> (May 2020)</span> <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2007.html">पुन्हा-पुन्हा घडणारे अघटित</a><span class="venue-item__when"> (Jul 2020)</span> <a class="venue-item__online" href="https://www.sudharak.in/2020/07/2936/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2010.html">स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत</a><span class="venue-item__when"> (Oct 2020)</span> <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2021
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a><span class="venue-item__when"> (Jan 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/01/6096/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0116145.html">कुपमंडूक</a><span class="venue-item__when"> (Aug 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7536/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a><span class="venue-item__when"> (Aug 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2022
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2201.html">विविधतेमध्ये अनेकता</a><span class="venue-item__when"> (Jan 2022)</span> <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2207.html">न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण</a><span class="venue-item__when"> (Jul 2022)</span> <a class="venue-item__online" href="https://www.sudharak.in/2022/07/8960/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2210.html">न्यायासाठी संवाद आवश्यक</a><span class="venue-item__when"> (Oct 2022)</span> <a class="venue-item__online" href="https://www.sudharak.in/2022/10/9320/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2023
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2307.html">कृत्रिम बुद्धिमत्ता : आळं की आळा</a><span class="venue-item__when"> (Jul 2023)</span> <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAAS2601.html">चैतन्याचा प्रश्न</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAAS2601_2.html">देव, अनिवार्यता आणि मानवी अपेक्षा</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2025
@@ -50,10 +21,39 @@ language: English
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2510.html">आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या</a><span class="venue-item__when"> (Oct 2025)</span> <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
-## 2026
+## 2023
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAAS2601.html">चैतन्याचा प्रश्न</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAAS2601_2.html">देव, अनिवार्यता आणि मानवी अपेक्षा</a><span class="venue-item__when"> (Jan 2026)</span> <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2307.html">कृत्रिम बुद्धिमत्ता : आळं की आळा</a><span class="venue-item__when"> (Jul 2023)</span> <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2022
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2210.html">न्यायासाठी संवाद आवश्यक</a><span class="venue-item__when"> (Oct 2022)</span> <a class="venue-item__online" href="https://www.sudharak.in/2022/10/9320/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2207.html">न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण</a><span class="venue-item__when"> (Jul 2022)</span> <a class="venue-item__online" href="https://www.sudharak.in/2022/07/8960/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2201.html">विविधतेमध्ये अनेकता</a><span class="venue-item__when"> (Jan 2022)</span> <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2021
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0116145.html">कुपमंडूक</a><span class="venue-item__when"> (Aug 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7536/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a><span class="venue-item__when"> (Aug 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a><span class="venue-item__when"> (Jan 2021)</span> <a class="venue-item__online" href="https://www.sudharak.in/2021/01/6096/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2020
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2010.html">स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत</a><span class="venue-item__when"> (Oct 2020)</span> <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS2007.html">पुन्हा-पुन्हा घडणारे अघटित</a><span class="venue-item__when"> (Jul 2020)</span> <a class="venue-item__online" href="https://www.sudharak.in/2020/07/2936/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCAS2005.html">विषाणूंच्या अगम्य गमती</a><span class="venue-item__when"> (May 2020)</span> <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2019
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSOAS1904.html">घरोघरी अतिरेकी जन्मती</a><span class="venue-item__when"> (Apr 2019)</span> <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-social">Social</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

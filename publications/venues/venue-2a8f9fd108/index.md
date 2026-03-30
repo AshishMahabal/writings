@@ -8,34 +8,10 @@ language: English
 <!-- AUTO:VENUE_ENTRIES:START -->
 - [Back to venues](/publications/venues/index.html)
 
-## 2006
+## 2014
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAMB06.html">भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?</a><span class="venue-item__when"> (दिवाळी 2006)</span> <a class="venue-item__online" href="https://www.maayboli.com/hitguj/messages/118369/118185.html?1161387673">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2008
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0118156.html">समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?</a><span class="venue-item__when"> (दिवाळी 2008)</span> <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2008/30">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
-</ul>
-
-## 2009
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB09.html">शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)</a><span class="venue-item__when"> (दिवाळी 2009)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2010
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB10.html">नैसर्गिक भरार्‍या</a><span class="venue-item__when"> (दिवाळी 2010)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
-</ul>
-
-## 2011
-
-<ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB11.html">नाती, खगोलशास्त्रीय</a><span class="venue-item__when"> (दिवाळी 2011)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB14.html">शोध बदलांचा</a><span class="venue-item__when"> (दिवाळी 2014)</span> <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2014/1559">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
 ## 2013
@@ -44,9 +20,33 @@ language: English
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB13.html">नोबल ईज ही हू नोबल डज</a><span class="venue-item__when"> (दिवाळी 2013)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 
-## 2014
+## 2011
 
 <ul class="venue-list venue-list--online-magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB14.html">शोध बदलांचा</a><span class="venue-item__when"> (दिवाळी 2014)</span> <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2014/1559">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB11.html">नाती, खगोलशास्त्रीय</a><span class="venue-item__when"> (दिवाळी 2011)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2010
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB10.html">नैसर्गिक भरार्‍या</a><span class="venue-item__when"> (दिवाळी 2010)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2009
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFSCMB09.html">शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)</a><span class="venue-item__when"> (दिवाळी 2009)</span> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-science">Science</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
+</ul>
+
+## 2008
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/Marathi/SFB0118156.html">समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?</a><span class="venue-item__when"> (दिवाळी 2008)</span> <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2008/30">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></span></li>
+</ul>
+
+## 2006
+
+<ul class="venue-list venue-list--online-magazine">
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAMB06.html">भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?</a><span class="venue-item__when"> (दिवाळी 2006)</span> <a class="venue-item__online" href="https://www.maayboli.com/hitguj/messages/118369/118185.html?1161387673">Online</a> <span class="venue-item__badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

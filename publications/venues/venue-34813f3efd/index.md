@@ -10,10 +10,10 @@ language: English
 
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-travel">Travel</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></div>
 
-## 2017
+## 2019
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFTRMU17.html">चित्रकाराच्या गावा जावे</a><span class="venue-item__when"> (दिवाळी 2017)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFTRMU19.html">स्टॉकहोमच्या कला-विकला</a><span class="venue-item__when"> (दिवाळी 2019)</span></li>
 </ul>
 
 ## 2018
@@ -22,9 +22,9 @@ language: English
 <li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFTRMU18.html">खिचन, खेजरली, आणि खूप काही</a><span class="venue-item__when"> (दिवाळी 2018)</span></li>
 </ul>
 
-## 2019
+## 2017
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFTRMU19.html">स्टॉकहोमच्या कला-विकला</a><span class="venue-item__when"> (दिवाळी 2019)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFTRMU17.html">चित्रकाराच्या गावा जावे</a><span class="venue-item__when"> (दिवाळी 2017)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

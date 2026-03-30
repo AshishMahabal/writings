@@ -12,6 +12,16 @@ Info related to publication venues ...
 
 [By year](/publications/years/index.html) · [By tag](/publications/tags/index.html) · [By venue](/publications/venues/index.html)
 
+## Recent
+
+- [नागपूरमधील तीन कार्यक्रम - काही विचार](/nonfiction/Marathi/NFSCBV2603.html) (Mar 2026) — BMM Vrutta
+- [बदलत्या आकाशाच्या नव्या वेधशाळा](/nonfiction/Marathi/NFSCBV2602.html) (Feb 2026) — BMM Vrutta
+- [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/nonfiction/Marathi/NFSCBV2601.html) (Jan 2026) — BMM Vrutta
+- [चैतन्याचा प्रश्न](/nonfiction/Marathi/NFRAAS2601.html) (Jan 2026) — आजचा सुधारक
+- [देव, अनिवार्यता आणि मानवी अपेक्षा](/nonfiction/Marathi/NFRAAS2601_2.html) (Jan 2026) — आजचा सुधारक
+
+---
+
 ## Anthology
 
 ### [Inner Space and Outer Thoughts](/publications/venues/inner-space-and-outer-thoughts/index.html)

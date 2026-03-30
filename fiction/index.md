@@ -8,9 +8,90 @@ language: English
 I write primarily hard science fiction, and so far primarily in Marathi. I ...
 
 <!-- AUTO:FICTION_LIST:START -->
-## By language
+**By language:** [English](/fiction/English/index.html) · [Marathi](/fiction/Marathi/index.html)
 
-[English](/fiction/English/index.html) · [Marathi](/fiction/Marathi/index.html)
+## By year
+
+### 2025
+
+- [नैकेश्वर](/fiction/Marathi/SFAA25.html) [ऐसी अक्षरे, 2025] <a class="venue-item__online" href="https://aisiakshare.com/node/9377">Online</a>
+- [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/fiction/Marathi/SFNV25.html) [नवल, 2025]
+- [स्वर्गयातना](/fiction/Marathi/SFDH25.html) [धनंजय, 2025]
+
+### 2024
+
+- [चेतागुंजन](/fiction/Marathi/SFAA24.html) [ऐसी अक्षरे, 2024] <a class="venue-item__online" href="https://aisiakshare.com/index.php/node/9124">Online</a>
+- [जैवमंथन](/fiction/Marathi/SFNV24.html) [नवल, 2024]
+- [याज्ञरक्ष](/fiction/Marathi/SFDH24.html) [धनंजय, 2024]
+
+### 2023
+
+- [Memoirs of a Status Quo](/fiction/English/SFAN01E.html) [Inner Space and Outer Thoughts, 2023]
+- [क्वांटम हाईस्ट](/fiction/Marathi/SFNV23.html) [नवल, 2023]
+- [चलो रतन](/fiction/Marathi/SFDH23.html) [धनंजय, 2023]
+- [जित्याची खोड](/fiction/Marathi/SFAA23.html) [ऐसी अक्षरे, 2023] <a class="venue-item__online" href="https://aisiakshare.com/node/8860">Online</a>
+
+### 2022
+
+- [दुवे आडवे तिडवे](/fiction/Marathi/SFDH22.html) [धनंजय, 2022]
+- [मुंगी उडाली आकाशी](/fiction/Marathi/SFAA22.html) [ऐसी अक्षरे, 2022] <a class="venue-item__online" href="https://aisiakshare.com/node/8594">Online</a>
+
+### 2021
+
+- [यमांत](/fiction/Marathi/SFAA21.html) [ऐसी अक्षरे, 2021] <a class="venue-item__online" href="https://aisiakshare.com/node/8247">Online</a>
+
+### 2020
+
+- [सत्यमेवा जयते](/fiction/Marathi/SFAA20.html) [ऐसी अक्षरे, 2020] <a class="venue-item__online" href="https://aisiakshare.com/node/7882">Online</a>
+- [सावट](/fiction/Marathi/SFDH20.html) [धनंजय, 2020]
+
+### 2019
+
+- [कारटीची कथा](/fiction/Marathi/SFHA19.html) [हंस, 2019]
+- [लक्ष्मीदासाची कथा मूळपदी](/fiction/Marathi/SFDH19.html) [धनंजय, 2019]
+
+### 2018
+
+- [तेथे पाहिजे जातीचे](/fiction/Marathi/SFB0115137.html) [धनंजय, 2018]
+- [पाचविला पुजलेला प्रश्न](/fiction/Marathi/SFB0102021.html) [नवल, 2018]
+
+### 2017
+
+- [कचरा गो](/fiction/Marathi/SFB0108075.html) [धनंजय, 2017]
+- [मन तर सवय](/fiction/Marathi/SFB0113123.html) [नवल, 2017]
+- [ये रे माझ्या मागल्या](/fiction/Marathi/SFB0104043.html) [पुणे प्रतिष्ठान, 2017]
+- [नाऊ यु सी मी](/fiction/Marathi/SFB0110105.html) [अनुभव, 2017]
+
+### 2016
+
+- [नातीपरीक्षा](/fiction/Marathi/SFB0106058.html) [पूर्वसंचित गोफ नात्यांचा, 2016]
+- [दिव्यदृष्टी](/fiction/Marathi/SFB0111112.html) [धनंजय, 2016]
+- [धनुष्यातून सुटलेला बाण](/fiction/Marathi/SFB0103030.html) [ऐसी अक्षरे, 2016] <a class="venue-item__online" href="https://aisiakshare.com/node/5611">Online</a>
+- [बेिंबाचा प्रतिशोध](/fiction/Marathi/SFB0101013.html) [नवल, 2016]
+- [बेबी एलिफण्ट वॉक्स](/fiction/Marathi/SFB0107067.html) [अनुभव, 2016]
+
+### 2015
+
+- [अंतर्ध्वनी](/fiction/Marathi/SFB0105048.html) [नवल, 2015]
+- [घोस्ट रायटर](/fiction/Marathi/SFB0112119.html) [धनंजय, 2015]
+
+### 2014
+
+- [कुपमंडूक](/fiction/Marathi/SFB0116145.html) [ऐसी अक्षरे, 2014] <a class="venue-item__online" href="https://aisiakshare.com/node/3374">Online</a>
+- [रक्त तबकड्या](/fiction/Marathi/SFB0109089.html) [मविप, 2014]
+- [पुनरागमनायच](/fiction/Marathi/SFB0114133.html) [आरती, 2014]
+
+### 2013
+
+- [कृष्णलीला](/fiction/Marathi/SFB0117150.html) [मविप, 2013]
+
+### 2009
+
+- [काचेची जपमाळ](/fiction/Marathi/NFLLSWXXTR.html) [सावली, 2009]
+
+### 2008
+
+- [समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?](/fiction/Marathi/SFB0118156.html) [मायबोली, 2008] <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2008/30">Online</a>
 
 ## All
 

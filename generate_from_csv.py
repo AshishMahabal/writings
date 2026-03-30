@@ -735,20 +735,46 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
     items = items.sort_values(["language_full", "Title"], kind="mergesort")
     langs = sorted(items["language_full"].unique().tolist())
 
+    # --- Compute earliest year and month per work for "By year" section ---
+    year_map: Dict[str, int] = {}
+    month_map: Dict[str, int] = {}
+    for wid, g in df[df["kind_norm"] == kind].groupby("work_id", sort=False):
+        g2 = g.copy()
+        g2["_y"] = g2["Year"].apply(year_int)
+        g2["_m"] = g2["Month"].apply(month_key)
+        g2 = g2.sort_values(["_y", "_m"], kind="mergesort")
+        if len(g2) and pd.notna(g2["_y"].iloc[0]):
+            year_map[wid] = int(g2["_y"].iloc[0])
+            month_map[wid] = int(g2["_m"].iloc[0])
+
     # --- Build only the auto-updated block for the top index page ---
     block_lines: List[str] = []
-    block_lines.append("## By language")
-    block_lines.append("")
-#    block_lines.append(" | ")
-#    for L in langs:
-#        block_lines.append(f"[{L}]({link(f'{kind}/{L}/index.html')})")
-#        block_lines.append(" | ")
     lang_links = [
         f"[{L}]({link(f'{kind}/{L}/index.html')})"
         for L in sorted(langs)
     ]
-    block_lines.append(" · ".join(lang_links))
+    block_lines.append("**By language:** " + " · ".join(lang_links))
     block_lines.append("")
+
+    # --- By year (newest first, within year by month newest first) ---
+    block_lines.append("## By year")
+    block_lines.append("")
+    items_with_year = items[items["work_id"].isin(year_map)].copy()
+    items_with_year["_year"] = items_with_year["work_id"].map(year_map)
+    items_with_year["_month"] = items_with_year["work_id"].map(month_map)
+    items_with_year = items_with_year.sort_values(["_year", "_month", "Title"], ascending=[False, False, True], kind="mergesort")
+    for y_val, g in items_with_year.groupby("_year", sort=False):
+        block_lines.append(f"### {int(y_val)}")
+        block_lines.append("")
+        for _, r in g.iterrows():
+            wid = r["work_id"]
+            L = r["language_full"]
+            title = r["Title"]
+            hint = hint_map.get(wid, "")
+            block_lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
+        block_lines.append("")
+
+    # --- All (alphabetical) ---
     block_lines.append("## All")
     block_lines.append("")
     for _, r in items.iterrows():
@@ -798,16 +824,37 @@ def generate_publications_index(df: pd.DataFrame, venue_slug_map: Dict[str, str]
     block: List[str] = []
     block.append("## Browse")
     block.append("")
-#    block.append(f"|")
-#    block.append(f"|[By year]({link('publications/years/index.html')})")
-#    block.append(" | ")
-#    block.append(f"[By venue]({link('publications/venues/index.html')})")
-#    block.append(" |")
     block.append(
         f"[By year]({link('publications/years/index.html')}) · "
         f"[By tag]({link('publications/tags/index.html')}) · "
         f"[By venue]({link('publications/venues/index.html')})"
     )
+    block.append("")
+
+    # Recent publications (top 5, newest first)
+    recent = d.sort_values(["YearNum", "MonthKey"], ascending=[False, False], kind="mergesort").drop_duplicates("work_id").head(5)
+    block.append("## Recent")
+    block.append("")
+    for _, r in recent.iterrows():
+        title = r["Title"]
+        wid = r["work_id"]
+        k = r["kind_norm"]
+        L = r["language_full"]
+        venue = clean_str(r.get("Venue", ""))
+        m = clean_str(r.get("Month", ""))
+        y_txt = year_str(r.get("Year", None))
+        when_parts = []
+        if m:
+            when_parts.append(m)
+        if y_txt:
+            when_parts.append(y_txt)
+        when = " ".join(when_parts).strip()
+        when = f" ({when})" if when else ""
+        venue_txt = f" — {venue}" if venue else ""
+        block.append(f"- [{title}]({link(f'{k}/{L}/{wid}.html')}){when}{venue_txt}")
+    block.append("")
+
+    block.append("---")
     block.append("")
 
     for pubtype, g1 in d.groupby("Pubtype", sort=True):
@@ -870,11 +917,11 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
     d["_kind_label"] = d["kind_norm"].apply(kind_display)
     d["_subtype_labels"] = d.get("Subtype", "").apply(lambda x: parse_subtypes(clean_str(x)))
 
-    years = sorted(d["YearNum"].unique().tolist())
+    years = sorted(d["YearNum"].unique().tolist(), reverse=True)
     base = Path("publications") / "years"
     base.mkdir(parents=True, exist_ok=True)
 
-    # Year index with counts + unique badges per year
+    # Year index with counts + unique badges per year (newest first)
     lines: List[str] = ["# Publications by year", ""]
     for y in years:
         suby = d[d["YearNum"] == y].copy()
@@ -909,7 +956,7 @@ def generate_publications_year_indexes(df: pd.DataFrame) -> None:
         body: List[str] = [
             f"# Publications in {y}",
             "",
-            f"- [Back to years]({link('publications/years/index.html')})",
+            f'<p class="back-link"><a href="{link("publications/years/index.html")}">&#8592; All years</a></p>',
             "",
         ]
         for pubtype, g1 in sub.groupby("Pubtype", sort=True):

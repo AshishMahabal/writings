@@ -5,7 +5,7 @@ language: English
 
 # Publications in 2016
 
-- [Back to years](/publications/years/index.html)
+<p class="back-link"><a href="/publications/years/index.html">&#8592; All years</a></p>
 
 ## Anthology
 

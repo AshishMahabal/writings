@@ -70,6 +70,11 @@ if [ -f "$ROOT/index.md" ]; then
   render_one "$ROOT/index.md" "$SITE/index.html" "Writings" "en" "home" ""
 fi
 
+# Build 404 page
+if [ -f "$ROOT/404.md" ]; then
+  render_one "$ROOT/404.md" "$SITE/404.html" "Page not found" "en" "" ""
+fi
+
 # Build all content pages
 while IFS= read -r -d '' md; do
   rel="${md#$ROOT/}"

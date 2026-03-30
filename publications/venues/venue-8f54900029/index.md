@@ -5,9 +5,9 @@ language: English
 
 # उपक्रम (Online Magazine)
 
-- [Back to venues](/writings/publications/venues/index.html)
-
 <!-- AUTO:VENUE_ENTRIES:START -->
+- [Back to venues](/publications/venues/index.html)
+
 ## 2010
 
 <ul class="venue-list venue-list--online-magazine">

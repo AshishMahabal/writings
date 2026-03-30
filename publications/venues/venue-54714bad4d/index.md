@@ -9,6 +9,8 @@ language: English
 <div class="hero-text">
 
 <!-- AUTO:VENUE_ENTRIES:START -->
+- [Back to venues](/publications/venues/index.html)
+
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></div>
 
 <ul class="venue-list venue-list--book">
@@ -66,4 +68,3 @@ language: English
 </div>
 </div>
 
-- [Back to venues](/writings/publications/venues/index.html)

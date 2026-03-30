@@ -5,9 +5,9 @@ language: English
 
 # BMM Vrutta (Online Magazine)
 
-- [Back to venues](/writings/publications/venues/index.html)
-
 <!-- AUTO:VENUE_ENTRIES:START -->
+- [Back to venues](/publications/venues/index.html)
+
 ## 2022
 
 <ul class="venue-list venue-list--online-magazine">

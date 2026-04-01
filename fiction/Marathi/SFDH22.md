@@ -13,5 +13,5 @@ subtype: विज्ञानकथा
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2022 — Magazine: [धनंजय](/publications/venues/venue-a532506da6/index.html) — [2022](/publications/years/2022/index.html)
+- दिवाळी 2022 — Magazine: [धनंजय](/writings/publications/venues/venue-a532506da6/index.html) — [2022](/writings/publications/years/2022/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -5,10 +5,10 @@ language: English
 
 # Subtype: Language
 
-- [Back to tags](/publications/tags/index.html)
+- [Back to tags](/writings/publications/tags/index.html)
 
 ## Online Magazine
 
-### [उपक्रम](/publications/venues/venue-8f54900029/index.html)
+### [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html)
 
-- [ओध्येमठाची निर्मिती आणि मराठी बाण](/nonfiction/Marathi/NFLAUP12.html) (दिवाळी 2012) <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a>
+- [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) (दिवाळी 2012) <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a>

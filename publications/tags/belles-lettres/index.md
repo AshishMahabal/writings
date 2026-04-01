@@ -5,10 +5,10 @@ language: English
 
 # Subtype: Belles-lettres
 
-- [Back to tags](/publications/tags/index.html)
+- [Back to tags](/writings/publications/tags/index.html)
 
 ## Magazine
 
-### [सावली](/publications/venues/venue-a895e5e02f/index.html)
+### [सावली](/writings/publications/venues/venue-a895e5e02f/index.html)
 
-- [काचेची जपमाळ](/fiction/Marathi/NFLLSWXXTR.html) (2009)
+- [काचेची जपमाळ](/writings/fiction/Marathi/NFLLSWXXTR.html) (2009)

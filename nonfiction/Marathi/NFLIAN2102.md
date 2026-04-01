@@ -14,5 +14,5 @@ translation: 'Yes'
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Feb 2021 — Magazine: [अनुभव](/publications/venues/venue-59d8f87380/index.html) — [2021](/publications/years/2021/index.html)
+- Feb 2021 — Magazine: [अनुभव](/writings/publications/venues/venue-59d8f87380/index.html) — [2021](/writings/publications/years/2021/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

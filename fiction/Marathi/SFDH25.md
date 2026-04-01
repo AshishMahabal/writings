@@ -13,5 +13,5 @@
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2025 — Magazine: [धनंजय](/publications/venues/venue-a532506da6/index.html) — [2025](/publications/years/2025/index.html)
+- दिवाळी 2025 — Magazine: [धनंजय](/writings/publications/venues/venue-a532506da6/index.html) — [2025](/writings/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

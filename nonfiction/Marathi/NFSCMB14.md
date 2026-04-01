@@ -16,5 +16,5 @@ subtype: विज्ञान
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2014 — Online Magazine: [मायबोली](/publications/venues/venue-2a8f9fd108/index.html) — [2014](/publications/years/2014/index.html)
+- दिवाळी 2014 — Online Magazine: [मायबोली](/writings/publications/venues/venue-2a8f9fd108/index.html) — [2014](/writings/publications/years/2014/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

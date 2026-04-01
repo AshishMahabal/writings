@@ -7,13 +7,13 @@ language: English
 
 
 <!-- AUTO:VENUE_ENTRIES:START -->
-<p class="back-link"><a href="/publications/venues/index.html">&#8592; All venues</a></p>
+<p class="back-link"><a href="/writings/publications/venues/index.html">&#8592; All venues</a></p>
 
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-literature">Literature</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></div>
 
 ## 2025
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFLIYU2507.html">जयंत नारळीकरांच्या मराठी साहित्याचा पैस</a><span class="venue-item__when"> (Jul-Aug-Sep 2025)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFLIYU2507.html">जयंत नारळीकरांच्या मराठी साहित्याचा पैस</a><span class="venue-item__when"> (Jul-Aug-Sep 2025)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

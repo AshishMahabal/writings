@@ -13,5 +13,5 @@ subtype: विज्ञान
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- May 2014 — Magazine: [मविप](/publications/venues/venue-dd1e06c88a/index.html) — [2014](/publications/years/2014/index.html)
+- May 2014 — Magazine: [मविप](/writings/publications/venues/venue-dd1e06c88a/index.html) — [2014](/writings/publications/years/2014/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

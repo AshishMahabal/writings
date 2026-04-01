@@ -5,10 +5,10 @@ language: English
 
 # Subtype: Arts
 
-- [Back to tags](/publications/tags/index.html)
+- [Back to tags](/writings/publications/tags/index.html)
 
 ## Online Magazine
 
-### [उपक्रम](/publications/venues/venue-8f54900029/index.html)
+### [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html)
 
-- [माझे संगीताचे प्रयोग](/nonfiction/Marathi/NFARUP10.html) (दिवाळी 2010)
+- [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) (दिवाळी 2010)

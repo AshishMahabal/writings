@@ -13,5 +13,5 @@ subtype: प्रवास
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2018 — Magazine: [मुशाफिरी](/publications/venues/venue-34813f3efd/index.html) — [2018](/publications/years/2018/index.html)
+- दिवाळी 2018 — Magazine: [मुशाफिरी](/writings/publications/venues/venue-34813f3efd/index.html) — [2018](/writings/publications/years/2018/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

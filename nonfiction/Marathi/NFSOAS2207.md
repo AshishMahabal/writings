@@ -16,5 +16,5 @@ subtype: सामाजिक
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Jul 2022 — Online Magazine: [आजचा सुधारक](/publications/venues/venue-d0fb43edff/index.html) — [2022](/publications/years/2022/index.html)
+- Jul 2022 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2022](/writings/publications/years/2022/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

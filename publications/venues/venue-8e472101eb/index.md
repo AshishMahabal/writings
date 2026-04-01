@@ -7,13 +7,13 @@ language: English
 
 
 <!-- AUTO:VENUE_ENTRIES:START -->
-<p class="back-link"><a href="/publications/venues/index.html">&#8592; All venues</a></p>
+<p class="back-link"><a href="/writings/publications/venues/index.html">&#8592; All venues</a></p>
 
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span> <span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></div>
 
 ## 2024
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/nonfiction/Marathi/NFRAANT129.html">ग्रहताऱ्यांची उपासना कशाला करायची?</a><span class="venue-item__when"> (Oct 2024)</span></li>
+<li class="venue-item venue-item--non-fiction"><a class="venue-item__title" href="/writings/nonfiction/Marathi/NFRAANT129.html">ग्रहताऱ्यांची उपासना कशाला करायची?</a><span class="venue-item__when"> (Oct 2024)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

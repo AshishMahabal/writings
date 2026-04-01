@@ -16,5 +16,5 @@ subtype: विज्ञान
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Dec 2022 — Online Magazine: [BMM Vrutta](/publications/venues/bmm-vrutta/index.html) — [2022](/publications/years/2022/index.html)
+- Dec 2022 — Online Magazine: [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html) — [2022](/writings/publications/years/2022/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

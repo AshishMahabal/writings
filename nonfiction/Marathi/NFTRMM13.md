@@ -16,5 +16,5 @@ subtype: प्रवास
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- दिवाळी 2013 — Online Magazine: [MMLA](/publications/venues/mmla/index.html) — [2013](/publications/years/2013/index.html)
+- दिवाळी 2013 — Online Magazine: [MMLA](/writings/publications/venues/mmla/index.html) — [2013](/writings/publications/years/2013/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

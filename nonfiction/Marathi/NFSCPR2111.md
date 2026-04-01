@@ -13,5 +13,5 @@ subtype: विज्ञान
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Nov-Dec 2021 — Magazine: [प्रसाद](/publications/venues/venue-205c73bd40/index.html) — [2021](/publications/years/2021/index.html)
+- Nov-Dec 2021 — Magazine: [प्रसाद](/writings/publications/venues/venue-205c73bd40/index.html) — [2021](/writings/publications/years/2021/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

@@ -5,14 +5,14 @@ language: English
 
 # Publications in 2011
 
-<p class="back-link"><a href="/publications/years/index.html">&#8592; All years</a></p>
+<p class="back-link"><a href="/writings/publications/years/index.html">&#8592; All years</a></p>
 
 ## Online Magazine
 
 ### उपक्रम
 
-- [स्वार्थातून परमार्थ](/nonfiction/Marathi/NFSOUP11.html) (दिवाळी 2011) <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) (दिवाळी 2011) <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
 
 ### मायबोली
 
-- [नाती, खगोलशास्त्रीय](/nonfiction/Marathi/NFSCMB11.html) (दिवाळी 2011) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) (दिवाळी 2011) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>

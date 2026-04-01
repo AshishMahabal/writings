@@ -40,13 +40,13 @@ A few photographs from launch
 </div>
 
 <!-- AUTO:VENUE_ENTRIES:START -->
-<p class="back-link"><a href="/publications/venues/index.html">&#8592; All venues</a></p>
+<p class="back-link"><a href="/writings/publications/venues/index.html">&#8592; All venues</a></p>
 
 <div class="venue-common-badges"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span> <span class="badge badge--kind badge--kind-fiction">Fiction</span></div>
 
 ## 2023
 
 <ul class="venue-list venue-list--anthology">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/fiction/English/SFAN01E.html">Memoirs of a Status Quo</a><span class="venue-item__when"> (2023)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/English/SFAN01E.html">Memoirs of a Status Quo</a><span class="venue-item__when"> (2023)</span></li>
 </ul>
 <!-- AUTO:VENUE_ENTRIES:END -->

@@ -16,5 +16,5 @@ subtype: गणित
 ## Publication history
 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
-- Mar 2025 — Online Magazine: [BMM Vrutta](/publications/venues/bmm-vrutta/index.html) — [2025](/publications/years/2025/index.html)
+- Mar 2025 — Online Magazine: [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html) — [2025](/writings/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->

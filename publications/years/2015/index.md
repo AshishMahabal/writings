@@ -5,26 +5,26 @@ language: English
 
 # Publications in 2015
 
-<p class="back-link"><a href="/publications/years/index.html">&#8592; All years</a></p>
+<p class="back-link"><a href="/writings/publications/years/index.html">&#8592; All years</a></p>
 
 ## Anthology
 
 ### मन्वंतर
 
-- [रक्त तबकड्या](/fiction/Marathi/SFB0109089.html) (2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Magazine
 
 ### धनंजय
 
-- [घोस्ट रायटर](/fiction/Marathi/SFB0112119.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [घोस्ट रायटर](/writings/fiction/Marathi/SFB0112119.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ### नवल
 
-- [अंतर्ध्वनी](/fiction/Marathi/SFB0105048.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Online Magazine
 
 ### MMLA (Diwali Ank)
 
-- [असामी](/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>
+- [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) (दिवाळी 2015) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-travel">Travel</span></span>

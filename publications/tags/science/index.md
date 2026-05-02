@@ -41,6 +41,8 @@ language: English
 - [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) (Jan 2025) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
 - [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) (Jan 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a>
 - [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) (Feb 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a>
+- [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) (Apr 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a>
+- [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) (May 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
 
 ### [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html)
 

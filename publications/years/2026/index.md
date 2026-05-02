@@ -7,14 +7,21 @@ language: English
 
 <p class="back-link"><a href="/writings/publications/years/index.html">&#8592; All years</a></p>
 
+## Magazine
+
+### मुक्त संवाद
+
+- [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) (May 2026) <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+
 ## Online Magazine
 
 ### BMM Vrutta
 
 - [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) (Jan 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 - [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) (Feb 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
-- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSCBV2603.html) (Mar 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
-- [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) (Apr 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) (Mar 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-social">Social</span></span>
+- [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) (Apr 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
+- [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) (May 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a> <span class="row-badges"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span> <span class="badge badge--subtype badge--subtype-science">Science</span></span>
 
 ### आजचा सुधारक
 

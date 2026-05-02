@@ -14,9 +14,11 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 
 ### 2026
 
+- [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
+- [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) [मुक्त संवाद, 2026]
 - [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a>
 - [महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन](/writings/nonfiction/Marathi/NFRAAS2604.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/04/14929/">Online</a>
-- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSCBV2603.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
+- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
 - [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a>
 - [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a>
 - [देव, अनिवार्यता आणि मानवी अपेक्षा](/writings/nonfiction/Marathi/NFRAAS2601_2.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a>
@@ -135,10 +137,12 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) [MMLA, 2015]
 - [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) [आजचा सुधारक, 2025] <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a>
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a>
+- [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
 - [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) [उपक्रम, 2012] <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a>
 - [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) [आजचा सुधारक, 2023] <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a>
 - [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) [आजचा सुधारक, 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a>
 - [खिचन, खेजरली, आणि खूप काही](/writings/nonfiction/Marathi/NFTRMU18.html) [मुशाफिरी, 2018]
+- [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) [मुक्त संवाद, 2026]
 - [ग्रहताऱ्यांची उपासना कशाला करायची?](/writings/nonfiction/Marathi/NFRAANT129.html) [तर्किष्ट, 2024]
 - [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) [आजचा सुधारक, 2019] <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a>
 - [चित्रकाराच्या गावा जावे](/writings/nonfiction/Marathi/NFTRMU17.html) [मुशाफिरी, 2017]
@@ -146,7 +150,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) [युगवाणी, 2025]
 - [ज्योतिष्य ते ज्योतीर्विज्ञान](/writings/nonfiction/Marathi/NFRAANT56.html) [तर्कटपंजरी, 2024]
 - [देव, अनिवार्यता आणि मानवी अपेक्षा](/writings/nonfiction/Marathi/NFRAAS2601_2.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a>
-- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSCBV2603.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
+- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
 - [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) [मायबोली, 2011]
 - [नैसर्गिक भरार्‍या](/writings/nonfiction/Marathi/NFSCMB10.html) [मायबोली, 2010]
 - [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) [मायबोली, 2013]

@@ -14,11 +14,11 @@ Info related to publication venues ...
 
 ## Recent
 
+- [पडत्या दुर्बीणीला स्थिरावताना](/writings/nonfiction/Marathi/NFSCBV2606.html) (Jun 2026) — BMM Vrutta
 - [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) (May 2026) — BMM Vrutta
 - [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) (May 2026) — मुक्त संवाद
 - [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) (Apr 2026) — BMM Vrutta
 - [महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन](/writings/nonfiction/Marathi/NFRAAS2604.html) (Apr 2026) — आजचा सुधारक
-- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) (Mar 2026) — BMM Vrutta
 
 ---
 
@@ -170,6 +170,7 @@ Info related to publication venues ...
 - [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) (Mar 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
 - [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) (Apr 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a>
 - [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) (May 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
+- [पडत्या दुर्बीणीला स्थिरावताना](/writings/nonfiction/Marathi/NFSCBV2606.html) (Jun 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Audio</a>
 
 ### [MMLA](/writings/publications/venues/mmla/index.html)
 

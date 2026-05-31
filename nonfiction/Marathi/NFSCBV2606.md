@@ -1,0 +1,20 @@
+---
+id: NFSCBV2606
+title: पडत्या दुर्बीणीला स्थिरावताना
+language: Marathi
+kind: nonfiction
+subtype: विज्ञान
+---
+
+# पडत्या दुर्बीणीला स्थिरावताना
+
+<!-- AUTO:WORK_LINKS:START -->
+<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Listen (audio)</a></p>
+<!-- AUTO:WORK_LINKS:END -->
+
+
+## Publication history
+
+<!-- AUTO:PUBLICATION_HISTORY:START -->
+- Jun 2026 — Online Magazine: [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html) — [2026](/writings/publications/years/2026/index.html)
+<!-- AUTO:PUBLICATION_HISTORY:END -->

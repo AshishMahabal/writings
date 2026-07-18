@@ -17,6 +17,7 @@ language: Marathi
 - [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) [मुक्त संवाद, 2026]
 - [ग्रहताऱ्यांची उपासना कशाला करायची?](/writings/nonfiction/Marathi/NFRAANT129.html) [तर्किष्ट, 2024]
 - [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) [आजचा सुधारक, 2019] <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a>
+- [चंद्राच्या खंत आणि दंत कथा](/writings/nonfiction/Marathi/NFSCBV2607.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/BMMNewsletterJuly2026.docx.pdf#page=27">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/chandraBMMjul2026.mp3">Audio</a>
 - [चित्रकाराच्या गावा जावे](/writings/nonfiction/Marathi/NFTRMU17.html) [मुशाफिरी, 2017]
 - [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) [आजचा सुधारक, 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a>
 - [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) [युगवाणी, 2025]

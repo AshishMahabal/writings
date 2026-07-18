@@ -5,11 +5,11 @@ language: English
 
 # Badges / tags summary
 
-Pieces (rows): **114** · Unique works: **93**
+Pieces (rows): **115** · Unique works: **94**
 
 ## Kind
 
-- <a href="/writings/nonfiction/index.html"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></a> <span class="tag-item__count">(57)</span>
+- <a href="/writings/nonfiction/index.html"><span class="badge badge--kind badge--kind-non-fiction">Non-Fiction</span></a> <span class="tag-item__count">(58)</span>
 - <a href="/writings/fiction/index.html"><span class="badge badge--kind badge--kind-fiction">Fiction</span></a> <span class="tag-item__count">(57)</span>
 
 ## Subtype
@@ -21,11 +21,11 @@ Pieces (rows): **114** · Unique works: **93**
 - <a href="/writings/publications/tags/math/index.html"><span class="badge badge--subtype badge--subtype-math">Math</span></a> <span class="tag-item__count">(1)</span>
 - <a href="/writings/publications/tags/rationalism/index.html"><span class="badge badge--subtype badge--subtype-rationalism">Rationalism</span></a> <span class="tag-item__count">(6)</span>
 - <a href="/writings/publications/tags/sci-fi/index.html"><span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></a> <span class="tag-item__count">(56)</span>
-- <a href="/writings/publications/tags/science/index.html"><span class="badge badge--subtype badge--subtype-science">Science</span></a> <span class="tag-item__count">(25)</span>
+- <a href="/writings/publications/tags/science/index.html"><span class="badge badge--subtype badge--subtype-science">Science</span></a> <span class="tag-item__count">(26)</span>
 - <a href="/writings/publications/tags/social/index.html"><span class="badge badge--subtype badge--subtype-social">Social</span></a> <span class="tag-item__count">(15)</span>
 - <a href="/writings/publications/tags/travel/index.html"><span class="badge badge--subtype badge--subtype-travel">Travel</span></a> <span class="tag-item__count">(6)</span>
 
 ## Availability
 
-- <a href="/writings/publications/tags/online/index.html">Online</a> <span class="tag-item__count">(47)</span>
-- <a href="/writings/publications/tags/audio/index.html">Audio</a> <span class="tag-item__count">(6)</span>
+- <a href="/writings/publications/tags/online/index.html">Online</a> <span class="tag-item__count">(48)</span>
+- <a href="/writings/publications/tags/audio/index.html">Audio</a> <span class="tag-item__count">(7)</span>

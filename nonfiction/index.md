@@ -14,6 +14,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 
 ### 2026
 
+- [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
 - [चंद्राच्या खंत आणि दंत कथा](/writings/nonfiction/Marathi/NFSCBV2607.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/BMMNewsletterJuly2026.docx.pdf#page=27">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/chandraBMMjul2026.mp3">Audio</a>
 - [पडत्या दुर्बीणीला स्थिरावताना](/writings/nonfiction/Marathi/NFSCBV2606.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Audio</a>
 - [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
@@ -172,6 +173,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, 2009]
 - [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) [अनुभव, 2021]
 - [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) [MMLA, 2014]
+- [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) [आजचा सुधारक, 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a>
 - [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) [मविप, 2014]
 - [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) [आजचा सुधारक, 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a>

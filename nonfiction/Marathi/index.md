@@ -42,6 +42,7 @@ language: Marathi
 - [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, 2009]
 - [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) [अनुभव, 2021]
 - [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) [MMLA, 2014]
+- [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) [आजचा सुधारक, 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a>
 - [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) [मविप, 2014]
 - [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) [आजचा सुधारक, 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a>

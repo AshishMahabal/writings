@@ -45,6 +45,7 @@ language: English
 - [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) (May 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
 - [पडत्या दुर्बीणीला स्थिरावताना](/writings/nonfiction/Marathi/NFSCBV2606.html) (Jun 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Audio</a>
 - [चंद्राच्या खंत आणि दंत कथा](/writings/nonfiction/Marathi/NFSCBV2607.html) (Jul 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/BMMNewsletterJuly2026.docx.pdf#page=27">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/chandraBMMjul2026.mp3">Audio</a>
+- [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) (Aug 2026) <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
 
 ### [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html)
 

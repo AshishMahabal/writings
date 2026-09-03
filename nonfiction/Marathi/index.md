@@ -41,6 +41,7 @@ language: Marathi
 - [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) [उपक्रम, 2010]
 - [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, 2009]
 - [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) [अनुभव, 2021]
+- [रोमन: एका दुर्बिणीचा दीर्घ प्रवास](/writings/nonfiction/Marathi/NFSCBV2609.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/09/BMMNewsletterSept2026.pdf#page=23">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/08/roman_sep2026.mp3-Ashish-Mahabal.mp3">Audio</a>
 - [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) [MMLA, 2014]
 - [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) [BMM Vrutta, 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
 - [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) [आजचा सुधारक, 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a>

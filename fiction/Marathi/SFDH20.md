@@ -4,11 +4,15 @@ title: सावट
 language: Marathi
 kind: fiction
 subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — धनंजय, दिवाळी 2020 · Ashish Mahabal
 ---
 
 # सावट
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

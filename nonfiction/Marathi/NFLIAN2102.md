@@ -5,11 +5,15 @@ language: Marathi
 kind: nonfiction
 subtype: साहित्य
 translation: 'Yes'
+description: लेख · साहित्य — अनुभव, Feb 2021 · Ashish Mahabal
 ---
 
 # रोबोटची शंभरी
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

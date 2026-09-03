@@ -4,11 +4,15 @@ title: भूले-भटके यात्री
 language: Hindi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — साइकिल, Jun-Jul 2025 · Ashish Mahabal
 ---
 
 # भूले-भटके यात्री
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

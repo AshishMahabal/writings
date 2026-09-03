@@ -1,14 +1,22 @@
 ---
-{}
+id: SFDH25
+title: स्वर्गयातना
+language: Marathi
+kind: fiction
+subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — धनंजय, दिवाळी 2025 · Ashish Mahabal
 ---
 
 # स्वर्गयातना
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 <!-- AUTO:WORK_META:START -->
 *Co-authored with:* SK
 <!-- AUTO:WORK_META:END -->
 
-*(Text to be added here.)*
 
 ## Publication history
 

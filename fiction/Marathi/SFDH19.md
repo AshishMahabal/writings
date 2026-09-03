@@ -4,11 +4,15 @@ title: लक्ष्मीदासाची कथा मूळपदी
 language: Marathi
 kind: fiction
 subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — धनंजय, दिवाळी 2019 · Ashish Mahabal
 ---
 
 # लक्ष्मीदासाची कथा मूळपदी
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

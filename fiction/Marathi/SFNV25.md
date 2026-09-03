@@ -4,11 +4,15 @@ title: मियाओच्या CEOच्या मुलाच्या ऑ�
 language: Marathi
 kind: fiction
 subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — नवल, दिवाळी 2025 · Ashish Mahabal
 ---
 
 # मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

@@ -7,6 +7,14 @@ BASEURL_META="/${BASEURL_META#/}"
 BASEURL_META="${BASEURL_META%/}"
 if [ "$BASEURL_META" = "/" ]; then BASEURL_META=""; fi
 
+# Absolute URL prefix for canonical/og:url/og:image.
+# SITE_URL is the origin only (https://ashishmahabal.github.io); BASEURL is the
+# path prefix (/writings). Left empty locally, which yields relative URLs -- fine
+# for preview, but SITE_URL must be set in CI for real link previews.
+SITE_ORIGIN="${SITE_URL:-}"
+SITE_ORIGIN="${SITE_ORIGIN%/}"
+ABS_PREFIX="${SITE_ORIGIN}${BASEURL_META}"
+
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 SITE="$ROOT/site"
 ASSETS_SRC="$ROOT/assets"
@@ -27,8 +35,19 @@ render_one() {
   local lang="$4"
   local page_section="$5"   # home | fiction | nonfiction | publications | "" (none)
   local book_key="$6"       # ghost_writer | isot | "" (none)
+  local og_type="${7:-website}"
 
   mkdir -p "$(dirname "$out")"
+
+  # Per-page social metadata
+  local relhtml="${out#$SITE/}"
+  local og_url="$ABS_PREFIX/$relhtml"
+  local og_image="$ABS_PREFIX/assets/og-default.png"
+  local og_locale="en_US"
+  case "$lang" in
+    mr) og_locale="mr_IN" ;;
+    hi) og_locale="hi_IN" ;;
+  esac
 
   local active_home=""
   local active_fiction=""
@@ -52,8 +71,12 @@ render_one() {
   pandoc "$md" \
     --standalone \
     --template="$TEMPLATE" \
-    -M title="$title" \
+    -M fallback_title="$title" \
     -M lang="$lang" \
+    -M og_url="$og_url" \
+    -M og_image="$og_image" \
+    -M og_locale="$og_locale" \
+    -M og_type="$og_type" \
     -M baseurl="$BASEURL_META" \
     -M year="$(date +%Y)" \
     -M active_home="$active_home" \
@@ -114,7 +137,15 @@ while IFS= read -r -d '' md; do
       ;;
   esac
 
-  render_one "$md" "$out" "$title" "$lang" "$page_section" "$book_key"
+  # Individual works are articles; index/venue/year pages are not.
+  og_type="website"
+  case "$rel" in
+    fiction/*/*.md|nonfiction/*/*.md)
+      if [ "$(basename "$rel")" != "index.md" ]; then og_type="article"; fi
+      ;;
+  esac
+
+  render_one "$md" "$out" "$title" "$lang" "$page_section" "$book_key" "$og_type"
 done < <(find "$ROOT/fiction" "$ROOT/nonfiction" "$ROOT/publications" -name "*.md" -type f -print0 2>/dev/null)
 
 # Build Atom feed into site/feed.xml (after HTML exists)

@@ -4,11 +4,15 @@ title: आकाश से गिरते उपग्रह
 language: Hindi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — साइकिल, Feb-Mar 2025 · Ashish Mahabal
 ---
 
 # आकाश से गिरते उपग्रह
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

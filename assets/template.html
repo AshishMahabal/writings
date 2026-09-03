@@ -5,7 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="$baseurl$/assets/favicon-32.png" type="image/png">
   <link rel="apple-touch-icon" href="$baseurl$/assets/favicon-192.png">
-  <title>$title$</title>
+  <title>$if(title)$$title/nowrap$$else$$fallback_title/nowrap$$endif$</title>
+
+  <!-- Social sharing (WhatsApp / LinkedIn / Facebook / X link previews).
+       og_url, og_image, og_locale and og_type are set per page by build.sh;
+       description is written into the Markdown front matter by
+       generate_from_csv.py (from the CSV "Summary" column, with a fallback). -->
+  <meta name="description" content="$if(description)$$description/nowrap$$else$Writings by Ashish Mahabal — science fiction, essays and travel writing in Marathi, Hindi and English.$endif$" />
+  <link rel="canonical" href="$og_url$" />
+  <meta property="og:type" content="$og_type$" />
+  <meta property="og:site_name" content="Ashish Mahabal — Writings" />
+  <meta property="og:title" content="$if(title)$$title/nowrap$$else$$fallback_title/nowrap$$endif$" />
+  <meta property="og:description" content="$if(description)$$description/nowrap$$else$Writings by Ashish Mahabal — science fiction, essays and travel writing in Marathi, Hindi and English.$endif$" />
+  <meta property="og:url" content="$og_url$" />
+  <meta property="og:locale" content="$og_locale$" />
+  <meta property="og:image" content="$og_image$" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Ashish Mahabal / आशिष महाबळ — Writings" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="author" content="Ashish Mahabal" />
+
   <link rel="stylesheet" href="$baseurl$/assets/style.css" />
 </head>
 <body>

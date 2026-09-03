@@ -4,6 +4,7 @@ title: सारे विश्वची माझे घर
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — NJ Sahitya Vishwa, Aug-Sep 2009 · Ashish Mahabal
 ---
 
 # सारे विश्वची माझे घर
@@ -11,6 +12,10 @@ subtype: विज्ञान
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://sites.astro.caltech.edu/~aam/personal/writings/sahityavishwa/mar_nonfic/SVAugSep09Ash.pdf">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

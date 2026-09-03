@@ -4,13 +4,18 @@ title: विज्ञानाने कोणत्या गोष्टी �
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — BMM Vrutta, Aug 2026 · Ashish Mahabal
 ---
 
 # विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?
 
 <!-- AUTO:WORK_LINKS:START -->
-<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Listen (audio)</a></p>
+<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Listen (audio)</a> <audio class="work-audio" controls preload="none" src="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Your browser cannot play this file. <a href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Download the audio</a> instead.</audio></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

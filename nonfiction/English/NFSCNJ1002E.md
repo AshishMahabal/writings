@@ -4,6 +4,7 @@ title: The Universe of Galaxies
 language: English
 kind: nonfiction
 subtype: विज्ञान
+description: Non-Fiction · Science — NJ Sahitya Vishwa, Feb-Mar 2010 · Ashish Mahabal
 ---
 
 # The Universe of Galaxies
@@ -11,6 +12,10 @@ subtype: विज्ञान
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://sites.astro.caltech.edu/~aam/personal/writings/sahityavishwa/nonfic/UniverseofGalaxies.pdf">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

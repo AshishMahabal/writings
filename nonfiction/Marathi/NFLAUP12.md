@@ -4,6 +4,7 @@ title: ओध्येमठाची निर्मिती आणि मर�
 language: Marathi
 kind: nonfiction
 subtype: भाषा
+description: लेख · भाषा — उपक्रम, दिवाळी 2012 · Ashish Mahabal
 ---
 
 # ओध्येमठाची निर्मिती आणि मराठी बाण
@@ -11,6 +12,10 @@ subtype: भाषा
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="http://diwali.upakram.org/node/191">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

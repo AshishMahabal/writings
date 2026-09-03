@@ -4,11 +4,15 @@ title: भारतीय खगोल - गणित परंपरा
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — प्रसाद, Nov-Dec 2021 · Ashish Mahabal
 ---
 
 # भारतीय खगोल - गणित परंपरा
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

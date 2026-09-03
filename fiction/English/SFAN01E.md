@@ -4,11 +4,15 @@ title: Memoirs of a Status Quo
 language: English
 kind: fiction
 subtype: विज्ञानकथा
+description: Fiction · Sci-Fi — Inner Space and Outer Thoughts, 2023 · Ashish Mahabal
 ---
 
 # Memoirs of a Status Quo
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

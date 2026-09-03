@@ -4,11 +4,15 @@ title: नैसर्गिक भरार्‍या
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — मायबोली (Diwali Issue), दिवाळी 2010 · Ashish Mahabal
 ---
 
 # नैसर्गिक भरार्‍या
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

@@ -4,11 +4,15 @@ title: लॉस एंजेलिसचा शिरोमणी
 language: Marathi
 kind: nonfiction
 subtype: प्रवास
+description: लेख · प्रवास — MMLA (Diwali Ank), दिवाळी 2014 · Ashish Mahabal
 ---
 
 # लॉस एंजेलिसचा शिरोमणी
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

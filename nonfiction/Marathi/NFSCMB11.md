@@ -4,11 +4,15 @@ title: नाती, खगोलशास्त्रीय
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — मायबोली (Diwali Issue), दिवाळी 2011 · Ashish Mahabal
 ---
 
 # नाती, खगोलशास्त्रीय
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

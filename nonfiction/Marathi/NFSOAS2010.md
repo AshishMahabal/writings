@@ -4,6 +4,7 @@ title: स्वार्थाची वर्तुळे आणि प्र�
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
+description: लेख · सामाजिक — आजचा सुधारक, Oct 2020 · Ashish Mahabal
 ---
 
 # स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत
@@ -11,6 +12,10 @@ subtype: सामाजिक
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://www.sudharak.in/2020/10/3821/">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

@@ -5,11 +5,15 @@ language: Marathi
 kind: fiction
 subtype: ललित
 translation: 'Yes'
+description: कथा · ललित — सावली, 2009 · Ashish Mahabal
 ---
 
 # काचेची जपमाळ
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

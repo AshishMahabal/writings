@@ -4,13 +4,18 @@ title: आपणच आपले जेलर
 language: Marathi
 kind: nonfiction
 subtype: गणित
+description: लेख · गणित — BMM Vrutta, Mar 2025 · Ashish Mahabal
 ---
 
 # आपणच आपले जेलर
 
 <!-- AUTO:WORK_LINKS:START -->
-<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Listen (audio)</a></p>
+<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Listen (audio)</a> <audio class="work-audio" controls preload="none" src="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Your browser cannot play this file. <a href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Download the audio</a> instead.</audio></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

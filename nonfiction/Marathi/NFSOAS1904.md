@@ -4,6 +4,7 @@ title: घरोघरी अतिरेकी जन्मती
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
+description: लेख · सामाजिक — आजचा सुधारक, Apr 2019 · Ashish Mahabal
 ---
 
 # घरोघरी अतिरेकी जन्मती
@@ -11,6 +12,10 @@ subtype: सामाजिक
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://www.sudharak.in/2019/04/1929/">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

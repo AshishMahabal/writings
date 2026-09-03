@@ -4,11 +4,15 @@ title: शिकायचंय खगोलशास्त्राबद्द
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — मायबोली (Diwali Issue), दिवाळी 2009 · Ashish Mahabal
 ---
 
 # शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

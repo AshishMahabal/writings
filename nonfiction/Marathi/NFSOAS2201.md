@@ -4,6 +4,7 @@ title: विविधतेमध्ये अनेकता
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
+description: लेख · सामाजिक — आजचा सुधारक, Jan 2022 · Ashish Mahabal
 ---
 
 # विविधतेमध्ये अनेकता
@@ -11,6 +12,10 @@ subtype: सामाजिक
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://www.sudharak.in/2022/01/8039/">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

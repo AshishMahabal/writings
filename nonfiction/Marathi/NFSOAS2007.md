@@ -4,6 +4,7 @@ title: पुन्हा-पुन्हा घडणारे अघटित
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
+description: लेख · सामाजिक — आजचा सुधारक, Jul 2020 · Ashish Mahabal
 ---
 
 # पुन्हा-पुन्हा घडणारे अघटित
@@ -11,6 +12,10 @@ subtype: सामाजिक
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://www.sudharak.in/2020/07/2936/">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

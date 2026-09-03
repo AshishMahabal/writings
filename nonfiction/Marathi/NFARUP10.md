@@ -4,11 +4,15 @@ title: माझे संगीताचे प्रयोग
 language: Marathi
 kind: nonfiction
 subtype: कला
+description: लेख · कला — उपक्रम, दिवाळी 2010 · Ashish Mahabal
 ---
 
 # माझे संगीताचे प्रयोग
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

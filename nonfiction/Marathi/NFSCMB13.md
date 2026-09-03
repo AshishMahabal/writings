@@ -4,11 +4,15 @@ title: नोबल ईज ही हू नोबल डज
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — मायबोली (Diwali Issue), दिवाळी 2013 · Ashish Mahabal
 ---
 
 # नोबल ईज ही हू नोबल डज
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

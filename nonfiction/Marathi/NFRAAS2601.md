@@ -4,6 +4,7 @@ title: चैतन्याचा प्रश्न
 language: Marathi
 kind: nonfiction
 subtype: बुद्धिप्रामाण्यवाद
+description: लेख · बुद्धिप्रामाण्यवाद — आजचा सुधारक, Jan 2026 · Ashish Mahabal
 ---
 
 # चैतन्याचा प्रश्न
@@ -11,6 +12,10 @@ subtype: बुद्धिप्रामाण्यवाद
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://www.sudharak.in/2026/01/14715/">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

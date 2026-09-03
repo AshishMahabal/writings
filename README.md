@@ -37,7 +37,9 @@ Generate Markdown from the CSV, then render HTML:
 ## Environment variables
 
 - `BASEURL` — used for GitHub Pages project site paths. Example: `/writings`.
-- `SITE_URL` — absolute site root for feed links (e.g., `https://ashishmahabal.github.io`).
+- `SITE_URL` — absolute site **origin**, no path (e.g., `https://ashishmahabal.github.io`).
+  Combined with `BASEURL` to form canonical / Open Graph / feed URLs. Set in CI; unset
+  locally gives relative URLs.
 - `SITE_TITLE`, `SITE_SUBTITLE` — Atom feed metadata.
 
 Examples:
@@ -54,5 +56,8 @@ Required columns:
 
 Optional columns used:
 
-`Translation, Link, ExternalURL, OnlineURL, Audio link, Coauthors, Penname, VenueContext`
+`Translation, Link, ExternalURL, OnlineURL, Audio link, Coauthors, Penname, VenueContext, Summary`
+
+`Summary` is a short blurb in the piece's own language, used as the description in
+social link previews. May be left empty; a line is then built from the other columns.
 

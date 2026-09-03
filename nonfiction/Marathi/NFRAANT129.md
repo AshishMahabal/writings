@@ -4,11 +4,15 @@ title: ग्रहताऱ्यांची उपासना कशाल�
 language: Marathi
 kind: nonfiction
 subtype: बुद्धिप्रामाण्यवाद
+description: लेख · बुद्धिप्रामाण्यवाद — तर्किष्ट, Oct 2024 · Ashish Mahabal
 ---
 
 # ग्रहताऱ्यांची उपासना कशाला करायची?
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

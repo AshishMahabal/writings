@@ -4,13 +4,18 @@ title: पडत्या दुर्बीणीला स्थिराव�
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — BMM Vrutta, Jun 2026 · Ashish Mahabal
 ---
 
 # पडत्या दुर्बीणीला स्थिरावताना
 
 <!-- AUTO:WORK_LINKS:START -->
-<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Listen (audio)</a></p>
+<p class="work-links"><a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Read online</a> · <a class="work-link" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Listen (audio)</a> <audio class="work-audio" controls preload="none" src="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Your browser cannot play this file. <a href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Download the audio</a> instead.</audio></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

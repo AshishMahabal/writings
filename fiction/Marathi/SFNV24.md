@@ -4,11 +4,15 @@ title: जैवमंथन
 language: Marathi
 kind: fiction
 subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — नवल, दिवाळी 2024 · Ashish Mahabal
 ---
 
 # जैवमंथन
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

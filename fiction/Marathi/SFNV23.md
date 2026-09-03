@@ -4,11 +4,15 @@ title: क्वांटम हाईस्ट
 language: Marathi
 kind: fiction
 subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — नवल, दिवाळी 2023 · Ashish Mahabal
 ---
 
 # क्वांटम हाईस्ट
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

@@ -4,11 +4,15 @@ title: मंगल में शेरलॉक
 language: Hindi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — साइकिल, Aug-Sep 2024 · Ashish Mahabal
 ---
 
 # मंगल में शेरलॉक
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

@@ -1,5 +1,10 @@
 ---
-{}
+id: SFAA21
+title: यमांत
+language: Marathi
+kind: fiction
+subtype: विज्ञानकथा
+description: कथा · विज्ञानकथा — ऐसी अक्षरे (Diwali Special), दिवाळी 2021 · Ashish Mahabal
 ---
 
 # यमांत
@@ -7,6 +12,10 @@
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://aisiakshare.com/node/8247">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 <!-- AUTO:WORK_META:START -->
 *Published under the pen name:* झंपुराव तंबुवाले

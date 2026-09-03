@@ -4,11 +4,15 @@ title: खिचन, खेजरली, आणि खूप काही
 language: Marathi
 kind: nonfiction
 subtype: प्रवास
+description: लेख · प्रवास — मुशाफिरी, दिवाळी 2018 · Ashish Mahabal
 ---
 
 # खिचन, खेजरली, आणि खूप काही
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

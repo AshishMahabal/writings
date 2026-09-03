@@ -39,6 +39,7 @@ jobs:
       - name: Build (generate + render HTML)
         env:
           BASEURL: /writings
+          SITE_URL: https://ashishmahabal.github.io
         run: |
           python3 generate_from_csv.py IndexOfPublished_revised.csv
           ./build.sh

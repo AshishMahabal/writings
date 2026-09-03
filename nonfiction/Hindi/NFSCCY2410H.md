@@ -4,11 +4,15 @@ title: ब्रह्माण्ड से हमारा गहरा ना
 language: Hindi
 kind: nonfiction
 subtype: विज्ञान
+description: लेख · विज्ञान — साइकिल, Oct-Nov 2024 · Ashish Mahabal
 ---
 
 # ब्रह्माण्ड से हमारा गहरा नाता
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

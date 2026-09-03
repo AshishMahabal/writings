@@ -23,6 +23,8 @@ build_local() {
 build_gh() {
   echo "==> Building GH mimic (BASEURL=/writings)"
   export BASEURL="/writings"
+  # Match CI so og:/canonical URLs are absolute and can be eyeballed before pushing.
+  export SITE_URL="${SITE_URL:-https://ashishmahabal.github.io}"
   python3 "$ROOT/generate_from_csv.py" "$ROOT/$CSV"
   "$ROOT/build.sh"
 }

@@ -4,11 +4,15 @@ title: चित्रकाराच्या गावा जावे
 language: Marathi
 kind: nonfiction
 subtype: प्रवास
+description: लेख · प्रवास — मुशाफिरी, दिवाळी 2017 · Ashish Mahabal
 ---
 
 # चित्रकाराच्या गावा जावे
 
+<!-- AUTO:WORK_SUMMARY:START -->
 *(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
+
 
 ## Publication history
 

@@ -4,6 +4,7 @@ title: शेतीचे आणि पर्यायाने आपले भ
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
+description: लेख · सामाजिक — आजचा सुधारक, Jan 2021 · Ashish Mahabal
 ---
 
 # शेतीचे आणि पर्यायाने आपले भवितव्य
@@ -11,6 +12,10 @@ subtype: सामाजिक
 <!-- AUTO:WORK_LINKS:START -->
 <p class="work-links"><a class="work-link" href="https://www.sudharak.in/2021/01/6096/">Read online</a></p>
 <!-- AUTO:WORK_LINKS:END -->
+
+<!-- AUTO:WORK_SUMMARY:START -->
+*(Text to be added here.)*
+<!-- AUTO:WORK_SUMMARY:END -->
 
 
 ## Publication history

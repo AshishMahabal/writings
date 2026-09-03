@@ -377,9 +377,17 @@ def write_md_update_block_only(
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists():
         existing = path.read_text(encoding="utf-8")
-        _, body = split_front_matter(existing)
+        fm_text, body = split_front_matter(existing)
         body = replace_auto_block(body, start_marker, end_marker, new_block_md, heading=heading)
-        path.write_text(dump_front_matter(front_matter) + "\n" + body, encoding="utf-8")
+        if front_matter:
+            fm_out = dump_front_matter(front_matter)
+        elif fm_text is not None:
+            # An empty dict means "front matter unchanged" -- keep what is on disk
+            # rather than writing a literal "{}" over it.
+            fm_out = f"---\n{fm_text}\n---\n"
+        else:
+            fm_out = ""
+        path.write_text(fm_out + "\n" + body, encoding="utf-8")
     else:
         body = replace_auto_block("", start_marker, end_marker, new_block_md, heading=heading)
         path.write_text(dump_front_matter(front_matter) + "\n" + body.strip() + "\n", encoding="utf-8")
@@ -525,13 +533,18 @@ def earliest_pub_hint(g: pd.DataFrame) -> str:
 
     venue = clean_str(gg["Venue"].iloc[0])
     y_txt = year_str(gg["Year"].iloc[0])
+    m_txt = clean_str(gg["Month"].iloc[0])
+    # Monthlies need the month to be distinguishable: "BMM Vrutta, Sep 2026",
+    # not nine entries all reading "BMM Vrutta, 2026". Month is free text in the
+    # sheet ("Sep", "Oct-Nov", "दिवाळी"), so it is used verbatim.
+    when = " ".join([x for x in [m_txt, y_txt] if x])
 
-    if venue and y_txt:
-        hint = f"[{venue}, {y_txt}]"
+    if venue and when:
+        hint = f"[{venue}, {when}]"
     elif venue:
         hint = f"[{venue}]"
-    elif y_txt:
-        hint = f"[{y_txt}]"
+    elif when:
+        hint = f"[{when}]"
     else:
         hint = ""
 
@@ -618,24 +631,38 @@ def write_work_links_block(out_path: Path, g: pd.DataFrame) -> None:
     end_marker = "<!-- AUTO:WORK_LINKS:END -->"
 
     links: List[str] = []
+    audio_urls: List[str] = []
     for _, r in g.iterrows():
         url = clean_str(r.get("Link", "")) or clean_str(r.get("ExternalURL", "")) or clean_str(r.get("OnlineURL", ""))
         if url and not any(url in l for l in links):
             links.append(f'<a class="work-link" href="{url}">Read online</a>')
         audio = clean_str(r.get("Audio link", ""))
-        if audio and not any(audio in l for l in links):
+        if audio and audio not in audio_urls:
+            audio_urls.append(audio)
             links.append(f'<a class="work-link" href="{audio}">Listen (audio)</a>')
 
     if not links:
         return
 
-    block_content = '<p class="work-links">' + " · ".join(links) + "</p>"
+    # Inline player, so a visitor arriving from a shared link can just press play.
+    # preload="none" matters: these files are 10-14 MB and must not be fetched on
+    # page load. The "Listen (audio)" link above stays, as the download route.
+    # Some files are served as video/mp4 but are audio-only readings; <audio>
+    # plays their audio track fine.
+    players = "".join(
+        f' <audio class="work-audio" controls preload="none" src="{u}">'
+        f'Your browser cannot play this file. '
+        f'<a href="{u}">Download the audio</a> instead.'
+        f'</audio>'
+        for u in audio_urls
+    )
+
+    # Player sits inside the paragraph, to the right of the links. <audio> is
+    # phrasing content, so this is valid inside <p>.
+    block_content = '<p class="work-links">' + " · ".join(links) + players + "</p>"
     full_block = f"{start_marker}\n{block_content}\n{end_marker}"
 
     text = out_path.read_text(encoding="utf-8")
-
-    # Remove placeholder text since we have real links
-    text = text.replace("\n*(Text to be added here.)*\n", "\n")
 
     # If block already exists, replace it in place
     if start_marker in text:
@@ -702,6 +729,119 @@ def write_work_hero_block(out_path: Path, work_id: str, title: str, g: pd.DataFr
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
 
+_WS_RE = re.compile(r"\s+")
+
+
+def sanitize_meta_text(s: str, limit: int = 200) -> str:
+    """Make free text safe to interpolate into an HTML attribute.
+
+    Pandoc parses YAML metadata as Markdown, so a straight quote would close the
+    `content="..."` attribute and raw angle brackets or emphasis markers would
+    emit stray markup. Also trimmed to a length link previews will actually show.
+    """
+    s = clean_str(s)
+    # Curly quotes so a Summary never closes the content="..." attribute.
+    parts = s.split('"')
+    s = parts[0]
+    for i, part in enumerate(parts[1:]):
+        s += ("\u201c" if i % 2 == 0 else "\u201d") + part
+    s = s.replace("'", "\u2019")
+    s = re.sub(r"[<>*_`\[\]\\]", " ", s)
+    s = _WS_RE.sub(" ", s).strip()
+    if len(s) > limit:
+        s = s[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,.;:\u2014-") + "\u2026"
+    return s
+
+
+def work_description(g: pd.DataFrame, lang_full: str) -> str:
+    """og:description / meta description for one work.
+
+    Prefers the CSV "Summary" column; falls back to a line built from the
+    metadata already in the sheet, so every page has something to show.
+    """
+    summary = clean_str(g["Summary"].iloc[0]) if "Summary" in g.columns else ""
+    if summary:
+        return sanitize_meta_text(summary)
+
+    kind_raw = clean_str(g["Kind"].iloc[0])
+    subtype_raw = clean_str(g["Subtype"].iloc[0]) if "Subtype" in g.columns else ""
+    if lang_full == "English":
+        # Kind/Subtype are Devanagari in the sheet even for English works.
+        kind_txt = kind_display(norm_kind(kind_raw))
+        subtypes = parse_subtypes(subtype_raw)
+    else:
+        kind_txt = kind_raw
+        subtypes = [x.strip() for x in subtype_raw.split(",") if x.strip()]
+
+    head = " \u00b7 ".join([b for b in [kind_txt, *subtypes] if b])
+
+    gg = g.copy()
+    gg["YearNum"] = gg["Year"].apply(year_int)
+    gg["MonthKey"] = gg["Month"].apply(month_key)
+    gg = gg.sort_values(["YearNum", "MonthKey"], kind="mergesort")
+    r0 = gg.iloc[0]
+    venue = venue_display(clean_str(r0.get("Venue", "")), r0)
+    when = " ".join([x for x in [clean_str(r0.get("Month", "")), year_str(r0.get("Year", ""))] if x])
+    where = ", ".join([x for x in [venue, when] if x])
+
+    line = " \u2014 ".join([x for x in [head, where] if x])
+    return sanitize_meta_text(" \u00b7 ".join([x for x in [line, "Ashish Mahabal"] if x]))
+
+
+PLACEHOLDER = "*(Text to be added here.)*"
+
+
+def write_work_summary_block(out_path: Path, g: pd.DataFrame) -> None:
+    """Render the CSV Summary on the work page itself.
+
+    When Summary is empty the placeholder stays, so unwritten pages still say so.
+    (The social-sharing description falls back to generated metadata instead --
+    see work_description(); the two are deliberately different.)
+    """
+    start_marker = "<!-- AUTO:WORK_SUMMARY:START -->"
+    end_marker = "<!-- AUTO:WORK_SUMMARY:END -->"
+
+    summary = clean_str(g["Summary"].iloc[0]) if "Summary" in g.columns else ""
+    if summary:
+        esc = summary.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        block_content = f'<p class="work-summary">{esc}</p>'
+    else:
+        block_content = PLACEHOLDER
+
+    full_block = f"{start_marker}\n{block_content}\n{end_marker}"
+
+    text = out_path.read_text(encoding="utf-8")
+
+    # Replace in place if the block is already there.
+    s_i = text.find(start_marker)
+    e_i = text.find(end_marker)
+    if s_i != -1 and e_i != -1:
+        out_path.write_text(text[:s_i] + full_block + text[e_i + len(end_marker):], encoding="utf-8")
+        return
+
+    # Otherwise absorb any loose placeholder left over from the stub body, so it
+    # does not end up rendered twice.
+    text = text.replace("\n" + PLACEHOLDER + "\n", "\n")
+
+    lines = text.split("\n")
+    # Prefer to sit just below the links/player; fall back to just below the title.
+    insert_at = None
+    for i, line in enumerate(lines):
+        if line.startswith("<!-- AUTO:WORK_LINKS:END"):
+            insert_at = i + 1
+            break
+    if insert_at is None:
+        for i, line in enumerate(lines):
+            if line.startswith("# "):
+                insert_at = i + 1
+                break
+    if insert_at is None:
+        insert_at = len(lines)
+
+    lines.insert(insert_at, "\n" + full_block)
+    out_path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
     for work_id, g in df.groupby("work_id", sort=True):
         title = clean_str(g["Title"].iloc[0])
@@ -715,6 +855,7 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
             fm["subtype"] = subtype
         if translation:
             fm["translation"] = translation
+        fm["description"] = work_description(g, lang_full)
 
         out_path = work_output_path(kind, lang_full, work_id)
         pub_md = pubhistory_md_for_work(g, venue_slug_map)
@@ -723,6 +864,7 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
         write_work_hero_block(out_path, work_id, title, g, venue_slug_map)
         write_work_meta_block(out_path, g)
         write_work_links_block(out_path, g)
+        write_work_summary_block(out_path, g)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:

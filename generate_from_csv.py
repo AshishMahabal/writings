@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html as _html
 import os
 import re
 import unicodedata
@@ -963,33 +964,107 @@ def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:
     block_lines.append("**By language:** " + " · ".join(lang_links))
     block_lines.append("")
 
-    # --- By year (newest first, within year by month newest first) ---
-    block_lines.append("## By year")
-    block_lines.append("")
+    # --- By topic ------------------------------------------------------------
+    # Mirrors the "By language" line. The hrefs point at the site-wide tag pages
+    # so the line works without JavaScript; list.js intercepts the clicks and
+    # applies the Topic filter to this page's list instead, which is what a
+    # reader on the Fiction page actually wants.
+    topic_counts: Dict[str, int] = {}
+    for _, r in items.iterrows():
+        for t in parse_subtypes(clean_str(r.get("Subtype", ""))):
+            topic_counts[t] = topic_counts.get(t, 0) + 1
+    if topic_counts:
+        topic_links = [
+            f'<a class="topic-link" data-topic="{_html.escape(t, quote=True)}"'
+            f' href="{link(f"publications/tags/{slugify(t)}/index.html")}">{_html.escape(t)}</a>'
+            f' <span class="topic-count">({n})</span>'
+            for t, n in sorted(topic_counts.items())
+        ]
+        block_lines.append(
+            '<p class="topic-line"><strong>By topic:</strong> '
+            + " · ".join(topic_links) + "</p>"
+        )
+        block_lines.append("")
+
+    # --- One list, rendered once --------------------------------------------
+    # Previously this emitted "By year" and then "All" (alphabetical), listing
+    # every work twice: 120 links for 60 works on the non-fiction index. Now each
+    # work appears once and assets/list.js re-sorts and filters in place.
+    #
+    # Server-rendered order is by year, newest first -- the same as the old
+    # default -- so with JavaScript off the page still lists every work exactly
+    # once, and the controls stay hidden rather than sitting there dead.
     items_with_year = items[items["work_id"].isin(year_map)].copy()
     items_with_year["_year"] = items_with_year["work_id"].map(year_map)
     items_with_year["_month"] = items_with_year["work_id"].map(month_map)
-    items_with_year = items_with_year.sort_values(["_year", "_month", "Title"], ascending=[False, False, True], kind="mergesort")
-    for y_val, g in items_with_year.groupby("_year", sort=False):
-        block_lines.append(f"### {int(y_val)}")
-        block_lines.append("")
-        for _, r in g.iterrows():
-            wid = r["work_id"]
-            L = r["language_full"]
-            title = r["Title"]
-            hint = hint_map.get(wid, "")
-            block_lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
-        block_lines.append("")
+    items_with_year = items_with_year.sort_values(
+        ["_year", "_month", "Title"], ascending=[False, False, True], kind="mergesort"
+    )
+    undated = items[~items["work_id"].isin(year_map)]
 
-    # --- All (alphabetical) ---
-    block_lines.append("## All")
+    def _attr(x: str) -> str:
+        return _html.escape(clean_str(x), quote=True)
+
+    langs_present = sorted(items["language_full"].dropna().unique().tolist())
+    tags_present = sorted({
+        t
+        for _, r in items.iterrows()
+        for t in parse_subtypes(clean_str(r.get("Subtype", "")))
+    })
+
+    # One physical line: split across lines, Pandoc treats the inner markup as
+    # Markdown and wraps the labels in a <p>, which breaks the flex row.
+    controls = [
+        '<div class="list-controls" hidden>',
+        '<label class="lc-field">Sort<select class="lc-sort">'
+        '<option value="year">Newest first</option>'
+        '<option value="title">Title A\u2013Z</option></select></label>',
+    ]
+    if len(langs_present) > 1:
+        opts = "".join(f'<option value="{_attr(L)}">{_html.escape(L)}</option>' for L in langs_present)
+        controls.append(
+            '<label class="lc-field">Language<select class="lc-lang">'
+            f'<option value="">All</option>{opts}</select></label>'
+        )
+    if tags_present:
+        opts = "".join(f'<option value="{_attr(t)}">{_html.escape(t)}</option>' for t in tags_present)
+        controls.append(
+            '<label class="lc-field">Topic<select class="lc-tag">'
+            f'<option value="">All</option>{opts}</select></label>'
+        )
+    controls.append('<span class="lc-count" role="status" aria-live="polite"></span></div>')
+    block_lines.append("".join(controls))
     block_lines.append("")
-    for _, r in items.iterrows():
+
+    block_lines.append('<ul class="work-list">')
+    prev_year = None
+    for _, r in items_with_year.iterrows():
         wid = r["work_id"]
         L = r["language_full"]
-        title = r["Title"]
+        title = clean_str(r["Title"])
         hint = hint_map.get(wid, "")
-        block_lines.append(f"- [{title}]({link(f'{kind}/{L}/{wid}.html')}) {hint}")
+        y = int(r["_year"])
+        if y != prev_year:
+            block_lines.append(f'<li class="year-head" data-year="{y}">{y}</li>')
+            prev_year = y
+        tags = ",".join(parse_subtypes(clean_str(r.get("Subtype", ""))))
+        block_lines.append(
+            f'<li class="work-row" data-year="{y}" data-lang="{_attr(L)}"'
+            f' data-tags="{_attr(tags)}">'
+            f'<a href="{link(f"{kind}/{L}/{wid}.html")}">{_html.escape(title)}</a> {hint}</li>'
+        )
+    for _, r in undated.iterrows():
+        wid = r["work_id"]
+        L = r["language_full"]
+        title = clean_str(r["Title"])
+        tags = ",".join(parse_subtypes(clean_str(r.get("Subtype", ""))))
+        block_lines.append(
+            f'<li class="work-row" data-year="" data-lang="{_attr(L)}"'
+            f' data-tags="{_attr(tags)}">'
+            f'<a href="{link(f"{kind}/{L}/{wid}.html")}">{_html.escape(title)}</a>'
+            f' {hint_map.get(wid, "")}</li>'
+        )
+    block_lines.append("</ul>")
     block_lines.append("")
 
     start_marker = f"<!-- AUTO:{kind.upper()}_LIST:START -->"

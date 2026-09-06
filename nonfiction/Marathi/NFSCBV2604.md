@@ -4,7 +4,7 @@ title: 'अलकनंदा: विश्वाच्या बाल्या
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
-description: लेख · विज्ञान — BMM Vrutta, Apr 2026 · Ashish Mahabal
+description: JWST मार्फत लागलेला नवा शोध
 ---
 
 # अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी
@@ -14,7 +14,7 @@ description: लेख · विज्ञान — BMM Vrutta, Apr 2026 · Ashi
 <!-- AUTO:WORK_LINKS:END -->
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">JWST मार्फत लागलेला नवा शोध</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

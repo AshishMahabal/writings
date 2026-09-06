@@ -4,7 +4,7 @@ title: महानतेपलीकडे – महाराष्ट्र�
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
-description: लेख · सामाजिक — आजचा सुधारक, Apr 2026 · Ashish Mahabal
+description: महानता कशी मोजायची?
 ---
 
 # महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन
@@ -14,7 +14,7 @@ description: लेख · सामाजिक — आजचा सुधार
 <!-- AUTO:WORK_LINKS:END -->
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">महानता कशी मोजायची?</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

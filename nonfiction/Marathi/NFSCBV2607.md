@@ -4,7 +4,7 @@ title: चंद्राच्या खंत आणि दंत कथा
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
-description: लेख · विज्ञान — BMM Vrutta, Jul 2026 · Ashish Mahabal
+description: कोजागिरी, ब्लडमून वगैरे ...
 ---
 
 # चंद्राच्या खंत आणि दंत कथा
@@ -14,7 +14,7 @@ description: लेख · विज्ञान — BMM Vrutta, Jul 2026 · Ashi
 <!-- AUTO:WORK_LINKS:END -->
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">कोजागिरी, ब्लडमून वगैरे ...</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

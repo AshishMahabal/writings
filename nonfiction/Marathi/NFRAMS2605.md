@@ -4,13 +4,13 @@ title: गौरवशाली नि प्रभावशाली व्य�
 language: Marathi
 kind: nonfiction
 subtype: सामाजिक
-description: लेख · सामाजिक — मुक्त संवाद, May 2026 · Ashish Mahabal
+description: आसपासचे बदल घडवणारे शोधूया ...
 ---
 
 # गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">आसपासचे बदल घडवणारे शोधूया ...</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

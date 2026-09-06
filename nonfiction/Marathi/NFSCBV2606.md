@@ -1,10 +1,10 @@
 ---
 id: NFSCBV2606
-title: पडत्या दुर्बीणीला स्थिरावताना
+title: पडत्या दुर्बिणीला स्थिरावताना
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
-description: लेख · विज्ञान — BMM Vrutta, Jun 2026 · Ashish Mahabal
+description: स्विफ्टची स्कायलॅब होणार काय?
 ---
 
 # पडत्या दुर्बीणीला स्थिरावताना
@@ -14,7 +14,7 @@ description: लेख · विज्ञान — BMM Vrutta, Jun 2026 · Ashi
 <!-- AUTO:WORK_LINKS:END -->
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">स्विफ्टची स्कायलॅब होणार काय?</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

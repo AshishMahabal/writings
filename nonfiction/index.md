@@ -10,182 +10,88 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 <!-- AUTO:NONFICTION_LIST:START -->
 **By language:** [English](/writings/nonfiction/English/index.html) · [Hindi](/writings/nonfiction/Hindi/index.html) · [Marathi](/writings/nonfiction/Marathi/index.html)
 
-## By year
+<p class="topic-line"><strong>By topic:</strong> <a class="topic-link" data-topic="Arts" href="/writings/publications/tags/arts/index.html">Arts</a> <span class="topic-count">(1)</span> · <a class="topic-link" data-topic="Language" href="/writings/publications/tags/language/index.html">Language</a> <span class="topic-count">(1)</span> · <a class="topic-link" data-topic="Literature" href="/writings/publications/tags/literature/index.html">Literature</a> <span class="topic-count">(2)</span> · <a class="topic-link" data-topic="Math" href="/writings/publications/tags/math/index.html">Math</a> <span class="topic-count">(1)</span> · <a class="topic-link" data-topic="Rationalism" href="/writings/publications/tags/rationalism/index.html">Rationalism</a> <span class="topic-count">(6)</span> · <a class="topic-link" data-topic="Science" href="/writings/publications/tags/science/index.html">Science</a> <span class="topic-count">(28)</span> · <a class="topic-link" data-topic="Social" href="/writings/publications/tags/social/index.html">Social</a> <span class="topic-count">(15)</span> · <a class="topic-link" data-topic="Travel" href="/writings/publications/tags/travel/index.html">Travel</a> <span class="topic-count">(6)</span></p>
 
-### 2026
+<div class="list-controls" hidden><label class="lc-field">Sort<select class="lc-sort"><option value="year">Newest first</option><option value="title">Title A–Z</option></select></label><label class="lc-field">Language<select class="lc-lang"><option value="">All</option><option value="English">English</option><option value="Hindi">Hindi</option><option value="Marathi">Marathi</option></select></label><label class="lc-field">Topic<select class="lc-tag"><option value="">All</option><option value="Arts">Arts</option><option value="Language">Language</option><option value="Literature">Literature</option><option value="Math">Math</option><option value="Rationalism">Rationalism</option><option value="Science">Science</option><option value="Social">Social</option><option value="Travel">Travel</option></select></label><span class="lc-count" role="status" aria-live="polite"></span></div>
 
-- [रोमन: एका दुर्बिणीचा दीर्घ प्रवास](/writings/nonfiction/Marathi/NFSCBV2609.html) [BMM Vrutta, Sep 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/09/BMMNewsletterSept2026.pdf#page=23">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/08/roman_sep2026.mp3-Ashish-Mahabal.mp3">Audio</a>
-- [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) [BMM Vrutta, Aug 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
-- [चंद्राच्या खंत आणि दंत कथा](/writings/nonfiction/Marathi/NFSCBV2607.html) [BMM Vrutta, Jul 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/BMMNewsletterJuly2026.docx.pdf#page=27">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/chandraBMMjul2026.mp3">Audio</a>
-- [पडत्या दुर्बीणीला स्थिरावताना](/writings/nonfiction/Marathi/NFSCBV2606.html) [BMM Vrutta, Jun 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Audio</a>
-- [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) [BMM Vrutta, May 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
-- [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) [मुक्त संवाद, May 2026]
-- [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) [BMM Vrutta, Apr 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a>
-- [महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन](/writings/nonfiction/Marathi/NFRAAS2604.html) [आजचा सुधारक, Apr 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/04/14929/">Online</a>
-- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) [BMM Vrutta, Mar 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
-- [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) [BMM Vrutta, Feb 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a>
-- [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) [आजचा सुधारक, Jan 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a>
-- [देव, अनिवार्यता आणि मानवी अपेक्षा](/writings/nonfiction/Marathi/NFRAAS2601_2.html) [आजचा सुधारक, Jan 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a>
-- [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) [BMM Vrutta, Jan 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a>
-
-### 2025
-
-- [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) [आजचा सुधारक, Oct 2025] <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a>
-- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) [युगवाणी, Jul-Aug-Sep 2025]
-- [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) [साइकिल, Jun-Jul 2025]
-- [अन्तरिक्ष में 286 दिन](/writings/nonfiction/Hindi/NFSCCY2504H.html) [साइकिल, Apr-May 2025]
-- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, Mar 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a>
-- [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) [साइकिल, Feb-Mar 2025]
-- [२०२४चा आढावा AIच्या दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
-
-### 2024
-
-- [ग्रहताऱ्यांची उपासना कशाला करायची?](/writings/nonfiction/Marathi/NFRAANT129.html) [तर्किष्ट, Oct 2024]
-- [ज्योतिष्य ते ज्योतीर्विज्ञान](/writings/nonfiction/Marathi/NFRAANT56.html) [तर्कटपंजरी, Oct 2024]
-- [ब्रह्माण्ड से हमारा गहरा नाता](/writings/nonfiction/Hindi/NFSCCY2410H.html) [साइकिल, Oct-Nov 2024]
-- [मंगल में शेरलॉक](/writings/nonfiction/Hindi/NFSCCY2408H.html) [साइकिल, Aug-Sep 2024]
-
-### 2023
-
-- [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) [आजचा सुधारक, Jul 2023] <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a>
-
-### 2022
-
-- [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) [BMM Vrutta, Dec 2022] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/07/BMMNewsletterDec2022-1.pdf#page=10">Online</a>
-- [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) [आजचा सुधारक, Oct 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/10/9320/">Online</a>
-- [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) [आजचा सुधारक, Jul 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/07/8960/">Online</a>
-- [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) [आजचा सुधारक, Jan 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a>
-
-### 2021
-
-- [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) [प्रसाद, Nov-Dec 2021]
-- [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) [आजचा सुधारक, Aug 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a>
-- [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) [अनुभव, Feb 2021]
-- [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) [आजचा सुधारक, Jan 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/01/6096/">Online</a>
-
-### 2020
-
-- [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) [आजचा सुधारक, Oct 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a>
-- [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) [आजचा सुधारक, Jul 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/07/2936/">Online</a>
-- [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) [आजचा सुधारक, May 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a>
-
-### 2019
-
-- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) [ऐसी अक्षरे, दिवाळी 2019] <a class="venue-item__online" href="https://aisiakshare.com/node/7349">Online</a>
-- [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) [मुशाफिरी, दिवाळी 2019]
-- [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) [आजचा सुधारक, Apr 2019] <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a>
-
-### 2018
-
-- [खिचन, खेजरली, आणि खूप काही](/writings/nonfiction/Marathi/NFTRMU18.html) [मुशाफिरी, दिवाळी 2018]
-
-### 2017
-
-- [चित्रकाराच्या गावा जावे](/writings/nonfiction/Marathi/NFTRMU17.html) [मुशाफिरी, दिवाळी 2017]
-- [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) [MMLA, दिवाळी 2017]
-
-### 2015
-
-- [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) [MMLA, दिवाळी 2015]
-
-### 2014
-
-- [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) [MMLA, दिवाळी 2014]
-- [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) [मायबोली, दिवाळी 2014] <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2014/1559">Online</a>
-- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) [मविप, May 2014]
-
-### 2013
-
-- [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) [मायबोली, दिवाळी 2013]
-- [माझी काश्मीरी तिर्थयात्रा](/writings/nonfiction/Marathi/NFTRMM13.html) [MMLA, दिवाळी 2013] <a class="venue-item__online" href="https://cdn.wildapricot.com/76285/Resources/Documents/DiwaliAnk2013.pdf?version=1386897509000&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLndpbGRhcHJpY290LmNvbS83NjI4NS9SZXNvdXJjZXMvRG9jdW1lbnRzL0Rpd2FsaUFuazIwMTMucGRmP3ZlcnNpb249MTM4Njg5NzUwOTAwMCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjkwNzQ0N30sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=jgJiL82Qa8rAnYhKdTkOS4psniNdC5ek4L8EwdgKf-3psM1fcXsMZi7voRrYNlmqzpgBS6ldaELwnuuiZIzIXtZIInrAXEtKMnF94Uxi-aolCEPQfBLaEiu3HBTrSEqLLlsZr7O~hDInjdsZyCMYqRJTFm9C82-uY5pajKg~Tbr5xbEaq2slAMoI7GA~MROTso-ENzfUhZQ5OjnkrF8yEYaGBKeQ0-iV-TxkL-rBcc8Vu9S7~2nt84VM3BRYjT9~kWeZK4cmtwFCzE8jjmUUtIUjjfrXVlqw60hcfucbAipuX0Kog2m00dimMFDxYuQKLQ~cFTSBlOVivvkZL2MMtQ__&Key-Pair-Id=K27MGQSHTHAGGF">Online</a>
-
-### 2012
-
-- [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) [उपक्रम, दिवाळी 2012] <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a>
-
-### 2011
-
-- [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) [मायबोली, दिवाळी 2011]
-- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) [उपक्रम, दिवाळी 2011] <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a>
-
-### 2010
-
-- [नैसर्गिक भरार्‍या](/writings/nonfiction/Marathi/NFSCMB10.html) [मायबोली, दिवाळी 2010]
-- [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) [उपक्रम, दिवाळी 2010]
-- [The Transient Universe](/writings/nonfiction/English/NFSCNJ1006E.html) [NJ Sahitya Vishwa, Jun-Jul 2010]
-- [The Universe of Galaxies](/writings/nonfiction/English/NFSCNJ1002E.html) [NJ Sahitya Vishwa, Feb-Mar 2010]
-
-### 2009
-
-- [शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)](/writings/nonfiction/Marathi/NFSCMB09.html) [मायबोली, दिवाळी 2009]
-- [The dark spell of a Blackhole](/writings/nonfiction/English/NFSCNJ0912E.html) [NJ Sahitya Vishwa, Dec-Jan 2009]
-- [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, Oct-Nov 2009]
-- [सारे विश्वची माझे घर](/writings/nonfiction/Marathi/NFSCNJ0908.html) [NJ Sahitya Vishwa, Aug-Sep 2009]
-
-### 2006
-
-- [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) [मायबोली, दिवाळी 2006] <a class="venue-item__online" href="https://www.maayboli.com/hitguj/messages/118369/118185.html?1161387673">Online</a>
-
-## All
-
-- [Being Rational](/writings/nonfiction/English/NFSCBV2212E.html) [BMM Vrutta, Dec 2022] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/07/BMMNewsletterDec2022-1.pdf#page=10">Online</a>
-- [The Transient Universe](/writings/nonfiction/English/NFSCNJ1006E.html) [NJ Sahitya Vishwa, Jun-Jul 2010]
-- [The Universe of Galaxies](/writings/nonfiction/English/NFSCNJ1002E.html) [NJ Sahitya Vishwa, Feb-Mar 2010]
-- [The dark spell of a Blackhole](/writings/nonfiction/English/NFSCNJ0912E.html) [NJ Sahitya Vishwa, Dec-Jan 2009]
-- [अन्तरिक्ष में 286 दिन](/writings/nonfiction/Hindi/NFSCCY2504H.html) [साइकिल, Apr-May 2025]
-- [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) [साइकिल, Feb-Mar 2025]
-- [ब्रह्माण्ड से हमारा गहरा नाता](/writings/nonfiction/Hindi/NFSCCY2410H.html) [साइकिल, Oct-Nov 2024]
-- [भूले-भटके यात्री](/writings/nonfiction/Hindi/NFSCCY2506H.html) [साइकिल, Jun-Jul 2025]
-- [मंगल में शेरलॉक](/writings/nonfiction/Hindi/NFSCCY2408H.html) [साइकिल, Aug-Sep 2024]
-- [अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी](/writings/nonfiction/Marathi/NFSCBV2604.html) [BMM Vrutta, Apr 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a>
-- [असामी](/writings/nonfiction/Marathi/NFTRMM15.html) [MMLA, दिवाळी 2015]
-- [आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या](/writings/nonfiction/Marathi/NFSOAS2510.html) [आजचा सुधारक, Oct 2025] <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a>
-- [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, Mar 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a>
-- [आर्टेमिस, चंद्र आणि मानवापुढची कसोटी](/writings/nonfiction/Marathi/NFSCBV2605.html) [BMM Vrutta, May 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a>
-- [ओध्येमठाची निर्मिती आणि मराठी बाण](/writings/nonfiction/Marathi/NFLAUP12.html) [उपक्रम, दिवाळी 2012] <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a>
-- [कृत्रिम बुद्धिमत्ता : आळं की आळा](/writings/nonfiction/Marathi/NFSOAS2307.html) [आजचा सुधारक, Jul 2023] <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a>
-- [खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?](/writings/nonfiction/Marathi/NFRAAS2108.html) [आजचा सुधारक, Aug 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a>
-- [खिचन, खेजरली, आणि खूप काही](/writings/nonfiction/Marathi/NFTRMU18.html) [मुशाफिरी, दिवाळी 2018]
-- [गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न](/writings/nonfiction/Marathi/NFRAMS2605.html) [मुक्त संवाद, May 2026]
-- [ग्रहताऱ्यांची उपासना कशाला करायची?](/writings/nonfiction/Marathi/NFRAANT129.html) [तर्किष्ट, Oct 2024]
-- [घरोघरी अतिरेकी जन्मती](/writings/nonfiction/Marathi/NFSOAS1904.html) [आजचा सुधारक, Apr 2019] <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a>
-- [चंद्राच्या खंत आणि दंत कथा](/writings/nonfiction/Marathi/NFSCBV2607.html) [BMM Vrutta, Jul 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/BMMNewsletterJuly2026.docx.pdf#page=27">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/chandraBMMjul2026.mp3">Audio</a>
-- [चित्रकाराच्या गावा जावे](/writings/nonfiction/Marathi/NFTRMU17.html) [मुशाफिरी, दिवाळी 2017]
-- [चैतन्याचा प्रश्न](/writings/nonfiction/Marathi/NFRAAS2601.html) [आजचा सुधारक, Jan 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a>
-- [जयंत नारळीकरांच्या मराठी साहित्याचा पैस](/writings/nonfiction/Marathi/NFLIYU2507.html) [युगवाणी, Jul-Aug-Sep 2025]
-- [ज्योतिष्य ते ज्योतीर्विज्ञान](/writings/nonfiction/Marathi/NFRAANT56.html) [तर्कटपंजरी, Oct 2024]
-- [देव, अनिवार्यता आणि मानवी अपेक्षा](/writings/nonfiction/Marathi/NFRAAS2601_2.html) [आजचा सुधारक, Jan 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a>
-- [नागपूरमधील तीन कार्यक्रम - काही विचार](/writings/nonfiction/Marathi/NFSOBV2603.html) [BMM Vrutta, Mar 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a>
-- [नाती, खगोलशास्त्रीय](/writings/nonfiction/Marathi/NFSCMB11.html) [मायबोली, दिवाळी 2011]
-- [नैसर्गिक भरार्‍या](/writings/nonfiction/Marathi/NFSCMB10.html) [मायबोली, दिवाळी 2010]
-- [नोबल ईज ही हू नोबल डज](/writings/nonfiction/Marathi/NFSCMB13.html) [मायबोली, दिवाळी 2013]
-- [न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण](/writings/nonfiction/Marathi/NFSOAS2207.html) [आजचा सुधारक, Jul 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/07/8960/">Online</a>
-- [न्यायासाठी संवाद आवश्यक](/writings/nonfiction/Marathi/NFSOAS2210.html) [आजचा सुधारक, Oct 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/10/9320/">Online</a>
-- [पडत्या दुर्बीणीला स्थिरावताना](/writings/nonfiction/Marathi/NFSCBV2606.html) [BMM Vrutta, Jun 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Audio</a>
-- [पुन्हा-पुन्हा घडणारे अघटित](/writings/nonfiction/Marathi/NFSOAS2007.html) [आजचा सुधारक, Jul 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/07/2936/">Online</a>
-- [प्रश्न प्रश्नांचा](/writings/nonfiction/Marathi/NFSOMM17.html) [MMLA, दिवाळी 2017]
-- [बदलत्या आकाशाच्या नव्या वेधशाळा](/writings/nonfiction/Marathi/NFSCBV2602.html) [BMM Vrutta, Feb 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a>
-- [भारतीय खगोल - गणित परंपरा](/writings/nonfiction/Marathi/NFSCPR2111.html) [प्रसाद, Nov-Dec 2021]
-- [भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?](/writings/nonfiction/Marathi/NFRAMB06.html) [मायबोली, दिवाळी 2006] <a class="venue-item__online" href="https://www.maayboli.com/hitguj/messages/118369/118185.html?1161387673">Online</a>
-- [मनुकांचा निवडक संयत आहार](/writings/nonfiction/Marathi/NFSOAA19.html) [ऐसी अक्षरे, दिवाळी 2019] <a class="venue-item__online" href="https://aisiakshare.com/node/7349">Online</a>
-- [महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन](/writings/nonfiction/Marathi/NFRAAS2604.html) [आजचा सुधारक, Apr 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/04/14929/">Online</a>
-- [माझी काश्मीरी तिर्थयात्रा](/writings/nonfiction/Marathi/NFTRMM13.html) [MMLA, दिवाळी 2013] <a class="venue-item__online" href="https://cdn.wildapricot.com/76285/Resources/Documents/DiwaliAnk2013.pdf?version=1386897509000&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLndpbGRhcHJpY290LmNvbS83NjI4NS9SZXNvdXJjZXMvRG9jdW1lbnRzL0Rpd2FsaUFuazIwMTMucGRmP3ZlcnNpb249MTM4Njg5NzUwOTAwMCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjkwNzQ0N30sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=jgJiL82Qa8rAnYhKdTkOS4psniNdC5ek4L8EwdgKf-3psM1fcXsMZi7voRrYNlmqzpgBS6ldaELwnuuiZIzIXtZIInrAXEtKMnF94Uxi-aolCEPQfBLaEiu3HBTrSEqLLlsZr7O~hDInjdsZyCMYqRJTFm9C82-uY5pajKg~Tbr5xbEaq2slAMoI7GA~MROTso-ENzfUhZQ5OjnkrF8yEYaGBKeQ0-iV-TxkL-rBcc8Vu9S7~2nt84VM3BRYjT9~kWeZK4cmtwFCzE8jjmUUtIUjjfrXVlqw60hcfucbAipuX0Kog2m00dimMFDxYuQKLQ~cFTSBlOVivvkZL2MMtQ__&Key-Pair-Id=K27MGQSHTHAGGF">Online</a>
-- [माझे संगीताचे प्रयोग](/writings/nonfiction/Marathi/NFARUP10.html) [उपक्रम, दिवाळी 2010]
-- [रंग माझा वेगळा](/writings/nonfiction/Marathi/NFSCNJ0910.html) [NJ Sahitya Vishwa, Oct-Nov 2009]
-- [रोबोटची शंभरी](/writings/nonfiction/Marathi/NFLIAN2102.html) [अनुभव, Feb 2021]
-- [रोमन: एका दुर्बिणीचा दीर्घ प्रवास](/writings/nonfiction/Marathi/NFSCBV2609.html) [BMM Vrutta, Sep 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/09/BMMNewsletterSept2026.pdf#page=23">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/08/roman_sep2026.mp3-Ashish-Mahabal.mp3">Audio</a>
-- [लॉस एंजेलिसचा शिरोमणी](/writings/nonfiction/Marathi/NFTRMM14.html) [MMLA, दिवाळी 2014]
-- [विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?](/writings/nonfiction/Marathi/NFSCBV2608.html) [BMM Vrutta, Aug 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a>
-- [विविधतेमध्ये अनेकता](/writings/nonfiction/Marathi/NFSOAS2201.html) [आजचा सुधारक, Jan 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a>
-- [विश्वजन्म पाहिला म्या डोळा](/writings/nonfiction/Marathi/NFSCMVP1405.html) [मविप, May 2014]
-- [विषाणूंच्या अगम्य गमती](/writings/nonfiction/Marathi/NFSCAS2005.html) [आजचा सुधारक, May 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a>
-- [शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)](/writings/nonfiction/Marathi/NFSCMB09.html) [मायबोली, दिवाळी 2009]
-- [शेतीचे आणि पर्यायाने आपले भवितव्य](/writings/nonfiction/Marathi/NFSOAS2101.html) [आजचा सुधारक, Jan 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/01/6096/">Online</a>
-- [शोध बदलांचा](/writings/nonfiction/Marathi/NFSCMB14.html) [मायबोली, दिवाळी 2014] <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2014/1559">Online</a>
-- [सारे विश्वची माझे घर](/writings/nonfiction/Marathi/NFSCNJ0908.html) [NJ Sahitya Vishwa, Aug-Sep 2009]
-- [सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS](/writings/nonfiction/Marathi/NFSCBV2601.html) [BMM Vrutta, Jan 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a>
-- [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) [मुशाफिरी, दिवाळी 2019]
-- [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) [आजचा सुधारक, Oct 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a>
-- [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) [उपक्रम, दिवाळी 2011] <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a>
-- [२०२४चा आढावा AIच्या दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
+<ul class="work-list">
+<li class="year-head" data-year="2026">2026</li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2609.html">रोमन: एका दुर्बिणीचा दीर्घ प्रवास</a> [BMM Vrutta, Sep 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/09/BMMNewsletterSept2026.pdf#page=23">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/08/roman_sep2026.mp3-Ashish-Mahabal.mp3">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2608.html">विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?</a> [BMM Vrutta, Aug 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/BMMNewsletterAug2026.docx.pdf#page=25">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/07/Mahabal_BMM_aug2026.mp3">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2607.html">चंद्राच्या खंत आणि दंत कथा</a> [BMM Vrutta, Jul 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/BMMNewsletterJuly2026.docx.pdf#page=27">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/06/chandraBMMjul2026.mp3">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2606.html">पडत्या दुर्बिणीला स्थिरावताना</a> [BMM Vrutta, Jun 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/BMMNewsletterJune2026.pdf#page=22">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/05/Mahabal_BMMVrutta_202606.mp3">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2605.html">आर्टेमिस, चंद्र आणि मानवापुढची कसोटी</a> [BMM Vrutta, May 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/BMMNewsletterMay2026.docx.pdf#page=18">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/04/Mahabal_BMMVrutta_May2026.mp4">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFRAMS2605.html">गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न</a> [मुक्त संवाद, May 2026]</li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2604.html">अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी</a> [BMM Vrutta, Apr 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/BMMNewsletterApr2026.docx.pdf#page=15">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/03/Mahabal_BMM202604_audio.mp4">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFRAAS2604.html">महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन</a> [आजचा सुधारक, Apr 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/04/14929/">Online</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOBV2603.html">नागपूरमधील तीन कार्यक्रम - काही विचार</a> [BMM Vrutta, Mar 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/BMMNewsletterMar2026.docx.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/02/Mahabal_BMMVrutta_202603.mp4">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2602.html">बदलत्या आकाशाच्या नव्या वेधशाळा</a> [BMM Vrutta, Feb 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/BMMNewsletterFeb2026.pdf#page=19">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2026/01/Mahabal_BMM_Feb2026_audio.mp4">Audio</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Rationalism"><a href="/writings/nonfiction/Marathi/NFRAAS2601.html">चैतन्याचा प्रश्न</a> [आजचा सुधारक, Jan 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14715/">Online</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Rationalism"><a href="/writings/nonfiction/Marathi/NFRAAS2601_2.html">देव, अनिवार्यता आणि मानवी अपेक्षा</a> [आजचा सुधारक, Jan 2026] <a class="venue-item__online" href="https://www.sudharak.in/2026/01/14797/">Online</a></li>
+<li class="work-row" data-year="2026" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2601.html">सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS</a> [BMM Vrutta, Jan 2026] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/12/BMMNewsletterJan2026.docx.pdf#page=25">Online</a></li>
+<li class="year-head" data-year="2025">2025</li>
+<li class="work-row" data-year="2025" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2510.html">आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या</a> [आजचा सुधारक, Oct 2025] <a class="venue-item__online" href="https://www.sudharak.in/2025/10/14584/">Online</a></li>
+<li class="work-row" data-year="2025" data-lang="Marathi" data-tags="Literature"><a href="/writings/nonfiction/Marathi/NFLIYU2507.html">जयंत नारळीकरांच्या मराठी साहित्याचा पैस</a> [युगवाणी, Jul-Aug-Sep 2025]</li>
+<li class="work-row" data-year="2025" data-lang="Hindi" data-tags="Science"><a href="/writings/nonfiction/Hindi/NFSCCY2506H.html">भूले-भटके यात्री</a> [साइकिल, Jun-Jul 2025]</li>
+<li class="work-row" data-year="2025" data-lang="Hindi" data-tags="Science"><a href="/writings/nonfiction/Hindi/NFSCCY2504H.html">अन्तरिक्ष में 286 दिन</a> [साइकिल, Apr-May 2025]</li>
+<li class="work-row" data-year="2025" data-lang="Marathi" data-tags="Math"><a href="/writings/nonfiction/Marathi/NFMABV2503.html">आपणच आपले जेलर</a> [BMM Vrutta, Mar 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a></li>
+<li class="work-row" data-year="2025" data-lang="Hindi" data-tags="Science"><a href="/writings/nonfiction/Hindi/NFSCCY2502H.html">आकाश से गिरते उपग्रह</a> [साइकिल, Feb-Mar 2025]</li>
+<li class="work-row" data-year="2025" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCBV2501.html">२०२४चा आढावा AIच्या दृष्टिकोनातून</a> [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a></li>
+<li class="year-head" data-year="2024">2024</li>
+<li class="work-row" data-year="2024" data-lang="Marathi" data-tags="Rationalism"><a href="/writings/nonfiction/Marathi/NFRAANT129.html">ग्रहताऱ्यांची उपासना कशाला करायची?</a> [तर्किष्ट, Oct 2024]</li>
+<li class="work-row" data-year="2024" data-lang="Marathi" data-tags="Rationalism"><a href="/writings/nonfiction/Marathi/NFRAANT56.html">ज्योतिष्य ते ज्योतीर्विज्ञान</a> [तर्कटपंजरी, Oct 2024]</li>
+<li class="work-row" data-year="2024" data-lang="Hindi" data-tags="Science"><a href="/writings/nonfiction/Hindi/NFSCCY2410H.html">ब्रह्माण्ड से हमारा गहरा नाता</a> [साइकिल, Oct-Nov 2024]</li>
+<li class="work-row" data-year="2024" data-lang="Hindi" data-tags="Science"><a href="/writings/nonfiction/Hindi/NFSCCY2408H.html">मंगल में शेरलॉक</a> [साइकिल, Aug-Sep 2024]</li>
+<li class="year-head" data-year="2023">2023</li>
+<li class="work-row" data-year="2023" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2307.html">कृत्रिम बुद्धिमत्ता : आळं की आळा</a> [आजचा सुधारक, Jul 2023] <a class="venue-item__online" href="https://www.sudharak.in/2023/07/11033/">Online</a></li>
+<li class="year-head" data-year="2022">2022</li>
+<li class="work-row" data-year="2022" data-lang="English" data-tags="Science"><a href="/writings/nonfiction/English/NFSCBV2212E.html">Being Rational</a> [BMM Vrutta, Dec 2022] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/07/BMMNewsletterDec2022-1.pdf#page=10">Online</a></li>
+<li class="work-row" data-year="2022" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2210.html">न्यायासाठी संवाद आवश्यक</a> [आजचा सुधारक, Oct 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/10/9320/">Online</a></li>
+<li class="work-row" data-year="2022" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2207.html">न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण</a> [आजचा सुधारक, Jul 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/07/8960/">Online</a></li>
+<li class="work-row" data-year="2022" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2201.html">विविधतेमध्ये अनेकता</a> [आजचा सुधारक, Jan 2022] <a class="venue-item__online" href="https://www.sudharak.in/2022/01/8039/">Online</a></li>
+<li class="year-head" data-year="2021">2021</li>
+<li class="work-row" data-year="2021" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCPR2111.html">भारतीय खगोल - गणित परंपरा</a> [प्रसाद, Nov-Dec 2021]</li>
+<li class="work-row" data-year="2021" data-lang="Marathi" data-tags="Rationalism"><a href="/writings/nonfiction/Marathi/NFRAAS2108.html">खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?</a> [आजचा सुधारक, Aug 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/08/7526/">Online</a></li>
+<li class="work-row" data-year="2021" data-lang="Marathi" data-tags="Literature"><a href="/writings/nonfiction/Marathi/NFLIAN2102.html">रोबोटची शंभरी</a> [अनुभव, Feb 2021]</li>
+<li class="work-row" data-year="2021" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2101.html">शेतीचे आणि पर्यायाने आपले भवितव्य</a> [आजचा सुधारक, Jan 2021] <a class="venue-item__online" href="https://www.sudharak.in/2021/01/6096/">Online</a></li>
+<li class="year-head" data-year="2020">2020</li>
+<li class="work-row" data-year="2020" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2010.html">स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत</a> [आजचा सुधारक, Oct 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a></li>
+<li class="work-row" data-year="2020" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS2007.html">पुन्हा-पुन्हा घडणारे अघटित</a> [आजचा सुधारक, Jul 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/07/2936/">Online</a></li>
+<li class="work-row" data-year="2020" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCAS2005.html">विषाणूंच्या अगम्य गमती</a> [आजचा सुधारक, May 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/05/2770/">Online</a></li>
+<li class="year-head" data-year="2019">2019</li>
+<li class="work-row" data-year="2019" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAA19.html">मनुकांचा निवडक संयत आहार</a> [ऐसी अक्षरे, दिवाळी 2019] <a class="venue-item__online" href="https://aisiakshare.com/node/7349">Online</a></li>
+<li class="work-row" data-year="2019" data-lang="Marathi" data-tags="Travel"><a href="/writings/nonfiction/Marathi/NFTRMU19.html">स्टॉकहोमच्या कला-विकला</a> [मुशाफिरी, दिवाळी 2019]</li>
+<li class="work-row" data-year="2019" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOAS1904.html">घरोघरी अतिरेकी जन्मती</a> [आजचा सुधारक, Apr 2019] <a class="venue-item__online" href="https://www.sudharak.in/2019/04/1929/">Online</a></li>
+<li class="year-head" data-year="2018">2018</li>
+<li class="work-row" data-year="2018" data-lang="Marathi" data-tags="Travel"><a href="/writings/nonfiction/Marathi/NFTRMU18.html">खिचन, खेजरली, आणि खूप काही</a> [मुशाफिरी, दिवाळी 2018]</li>
+<li class="year-head" data-year="2017">2017</li>
+<li class="work-row" data-year="2017" data-lang="Marathi" data-tags="Travel"><a href="/writings/nonfiction/Marathi/NFTRMU17.html">चित्रकाराच्या गावा जावे</a> [मुशाफिरी, दिवाळी 2017]</li>
+<li class="work-row" data-year="2017" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOMM17.html">प्रश्न प्रश्नांचा</a> [MMLA, दिवाळी 2017]</li>
+<li class="year-head" data-year="2015">2015</li>
+<li class="work-row" data-year="2015" data-lang="Marathi" data-tags="Travel"><a href="/writings/nonfiction/Marathi/NFTRMM15.html">असामी</a> [MMLA, दिवाळी 2015]</li>
+<li class="year-head" data-year="2014">2014</li>
+<li class="work-row" data-year="2014" data-lang="Marathi" data-tags="Travel"><a href="/writings/nonfiction/Marathi/NFTRMM14.html">लॉस एंजेलिसचा शिरोमणी</a> [MMLA, दिवाळी 2014]</li>
+<li class="work-row" data-year="2014" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCMB14.html">शोध बदलांचा</a> [मायबोली, दिवाळी 2014] <a class="venue-item__online" href="https://vishesh.maayboli.com/diwali-2014/1559">Online</a></li>
+<li class="work-row" data-year="2014" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCMVP1405.html">विश्वजन्म पाहिला म्या डोळा</a> [मविप, May 2014]</li>
+<li class="year-head" data-year="2013">2013</li>
+<li class="work-row" data-year="2013" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCMB13.html">नोबल ईज ही हू नोबल डज</a> [मायबोली, दिवाळी 2013]</li>
+<li class="work-row" data-year="2013" data-lang="Marathi" data-tags="Travel"><a href="/writings/nonfiction/Marathi/NFTRMM13.html">माझी काश्मीरी तिर्थयात्रा</a> [MMLA, दिवाळी 2013] <a class="venue-item__online" href="https://cdn.wildapricot.com/76285/Resources/Documents/DiwaliAnk2013.pdf?version=1386897509000&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLndpbGRhcHJpY290LmNvbS83NjI4NS9SZXNvdXJjZXMvRG9jdW1lbnRzL0Rpd2FsaUFuazIwMTMucGRmP3ZlcnNpb249MTM4Njg5NzUwOTAwMCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjkwNzQ0N30sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=jgJiL82Qa8rAnYhKdTkOS4psniNdC5ek4L8EwdgKf-3psM1fcXsMZi7voRrYNlmqzpgBS6ldaELwnuuiZIzIXtZIInrAXEtKMnF94Uxi-aolCEPQfBLaEiu3HBTrSEqLLlsZr7O~hDInjdsZyCMYqRJTFm9C82-uY5pajKg~Tbr5xbEaq2slAMoI7GA~MROTso-ENzfUhZQ5OjnkrF8yEYaGBKeQ0-iV-TxkL-rBcc8Vu9S7~2nt84VM3BRYjT9~kWeZK4cmtwFCzE8jjmUUtIUjjfrXVlqw60hcfucbAipuX0Kog2m00dimMFDxYuQKLQ~cFTSBlOVivvkZL2MMtQ__&Key-Pair-Id=K27MGQSHTHAGGF">Online</a></li>
+<li class="year-head" data-year="2012">2012</li>
+<li class="work-row" data-year="2012" data-lang="Marathi" data-tags="Language"><a href="/writings/nonfiction/Marathi/NFLAUP12.html">ओध्येमठाची निर्मिती आणि मराठी बाण</a> [उपक्रम, दिवाळी 2012] <a class="venue-item__online" href="http://diwali.upakram.org/node/191">Online</a></li>
+<li class="year-head" data-year="2011">2011</li>
+<li class="work-row" data-year="2011" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCMB11.html">नाती, खगोलशास्त्रीय</a> [मायबोली, दिवाळी 2011]</li>
+<li class="work-row" data-year="2011" data-lang="Marathi" data-tags="Social"><a href="/writings/nonfiction/Marathi/NFSOUP11.html">स्वार्थातून परमार्थ</a> [उपक्रम, दिवाळी 2011] <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a></li>
+<li class="year-head" data-year="2010">2010</li>
+<li class="work-row" data-year="2010" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCMB10.html">नैसर्गिक भरार्‍या</a> [मायबोली, दिवाळी 2010]</li>
+<li class="work-row" data-year="2010" data-lang="Marathi" data-tags="Arts"><a href="/writings/nonfiction/Marathi/NFARUP10.html">माझे संगीताचे प्रयोग</a> [उपक्रम, दिवाळी 2010]</li>
+<li class="work-row" data-year="2010" data-lang="English" data-tags="Science"><a href="/writings/nonfiction/English/NFSCNJ1006E.html">The Transient Universe</a> [NJ Sahitya Vishwa, Jun-Jul 2010]</li>
+<li class="work-row" data-year="2010" data-lang="English" data-tags="Science"><a href="/writings/nonfiction/English/NFSCNJ1002E.html">The Universe of Galaxies</a> [NJ Sahitya Vishwa, Feb-Mar 2010]</li>
+<li class="year-head" data-year="2009">2009</li>
+<li class="work-row" data-year="2009" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCMB09.html">शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)</a> [मायबोली, दिवाळी 2009]</li>
+<li class="work-row" data-year="2009" data-lang="English" data-tags="Science"><a href="/writings/nonfiction/English/NFSCNJ0912E.html">The dark spell of a Blackhole</a> [NJ Sahitya Vishwa, Dec-Jan 2009]</li>
+<li class="work-row" data-year="2009" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCNJ0910.html">रंग माझा वेगळा</a> [NJ Sahitya Vishwa, Oct-Nov 2009]</li>
+<li class="work-row" data-year="2009" data-lang="Marathi" data-tags="Science"><a href="/writings/nonfiction/Marathi/NFSCNJ0908.html">सारे विश्वची माझे घर</a> [NJ Sahitya Vishwa, Aug-Sep 2009]</li>
+<li class="year-head" data-year="2006">2006</li>
+<li class="work-row" data-year="2006" data-lang="Marathi" data-tags="Rationalism"><a href="/writings/nonfiction/Marathi/NFRAMB06.html">भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?</a> [मायबोली, दिवाळी 2006] <a class="venue-item__online" href="https://www.maayboli.com/hitguj/messages/118369/118185.html?1161387673">Online</a></li>
+</ul>
 <!-- AUTO:NONFICTION_LIST:END -->

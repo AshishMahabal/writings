@@ -4,7 +4,7 @@ title: विज्ञानाने कोणत्या गोष्टी �
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
-description: लेख · विज्ञान — BMM Vrutta, Aug 2026 · Ashish Mahabal
+description: योगायोग आणि कार्यकारणभाव ...
 ---
 
 # विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?
@@ -14,7 +14,7 @@ description: लेख · विज्ञान — BMM Vrutta, Aug 2026 · Ashi
 <!-- AUTO:WORK_LINKS:END -->
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">योगायोग आणि कार्यकारणभाव ...</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

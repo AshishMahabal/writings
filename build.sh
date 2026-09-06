@@ -27,6 +27,10 @@ fi
 rm -rf "$SITE"
 mkdir -p "$SITE"
 cp -R "$ASSETS_SRC" "$SITE"
+# assets/ holds build-time-only files alongside the published ones. Copying it
+# wholesale was publishing the card generator, the Pandoc template (with its
+# variables unsubstituted) and Python bytecode.
+rm -rf "$SITE/assets/__pycache__" "$SITE/assets/make_og_card.py" "$SITE/assets/template.html"
 
 render_one() {
   local md="$1"

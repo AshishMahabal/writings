@@ -4,7 +4,7 @@ title: आर्टेमिस, चंद्र आणि मानवापु
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान
-description: लेख · विज्ञान — BMM Vrutta, May 2026 · Ashish Mahabal
+description: चांद्रवस्ती कशी असेल?
 ---
 
 # आर्टेमिस, चंद्र आणि मानवापुढची कसोटी
@@ -14,7 +14,7 @@ description: लेख · विज्ञान — BMM Vrutta, May 2026 · Ashi
 <!-- AUTO:WORK_LINKS:END -->
 
 <!-- AUTO:WORK_SUMMARY:START -->
-*(Text to be added here.)*
+<p class="work-summary">चांद्रवस्ती कशी असेल?</p>
 <!-- AUTO:WORK_SUMMARY:END -->
 
 

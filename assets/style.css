@@ -428,3 +428,48 @@ nav a.navlink.nav-active {
   padding-bottom: 2px;
 }
 
+
+/* --- Index list controls ------------------------------------------------- */
+/* Hidden until list.js unhides them, so they are never dead without JS. */
+.list-controls[hidden] { display: none; }
+
+.list-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.1rem;
+  margin: 1rem 0 1.25rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.92em;
+}
+
+.lc-field { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+
+.lc-field select {
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.2rem 0.5rem;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95em;
+}
+
+.lc-count { margin-left: auto; color: var(--muted); }
+
+.work-list { list-style: none; padding-left: 0; margin: 0.5rem 0 1.5rem; }
+.work-list .work-row { margin: 0.3rem 0; }
+
+.work-list .year-head {
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+  font-size: 1.05em;
+  color: var(--muted);
+}
+.work-list .year-head:first-child { margin-top: 0.25rem; }
+
+/* "By topic" line, mirroring "By language" above it. */
+.topic-line { margin: 0.35rem 0 0.9rem; line-height: 2; }
+.topic-count { color: var(--muted); font-size: 0.85em; }
+.topic-link.is-active { font-weight: 650; text-decoration-thickness: 2px; }

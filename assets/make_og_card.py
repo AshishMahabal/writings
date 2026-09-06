@@ -23,7 +23,9 @@ import sys
 import tempfile
 from pathlib import Path
 
-from PIL import Image, ImageOps
+# NOTE: Pillow is imported lazily inside the three functions that render or
+# measure. --check gates deployment and runs on a runner that installs only
+# pandas and pyyaml, so nothing at module scope may import PIL.
 
 # Reuse the site's own date/venue parsing rather than duplicating it.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -120,6 +122,7 @@ def ink_width(text: str, family: str, size: int, bold: bool = False) -> int:
         f.flush()
         out = Path(f.name + ".png")
         subprocess.run(["rsvg-convert", "-o", str(out), f.name], check=True)
+    from PIL import Image, ImageOps
     bbox = ImageOps.invert(Image.open(out).convert("L")).getbbox()
     out.unlink()
     return (bbox[2] - 10) if bbox else 0
@@ -269,6 +272,7 @@ def _cover_svg(covers: list, credit_bottom: float) -> str:
     """
     if not covers:
         return ""
+    from PIL import Image
     n = len(covers)
     slot_w = (BOX_MAX_W - BOX_GAP * (n - 1)) / n
     avail_h = min(BOX_MAX_H, BOX_BOTTOM - (credit_bottom + 26))
@@ -360,6 +364,7 @@ def make_work_card(work_id: str, title: str, out_stem: Path, credit: str = "",
     jpg = out_stem.with_suffix(".jpg")
     _rasterize(_svg_doc(body), png)
     if covers:
+        from PIL import Image
         Image.open(png).convert("RGB").save(jpg, "JPEG", quality=85, optimize=True)
         png.unlink()
         out = jpg

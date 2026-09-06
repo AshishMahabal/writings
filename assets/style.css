@@ -1,11 +1,54 @@
-:root { color-scheme: light dark; }
-body { max-width: 760px; margin: 48px auto; padding: 0 18px; font: 18px/1.65 system-ui, -apple-system, "Noto Sans Devanagari", "Noto Serif Devanagari", serif; }
+:root {
+  color-scheme: light dark;
+  /* Same values as the social cards (assets/make_og_card.py), so the site and
+     the cards read as one system. Previously there were no explicit colours at
+     all: light mode was pure #000 on #fff, harsher than the cards. */
+  --bg:    #fafaf8;
+  --ink:   #111111;
+  --muted: #6e6e69;
+  --rule:  #c8c8c3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:    #171613;
+    --ink:   #eeece6;
+    --muted: #a09c93;
+    --rule:  #3b3934;
+  }
+}
+
+body {
+  max-width: 760px;
+  margin: 48px auto;
+  padding: 0 18px;
+  background: var(--bg);
+  color: var(--ink);
+  font: 18px/1.65 system-ui, -apple-system, "Noto Sans Devanagari",
+        "Noto Serif Devanagari", "Devanagari Sangam MN", "Kohinoor Devanagari", serif;
+}
+
+/* Devanagari carries 86 of the 96 works, but system-ui has no Devanagari at all,
+   so those pages silently fall through to a face sized and leaded for Latin.
+   Devanagari needs a little more of both: matras sit above and below the
+   shirorekha, so tight leading collides. */
+html[lang="mr"] body,
+html[lang="hi"] body {
+  font-size: 19px;
+  line-height: 1.75;
+}
+
+html[lang="mr"] h1, html[lang="mr"] h2, html[lang="mr"] h3,
+html[lang="hi"] h1, html[lang="hi"] h2, html[lang="hi"] h3 {
+  line-height: 1.35;
+}
+
 h1,h2,h3 { line-height: 1.2; }
 nav a { margin-right: 14px; }
-meta, .meta { opacity: 0.75; }
-blockquote { border-left: 3px solid currentColor; padding-left: 14px; margin-left: 0; opacity: 0.9; }
+meta, .meta { color: var(--muted); }
+blockquote { border-left: 3px solid var(--rule); padding-left: 14px; margin-left: 0; opacity: 0.9; }
 a { text-underline-offset: 3px; }
-hr { opacity: 0.25; }
+hr { border: 0; border-top: 1px solid var(--rule); }
 
 .hero {
   display: flex;
@@ -90,14 +133,14 @@ hr { opacity: 0.25; }
   height: auto;
   border-radius: 4px;
   opacity: 0.95;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 0 0 0 1px var(--rule);
 }
 
 /* Contact section spacing */
 #contact, .contact {
   margin-top: 2.5rem;
   padding-top: 1.25rem;
-  border-top: 1px solid rgba(0,0,0,0.15);
+  border-top: 1px solid var(--rule);
 }
 
 .contact-form label {
@@ -141,7 +184,7 @@ form.contact-form {
   box-sizing: border-box;
   margin-top: 0.35rem;
   padding: 0.55rem 0.6rem;
-  border: 1px solid currentColor;
+  border: 1px solid var(--rule);
   border-radius: 8px;
   background: rgba(127,127,127,0.08);
   color: inherit;
@@ -342,6 +385,15 @@ details summary {
 .work-summary {
   margin: 0 0 1.25rem;
 }
+
+/* "More from ..." -- an invitation, deliberately quieter than the work itself. */
+.work-related {
+  margin: 1.25rem 0 0;
+  font-size: 0.95em;
+  color: var(--muted);
+}
+
+.work-related a { color: inherit; }
 
 .nav-active {
   font-weight: 700;

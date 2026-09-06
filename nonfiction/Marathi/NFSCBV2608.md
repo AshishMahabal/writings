@@ -23,3 +23,7 @@ description: लेख · विज्ञान — BMM Vrutta, Aug 2026 · Ashi
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Aug 2026 — Online Magazine: [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html) — [2026](/writings/publications/years/2026/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/bmm-vrutta/index.html">BMM Vrutta</a> (12) · <a href="/writings/publications/years/2026/index.html">2026</a></p>
+<!-- AUTO:WORK_RELATED:END -->

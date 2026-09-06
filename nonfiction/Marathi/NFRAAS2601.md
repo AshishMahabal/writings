@@ -23,3 +23,7 @@ description: लेख · बुद्धिप्रामाण्यवाद
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Jan 2026 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2026](/writings/publications/years/2026/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-d0fb43edff/index.html">आजचा सुधारक</a> (15) · <a href="/writings/publications/years/2026/index.html">2026</a></p>
+<!-- AUTO:WORK_RELATED:END -->

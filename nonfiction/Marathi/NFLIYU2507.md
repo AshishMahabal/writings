@@ -19,3 +19,7 @@ description: लेख · साहित्य — युगवाणी, Jul-A
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Jul-Aug-Sep 2025 — Magazine: [युगवाणी](/writings/publications/venues/venue-c1b569855d/index.html) — [2025](/writings/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/years/2025/index.html">2025</a></p>
+<!-- AUTO:WORK_RELATED:END -->

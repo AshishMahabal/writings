@@ -19,3 +19,7 @@ description: Fiction · Sci-Fi — Inner Space and Outer Thoughts, 2023 · Ashis
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - 2023 — Anthology: [Inner Space and Outer Thoughts](/writings/publications/venues/inner-space-and-outer-thoughts/index.html) — [2023](/writings/publications/years/2023/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/years/2023/index.html">2023</a></p>
+<!-- AUTO:WORK_RELATED:END -->

@@ -842,7 +842,71 @@ def write_work_summary_block(out_path: Path, g: pd.DataFrame) -> None:
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def write_work_related_block(out_path: Path, g: pd.DataFrame,
+                             venue_slug_map: Dict[str, str],
+                             venue_counts: Dict[str, int]) -> None:
+    """A "Read more" line pointing at this work's venue and year pages.
+
+    Those links already existed inside Publication history, but there they read as
+    a citation rather than an invitation. This restates them as an offer, with
+    counts, since the count is what tells a reader whether it is worth a click.
+    Venues holding only this one work are suppressed -- 13 works are alone in
+    their venue, and that link would lead straight back here.
+    """
+    start_marker = "<!-- AUTO:WORK_RELATED:START -->"
+    end_marker = "<!-- AUTO:WORK_RELATED:END -->"
+
+    gg = g.copy()
+    gg["YearNum"] = gg["Year"].apply(year_int)
+    gg["MonthKey"] = gg["Month"].apply(month_key)
+    gg = gg.sort_values(["YearNum", "MonthKey"], kind="mergesort")
+
+    parts: List[str] = []
+    seen = set()
+    for _, r in gg.iterrows():
+        venue = clean_str(r.get("Venue", ""))
+        n = venue_counts.get(venue, 0)
+        if not venue or venue in seen or n < 2:
+            continue
+        seen.add(venue)
+        vslug = venue_slug_map.get(venue, slugify(venue))
+        vlink = link(f"publications/venues/{vslug}/index.html")
+        parts.append(f'<a href="{vlink}">{venue}</a> ({n})')
+
+    # Earliest year only: a work reprinted across three years would otherwise
+    # trail three year links, which is noise rather than help.
+    y_txt = year_str(gg["Year"].iloc[0]) if len(gg) else ""
+    if y_txt:
+        ylink = link(f"publications/years/{y_txt}/index.html")
+        parts.append(f'<a href="{ylink}">{y_txt}</a>')
+
+    if not parts:
+        return
+
+    block_content = ('<p class="work-related">More from '
+                     + " · ".join(parts) + "</p>")
+    full_block = f"{start_marker}\n{block_content}\n{end_marker}"
+
+    text = out_path.read_text(encoding="utf-8")
+    s_i = text.find(start_marker)
+    e_i = text.find(end_marker)
+    if s_i != -1 and e_i != -1:
+        out_path.write_text(text[:s_i] + full_block + text[e_i + len(end_marker):],
+                            encoding="utf-8")
+        return
+
+    # Sits after Publication history, which stays as the bibliographic record.
+    text = text.rstrip("\n") + "\n\n" + full_block + "\n"
+    out_path.write_text(text, encoding="utf-8")
+
+
 def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> None:
+    # How many distinct works each venue holds, for the "More from" counts.
+    venue_counts = (
+        df.drop_duplicates(["work_id", "Venue"])["Venue"]
+        .apply(clean_str).value_counts().to_dict()
+    )
+
     for work_id, g in df.groupby("work_id", sort=True):
         title = clean_str(g["Title"].iloc[0])
         lang_full = norm_lang_full(g["Language"].iloc[0])
@@ -865,6 +929,7 @@ def generate_work_pages(df: pd.DataFrame, venue_slug_map: Dict[str, str]) -> Non
         write_work_meta_block(out_path, g)
         write_work_links_block(out_path, g)
         write_work_summary_block(out_path, g)
+        write_work_related_block(out_path, g, venue_slug_map, venue_counts)
 
 
 def generate_kind_indexes(df: pd.DataFrame, kind: str) -> None:

@@ -23,3 +23,7 @@ description: लेख · सामाजिक — आजचा सुधार
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Jul 2022 — Online Magazine: [आजचा सुधारक](/writings/publications/venues/venue-d0fb43edff/index.html) — [2022](/writings/publications/years/2022/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-d0fb43edff/index.html">आजचा सुधारक</a> (15) · <a href="/writings/publications/years/2022/index.html">2022</a></p>
+<!-- AUTO:WORK_RELATED:END -->

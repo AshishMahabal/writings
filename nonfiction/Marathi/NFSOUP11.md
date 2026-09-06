@@ -23,3 +23,7 @@ description: लेख · सामाजिक — उपक्रम, दि�
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2011 — Online Magazine: [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html) — [2011](/writings/publications/years/2011/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-8f54900029/index.html">उपक्रम</a> (3) · <a href="/writings/publications/years/2011/index.html">2011</a></p>
+<!-- AUTO:WORK_RELATED:END -->

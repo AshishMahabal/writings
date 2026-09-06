@@ -19,3 +19,7 @@ description: लेख · विज्ञान — प्रसाद, Nov-Dec 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Nov-Dec 2021 — Magazine: [प्रसाद](/writings/publications/venues/venue-205c73bd40/index.html) — [2021](/writings/publications/years/2021/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/years/2021/index.html">2021</a></p>
+<!-- AUTO:WORK_RELATED:END -->

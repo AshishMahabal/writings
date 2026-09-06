@@ -19,3 +19,7 @@ description: लेख · सामाजिक — MMLA (Diwali Ank), दिव
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2017 — Online Magazine: [MMLA](/writings/publications/venues/mmla/index.html) — [2017](/writings/publications/years/2017/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/mmla/index.html">MMLA</a> (4) · <a href="/writings/publications/years/2017/index.html">2017</a></p>
+<!-- AUTO:WORK_RELATED:END -->

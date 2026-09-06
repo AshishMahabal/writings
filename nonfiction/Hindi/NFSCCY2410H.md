@@ -19,3 +19,7 @@ description: लेख · विज्ञान — साइकिल, Oct-Nov 
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Oct-Nov 2024 — Magazine: [साइकिल](/writings/publications/venues/venue-72dcf424f4/index.html) — [2024](/writings/publications/years/2024/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-72dcf424f4/index.html">साइकिल</a> (5) · <a href="/writings/publications/years/2024/index.html">2024</a></p>
+<!-- AUTO:WORK_RELATED:END -->

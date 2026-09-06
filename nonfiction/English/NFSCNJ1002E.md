@@ -23,3 +23,7 @@ description: Non-Fiction · Science — NJ Sahitya Vishwa, Feb-Mar 2010 · Ashis
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Feb-Mar 2010 — Magazine: [NJ Sahitya Vishwa](/writings/publications/venues/nj-sahitya-vishwa/index.html) — [2010](/writings/publications/years/2010/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/nj-sahitya-vishwa/index.html">NJ Sahitya Vishwa</a> (5) · <a href="/writings/publications/years/2010/index.html">2010</a></p>
+<!-- AUTO:WORK_RELATED:END -->

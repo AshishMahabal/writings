@@ -20,3 +20,7 @@ description: कथा · ललित — सावली, 2009 · Ashish Mahab
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - 2009 — Magazine: [सावली](/writings/publications/venues/venue-a895e5e02f/index.html) — [2009](/writings/publications/years/2009/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/years/2009/index.html">2009</a></p>
+<!-- AUTO:WORK_RELATED:END -->

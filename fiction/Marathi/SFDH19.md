@@ -19,3 +19,7 @@ description: कथा · विज्ञानकथा — धनंजय, �
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2019 — Magazine: [धनंजय](/writings/publications/venues/venue-a532506da6/index.html) — [2019](/writings/publications/years/2019/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-a532506da6/index.html">धनंजय</a> (10) · <a href="/writings/publications/years/2019/index.html">2019</a></p>
+<!-- AUTO:WORK_RELATED:END -->

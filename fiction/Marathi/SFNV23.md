@@ -19,3 +19,7 @@ description: कथा · विज्ञानकथा — नवल, दि�
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2023 — Magazine: [नवल](/writings/publications/venues/venue-fee3125c2f/index.html) — [2023](/writings/publications/years/2023/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-fee3125c2f/index.html">नवल</a> (7) · <a href="/writings/publications/years/2023/index.html">2023</a></p>
+<!-- AUTO:WORK_RELATED:END -->

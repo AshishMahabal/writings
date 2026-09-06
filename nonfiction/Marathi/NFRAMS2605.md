@@ -19,3 +19,7 @@ description: लेख · सामाजिक — मुक्त संवा
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - May 2026 — Magazine: [मुक्त संवाद](/writings/publications/venues/venue-4f5e700ef1/index.html) — [2026](/writings/publications/years/2026/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/years/2026/index.html">2026</a></p>
+<!-- AUTO:WORK_RELATED:END -->

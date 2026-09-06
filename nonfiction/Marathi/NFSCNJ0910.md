@@ -23,3 +23,7 @@ description: लेख · विज्ञान — NJ Sahitya Vishwa, Oct-Nov 2
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Oct-Nov 2009 — Magazine: [NJ Sahitya Vishwa](/writings/publications/venues/nj-sahitya-vishwa/index.html) — [2009](/writings/publications/years/2009/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/nj-sahitya-vishwa/index.html">NJ Sahitya Vishwa</a> (5) · <a href="/writings/publications/years/2009/index.html">2009</a></p>
+<!-- AUTO:WORK_RELATED:END -->

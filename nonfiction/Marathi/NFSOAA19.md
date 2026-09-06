@@ -27,3 +27,7 @@ description: लेख · सामाजिक — ऐसी अक्षरे
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2019 — Online Magazine: [ऐसी अक्षरे](/writings/publications/venues/venue-c8bccb9bc9/index.html) — [2019](/writings/publications/years/2019/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-c8bccb9bc9/index.html">ऐसी अक्षरे</a> (9) · <a href="/writings/publications/years/2019/index.html">2019</a></p>
+<!-- AUTO:WORK_RELATED:END -->

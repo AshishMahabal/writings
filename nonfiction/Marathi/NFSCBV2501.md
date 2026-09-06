@@ -23,3 +23,7 @@ description: लेख · विज्ञान — BMM Vrutta, Jan 2025 · Ashi
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - Jan 2025 — Online Magazine: [BMM Vrutta](/writings/publications/venues/bmm-vrutta/index.html) — [2025](/writings/publications/years/2025/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/bmm-vrutta/index.html">BMM Vrutta</a> (12) · <a href="/writings/publications/years/2025/index.html">2025</a></p>
+<!-- AUTO:WORK_RELATED:END -->

@@ -23,3 +23,7 @@ description: लेख · भाषा — उपक्रम, दिवाळ�
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2012 — Online Magazine: [उपक्रम](/writings/publications/venues/venue-8f54900029/index.html) — [2012](/writings/publications/years/2012/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-8f54900029/index.html">उपक्रम</a> (3) · <a href="/writings/publications/years/2012/index.html">2012</a></p>
+<!-- AUTO:WORK_RELATED:END -->

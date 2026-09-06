@@ -23,3 +23,7 @@ description: लेख · बुद्धिप्रामाण्यवाद
 <!-- AUTO:PUBLICATION_HISTORY:START -->
 - दिवाळी 2006 — Online Magazine: [मायबोली](/writings/publications/venues/venue-2a8f9fd108/index.html) — [2006](/writings/publications/years/2006/index.html)
 <!-- AUTO:PUBLICATION_HISTORY:END -->
+
+<!-- AUTO:WORK_RELATED:START -->
+<p class="work-related">More from <a href="/writings/publications/venues/venue-2a8f9fd108/index.html">मायबोली</a> (7) · <a href="/writings/publications/years/2006/index.html">2006</a></p>
+<!-- AUTO:WORK_RELATED:END -->

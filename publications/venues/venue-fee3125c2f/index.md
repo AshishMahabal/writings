@@ -43,7 +43,7 @@ language: English
 ## 2016
 
 <ul class="venue-list venue-list--magazine">
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0101013.html">बेिंबाचा प्रतिशोध</a><span class="venue-item__when"> (दिवाळी 2016)</span></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0101013.html">बिंबाचा प्रतिशोध</a><span class="venue-item__when"> (दिवाळी 2016)</span></li>
 </ul>
 
 ## 2015

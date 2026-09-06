@@ -26,8 +26,8 @@ language: Marathi
 - [नैकेश्वर](/writings/fiction/Marathi/SFAA25.html) [ऐसी अक्षरे, दिवाळी 2025] <a class="venue-item__online" href="https://aisiakshare.com/node/9377">Online</a>
 - [पाचविला पुजलेला प्रश्न](/writings/fiction/Marathi/SFB0102021.html) [नवल, दिवाळी 2018]
 - [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) [आरती, May-June 2014]
+- [बिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) [नवल, दिवाळी 2016]
 - [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) [अनुभव, Jan 2016]
-- [बेिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) [नवल, दिवाळी 2016]
 - [मन तर सवय](/writings/fiction/Marathi/SFB0113123.html) [नवल, दिवाळी 2017]
 - [मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने](/writings/fiction/Marathi/SFNV25.html) [नवल, दिवाळी 2025]
 - [मुंगी उडाली आकाशी](/writings/fiction/Marathi/SFAA22.html) [ऐसी अक्षरे, दिवाळी 2022] <a class="venue-item__online" href="https://aisiakshare.com/node/8594">Online</a>

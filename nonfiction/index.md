@@ -36,7 +36,7 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [अन्तरिक्ष में 286 दिन](/writings/nonfiction/Hindi/NFSCCY2504H.html) [साइकिल, Apr-May 2025]
 - [आपणच आपले जेलर](/writings/nonfiction/Marathi/NFMABV2503.html) [BMM Vrutta, Mar 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/BMMNewsletterMar2025.pdf#page=12">Online</a> <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2025/02/%E0%A4%86%E0%A4%AA%E0%A4%A3%E0%A4%9A%E0%A4%86%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%9C%E0%A5%87%E0%A4%B2%E0%A4%B0_AshishMahabal_March25.m4a">Audio</a>
 - [आकाश से गिरते उपग्रह](/writings/nonfiction/Hindi/NFSCCY2502H.html) [साइकिल, Feb-Mar 2025]
-- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
+- [२०२४चा आढावा AIच्या दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
 
 ### 2024
 
@@ -187,5 +187,5 @@ My nonfiction writings have been related to astronomy, society, a bit on rationa
 - [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) [मुशाफिरी, दिवाळी 2019]
 - [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) [आजचा सुधारक, Oct 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a>
 - [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) [उपक्रम, दिवाळी 2011] <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a>
-- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
+- [२०२४चा आढावा AIच्या दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
 <!-- AUTO:NONFICTION_LIST:END -->

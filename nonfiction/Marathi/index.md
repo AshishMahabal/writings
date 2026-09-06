@@ -55,4 +55,4 @@ language: Marathi
 - [स्टॉकहोमच्या कला-विकला](/writings/nonfiction/Marathi/NFTRMU19.html) [मुशाफिरी, दिवाळी 2019]
 - [स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत](/writings/nonfiction/Marathi/NFSOAS2010.html) [आजचा सुधारक, Oct 2020] <a class="venue-item__online" href="https://www.sudharak.in/2020/10/3821/">Online</a>
 - [स्वार्थातून परमार्थ](/writings/nonfiction/Marathi/NFSOUP11.html) [उपक्रम, दिवाळी 2011] <a class="venue-item__online" href="http://diwali.upakram.org/node/154">Online</a>
-- [२०२४चा आढावा AIया दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>
+- [२०२४चा आढावा AIच्या दृष्टिकोनातून](/writings/nonfiction/Marathi/NFSCBV2501.html) [BMM Vrutta, Jan 2025] <a class="venue-item__online" href="https://bmmonline.org/wp-content/uploads/2024/12/BMMNewsletterJan2025.pdf#page=13">Online</a>

@@ -25,7 +25,7 @@ language: English
 
 ### नवल
 
-- [बेिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) (दिवाळी 2016) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
+- [बिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) (दिवाळी 2016) <span class="row-badges"><span class="badge badge--kind badge--kind-fiction">Fiction</span> <span class="badge badge--subtype badge--subtype-sci-fi">Sci-Fi</span></span>
 
 ## Online Magazine
 

@@ -1,0 +1,530 @@
+{
+ "cards": {
+  "NFARUP10": {
+   "covers": [],
+   "credit": "उपक्रम · दिवाळी 2010",
+   "title": "माझे संगीताचे प्रयोग"
+  },
+  "NFLAUP12": {
+   "covers": [],
+   "credit": "उपक्रम · दिवाळी 2012",
+   "title": "ओध्येमठाची निर्मिती आणि मराठी बाण"
+  },
+  "NFLIAN2102": {
+   "covers": [],
+   "credit": "अनुभव · Feb 2021",
+   "title": "रोबोटची शंभरी"
+  },
+  "NFLIYU2507": {
+   "covers": [],
+   "credit": "युगवाणी · Jul-Aug-Sep 2025",
+   "title": "जयंत नारळीकरांच्या मराठी साहित्याचा पैस"
+  },
+  "NFLLSWXXTR": {
+   "covers": [],
+   "credit": "सावली · 2009",
+   "title": "काचेची जपमाळ"
+  },
+  "NFMABV2503": {
+   "covers": [],
+   "credit": "BMM Vrutta · Mar 2025",
+   "title": "आपणच आपले जेलर"
+  },
+  "NFRAANT129": {
+   "covers": [
+    "images/anthologies/Tarkishta.jpg"
+   ],
+   "credit": "तर्किष्ट · Oct 2024",
+   "title": "ग्रहताऱ्यांची उपासना कशाला करायची?"
+  },
+  "NFRAANT56": {
+   "covers": [
+    "images/anthologies/TarkatPanjari.jpg"
+   ],
+   "credit": "तर्कटपंजरी · Oct 2024",
+   "title": "ज्योतिष्य ते ज्योतीर्विज्ञान"
+  },
+  "NFRAAS2108": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Aug 2021",
+   "title": "खगोलशास्त्राच्या प्रगतीपुढे फलज्योतिष आहे कुठे?"
+  },
+  "NFRAAS2601": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jan 2026",
+   "title": "चैतन्याचा प्रश्न"
+  },
+  "NFRAAS2601_2": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jan 2026",
+   "title": "देव, अनिवार्यता आणि मानवी अपेक्षा"
+  },
+  "NFRAAS2604": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Apr 2026",
+   "title": "महानतेपलीकडे – महाराष्ट्रातील सामाजिक व वैचारिक योगदानाचे बहुआयामी मूल्यमापन"
+  },
+  "NFRAMB06": {
+   "covers": [],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2006",
+   "title": "भारतीय तत्वचिंतनाचा वेध : वेद ते वेड?"
+  },
+  "NFRAMS2605": {
+   "covers": [],
+   "credit": "मुक्त संवाद · May 2026",
+   "title": "गौरवशाली नि प्रभावशाली व्यक्तींची सूची - एक सामूहिक प्रयत्न"
+  },
+  "NFSCAS2005": {
+   "covers": [],
+   "credit": "आजचा सुधारक · May 2020",
+   "title": "विषाणूंच्या अगम्य गमती"
+  },
+  "NFSCBV2212E": {
+   "covers": [],
+   "credit": "BMM Vrutta · Dec 2022",
+   "title": "Being Rational"
+  },
+  "NFSCBV2501": {
+   "covers": [],
+   "credit": "BMM Vrutta · Jan 2025",
+   "title": "२०२४चा आढावा AIच्या दृष्टिकोनातून"
+  },
+  "NFSCBV2601": {
+   "covers": [],
+   "credit": "BMM Vrutta · Jan 2026",
+   "title": "सूर्यमालेपलिकडून आलेला अलिकडचा पाहुणा: 3I/ATLAS"
+  },
+  "NFSCBV2602": {
+   "covers": [],
+   "credit": "BMM Vrutta · Feb 2026",
+   "title": "बदलत्या आकाशाच्या नव्या वेधशाळा"
+  },
+  "NFSCBV2604": {
+   "covers": [],
+   "credit": "BMM Vrutta · Apr 2026",
+   "title": "अलकनंदा: विश्वाच्या बाल्यावस्थेतील आकाशगंगेची जुळी"
+  },
+  "NFSCBV2605": {
+   "covers": [],
+   "credit": "BMM Vrutta · May 2026",
+   "title": "आर्टेमिस, चंद्र आणि मानवापुढची कसोटी"
+  },
+  "NFSCBV2606": {
+   "covers": [],
+   "credit": "BMM Vrutta · Jun 2026",
+   "title": "पडत्या दुर्बीणीला स्थिरावताना"
+  },
+  "NFSCBV2607": {
+   "covers": [],
+   "credit": "BMM Vrutta · Jul 2026",
+   "title": "चंद्राच्या खंत आणि दंत कथा"
+  },
+  "NFSCBV2608": {
+   "covers": [],
+   "credit": "BMM Vrutta · Aug 2026",
+   "title": "विज्ञानाने कोणत्या गोष्टी सांगाव्या (आणि कोणत्या नाही)?"
+  },
+  "NFSCBV2609": {
+   "covers": [],
+   "credit": "BMM Vrutta · Sep 2026",
+   "title": "रोमन: एका दुर्बिणीचा दीर्घ प्रवास"
+  },
+  "NFSCCY2408H": {
+   "covers": [],
+   "credit": "साइकिल · Aug-Sep 2024",
+   "title": "मंगल में शेरलॉक"
+  },
+  "NFSCCY2410H": {
+   "covers": [],
+   "credit": "साइकिल · Oct-Nov 2024",
+   "title": "ब्रह्माण्ड से हमारा गहरा नाता"
+  },
+  "NFSCCY2502H": {
+   "covers": [],
+   "credit": "साइकिल · Feb-Mar 2025",
+   "title": "आकाश से गिरते उपग्रह"
+  },
+  "NFSCCY2504H": {
+   "covers": [],
+   "credit": "साइकिल · Apr-May 2025",
+   "title": "अन्तरिक्ष में 286 दिन"
+  },
+  "NFSCCY2506H": {
+   "covers": [],
+   "credit": "साइकिल · Jun-Jul 2025",
+   "title": "भूले-भटके यात्री"
+  },
+  "NFSCMB09": {
+   "covers": [],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2009",
+   "title": "शिकायचंय खगोलशास्त्राबद्दल? (महाराष्ट्रातून अवकाशशास्त्र)"
+  },
+  "NFSCMB10": {
+   "covers": [],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2010",
+   "title": "नैसर्गिक भरार्‍या"
+  },
+  "NFSCMB11": {
+   "covers": [],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2011",
+   "title": "नाती, खगोलशास्त्रीय"
+  },
+  "NFSCMB13": {
+   "covers": [],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2013",
+   "title": "नोबल ईज ही हू नोबल डज"
+  },
+  "NFSCMB14": {
+   "covers": [],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2014",
+   "title": "शोध बदलांचा"
+  },
+  "NFSCMVP1405": {
+   "covers": [],
+   "credit": "मविप · May 2014",
+   "title": "विश्वजन्म पाहिला म्या डोळा"
+  },
+  "NFSCNJ0908": {
+   "covers": [],
+   "credit": "NJ Sahitya Vishwa · Aug-Sep 2009",
+   "title": "सारे विश्वची माझे घर"
+  },
+  "NFSCNJ0910": {
+   "covers": [],
+   "credit": "NJ Sahitya Vishwa · Oct-Nov 2009",
+   "title": "रंग माझा वेगळा"
+  },
+  "NFSCNJ0912E": {
+   "covers": [],
+   "credit": "NJ Sahitya Vishwa · Dec-Jan 2009",
+   "title": "The dark spell of a Blackhole"
+  },
+  "NFSCNJ1002E": {
+   "covers": [],
+   "credit": "NJ Sahitya Vishwa · Feb-Mar 2010",
+   "title": "The Universe of Galaxies"
+  },
+  "NFSCNJ1006E": {
+   "covers": [],
+   "credit": "NJ Sahitya Vishwa · Jun-Jul 2010",
+   "title": "The Transient Universe"
+  },
+  "NFSCPR2111": {
+   "covers": [],
+   "credit": "प्रसाद · Nov-Dec 2021",
+   "title": "भारतीय खगोल - गणित परंपरा"
+  },
+  "NFSOAA19": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2019",
+   "title": "मनुकांचा निवडक संयत आहार"
+  },
+  "NFSOAS1904": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Apr 2019",
+   "title": "घरोघरी अतिरेकी जन्मती"
+  },
+  "NFSOAS2007": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jul 2020",
+   "title": "पुन्हा-पुन्हा घडणारे अघटित"
+  },
+  "NFSOAS2010": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Oct 2020",
+   "title": "स्वार्थाची वर्तुळे आणि प्रयोगाच्या रूपातील भारत"
+  },
+  "NFSOAS2101": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jan 2021",
+   "title": "शेतीचे आणि पर्यायाने आपले भवितव्य"
+  },
+  "NFSOAS2201": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jan 2022",
+   "title": "विविधतेमध्ये अनेकता"
+  },
+  "NFSOAS2207": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jul 2022",
+   "title": "न्यायाची सावली आणि त्यामुळे होणारे अनाठायी रद्दीकरण"
+  },
+  "NFSOAS2210": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Oct 2022",
+   "title": "न्यायासाठी संवाद आवश्यक"
+  },
+  "NFSOAS2307": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Jul 2023",
+   "title": "कृत्रिम बुद्धिमत्ता : आळं की आळा"
+  },
+  "NFSOAS2510": {
+   "covers": [],
+   "credit": "आजचा सुधारक · Oct 2025",
+   "title": "आनंदाचा मापदंड : हसरे चेहरे मोजायला मोडक्या पट्ट्या"
+  },
+  "NFSOBV2603": {
+   "covers": [],
+   "credit": "BMM Vrutta · Mar 2026",
+   "title": "नागपूरमधील तीन कार्यक्रम - काही विचार"
+  },
+  "NFSOMM17": {
+   "covers": [],
+   "credit": "MMLA (Diwali Ank) · दिवाळी 2017",
+   "title": "प्रश्न प्रश्नांचा"
+  },
+  "NFSOUP11": {
+   "covers": [],
+   "credit": "उपक्रम · दिवाळी 2011",
+   "title": "स्वार्थातून परमार्थ"
+  },
+  "NFTRMM13": {
+   "covers": [],
+   "credit": "MMLA (Diwali Ank) · दिवाळी 2013",
+   "title": "माझी काश्मीरी तिर्थयात्रा"
+  },
+  "NFTRMM14": {
+   "covers": [],
+   "credit": "MMLA (Diwali Ank) · दिवाळी 2014",
+   "title": "लॉस एंजेलिसचा शिरोमणी"
+  },
+  "NFTRMM15": {
+   "covers": [],
+   "credit": "MMLA (Diwali Ank) · दिवाळी 2015",
+   "title": "असामी"
+  },
+  "NFTRMU17": {
+   "covers": [],
+   "credit": "मुशाफिरी · दिवाळी 2017",
+   "title": "चित्रकाराच्या गावा जावे"
+  },
+  "NFTRMU18": {
+   "covers": [],
+   "credit": "मुशाफिरी · दिवाळी 2018",
+   "title": "खिचन, खेजरली, आणि खूप काही"
+  },
+  "NFTRMU19": {
+   "covers": [],
+   "credit": "मुशाफिरी · दिवाळी 2019",
+   "title": "स्टॉकहोमच्या कला-विकला"
+  },
+  "SFAA20": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2020",
+   "title": "सत्यमेवा जयते"
+  },
+  "SFAA21": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2021",
+   "title": "यमांत"
+  },
+  "SFAA22": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2022",
+   "title": "मुंगी उडाली आकाशी"
+  },
+  "SFAA23": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2023",
+   "title": "जित्याची खोड"
+  },
+  "SFAA24": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2024",
+   "title": "चेतागुंजन"
+  },
+  "SFAA25": {
+   "covers": [],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2025",
+   "title": "नैकेश्वर"
+  },
+  "SFAN01E": {
+   "covers": [
+    "images/anthologies/inner_space_and_outer_thoughts_anthology_english_01.jpg"
+   ],
+   "credit": "Inner Space and Outer Thoughts · 2023",
+   "title": "Memoirs of a Status Quo"
+  },
+  "SFB0101013": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "नवल · दिवाळी 2016  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "बिंबाचा प्रतिशोध"
+  },
+  "SFB0102021": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "नवल · दिवाळी 2018  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "पाचविला पुजलेला प्रश्न"
+  },
+  "SFB0103030": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2016  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "धनुष्यातून सुटलेला बाण"
+  },
+  "SFB0104043": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "पुणे प्रतिष्ठान · दिवाळी 2017  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "ये रे माझ्या मागल्या"
+  },
+  "SFB0105048": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "नवल · दिवाळी 2015  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "अंतर्ध्वनी"
+  },
+  "SFB0106058": {
+   "covers": [
+    "images/anthologies/poorvasanchit_goph_natyacha_anthology_03.jpg",
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "पूर्वसंचित गोफ नात्यांचा · 2016  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "नातीपरीक्षा"
+  },
+  "SFB0107067": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "अनुभव · Jan 2016  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "बेबी एलिफण्ट वॉक्स"
+  },
+  "SFB0108075": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "धनंजय · दिवाळी 2017  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "कचरा गो"
+  },
+  "SFB0109089": {
+   "covers": [
+    "images/anthologies/manvantar_anthology_01.jpg",
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "मविप · दिवाळी 2014  |  मन्वंतर · 2015  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "रक्त तबकड्या"
+  },
+  "SFB0110105": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "अनुभव · Jun 2017  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "नाऊ यु सी मी"
+  },
+  "SFB0111112": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "धनंजय · दिवाळी 2016  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "दिव्यदृष्टी"
+  },
+  "SFB0112119": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "धनंजय · दिवाळी 2015  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "घोस्ट रायटर"
+  },
+  "SFB0113123": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "नवल · दिवाळी 2017  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "मन तर सवय"
+  },
+  "SFB0114133": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "आरती · May-June 2014  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "पुनरागमनायच"
+  },
+  "SFB0115137": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "धनंजय · दिवाळी 2018  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "तेथे पाहिजे जातीचे"
+  },
+  "SFB0116145": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "ऐसी अक्षरे (Diwali Special) · दिवाळी 2014  |  आजचा सुधारक · Aug 2021  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "कुपमंडूक"
+  },
+  "SFB0117150": {
+   "covers": [
+    "images/anthologies/vidnyanini2_anthology_02.jpg",
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "मविप · दिवाळी 2013  |  विज्ञानिनी भाग २ · 2014  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "कृष्णलीला"
+  },
+  "SFB0118156": {
+   "covers": [
+    "images/books/ghost_writer_book_01.jpg"
+   ],
+   "credit": "मायबोली (Diwali Issue) · दिवाळी 2008  |  घोस्ट रायटर आणि इतर विज्ञानकथा · 2023",
+   "title": "समाधी योग, सकर्मक यंत्र की स्टॅटिस्टिकल यक्ष?"
+  },
+  "SFDH19": {
+   "covers": [],
+   "credit": "धनंजय · दिवाळी 2019",
+   "title": "लक्ष्मीदासाची कथा मूळपदी"
+  },
+  "SFDH20": {
+   "covers": [],
+   "credit": "धनंजय · दिवाळी 2020",
+   "title": "सावट"
+  },
+  "SFDH22": {
+   "covers": [],
+   "credit": "धनंजय · दिवाळी 2022",
+   "title": "दुवे आडवे तिडवे"
+  },
+  "SFDH23": {
+   "covers": [],
+   "credit": "धनंजय · दिवाळी 2023",
+   "title": "चलो रतन"
+  },
+  "SFDH24": {
+   "covers": [],
+   "credit": "धनंजय · दिवाळी 2024",
+   "title": "याज्ञरक्ष"
+  },
+  "SFDH25": {
+   "covers": [],
+   "credit": "धनंजय · दिवाळी 2025",
+   "title": "स्वर्गयातना"
+  },
+  "SFHA19": {
+   "covers": [],
+   "credit": "हंस · दिवाळी 2019",
+   "title": "कारटीची कथा"
+  },
+  "SFNV23": {
+   "covers": [],
+   "credit": "नवल · दिवाळी 2023",
+   "title": "क्वांटम हाईस्ट"
+  },
+  "SFNV24": {
+   "covers": [],
+   "credit": "नवल · दिवाळी 2024",
+   "title": "जैवमंथन"
+  },
+  "SFNV25": {
+   "covers": [],
+   "credit": "नवल · दिवाळी 2025",
+   "title": "मियाओच्या CEOच्या मुलाच्या ऑडिओ डायरीची काही पाने"
+  }
+ },
+ "layout": 4
+}

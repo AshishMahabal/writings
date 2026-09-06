@@ -42,7 +42,20 @@ render_one() {
   # Per-page social metadata
   local relhtml="${out#$SITE/}"
   local og_url="$ABS_PREFIX/$relhtml"
+  # Per-work card if one has been generated (assets/og/<work_id>.png), else the
+  # default card. Index, venue and year pages always get the default.
   local og_image="$ABS_PREFIX/assets/og-default.png"
+  local og_image_type="image/png"
+  local work_id
+  work_id="$(basename "${md%.md}")"
+  # Cards carrying cover art are JPEG (photographic content); the rest are PNG.
+  for ext in jpg png; do
+    if [ -f "$ASSETS_SRC/og/$work_id.$ext" ]; then
+      og_image="$ABS_PREFIX/assets/og/$work_id.$ext"
+      [ "$ext" = "jpg" ] && og_image_type="image/jpeg"
+      break
+    fi
+  done
   local og_locale="en_US"
   case "$lang" in
     mr) og_locale="mr_IN" ;;
@@ -75,6 +88,7 @@ render_one() {
     -M lang="$lang" \
     -M og_url="$og_url" \
     -M og_image="$og_image" \
+    -M og_image_type="$og_image_type" \
     -M og_locale="$og_locale" \
     -M og_type="$og_type" \
     -M baseurl="$BASEURL_META" \

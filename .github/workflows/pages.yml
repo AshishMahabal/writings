@@ -36,6 +36,9 @@ jobs:
       - name: Make build script executable
         run: chmod +x build.sh
 
+      - name: Verify share cards are up to date
+        run: python3 assets/make_og_card.py --check
+
       - name: Build (generate + render HTML)
         env:
           BASEURL: /writings

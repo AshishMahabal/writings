@@ -17,6 +17,8 @@ build_local() {
   echo "==> Building LOCAL (BASEURL unset)"
   unset BASEURL
   python3 "$ROOT/generate_from_csv.py" "$ROOT/$CSV"
+  # Render any share card that is missing or out of date (~0.3s when nothing changed)
+  python3 "$ROOT/assets/make_og_card.py" --sync
   "$ROOT/build.sh"
 }
 
@@ -26,6 +28,8 @@ build_gh() {
   # Match CI so og:/canonical URLs are absolute and can be eyeballed before pushing.
   export SITE_URL="${SITE_URL:-https://ashishmahabal.github.io}"
   python3 "$ROOT/generate_from_csv.py" "$ROOT/$CSV"
+  # Render any share card that is missing or out of date (~0.3s when nothing changed)
+  python3 "$ROOT/assets/make_og_card.py" --sync
   "$ROOT/build.sh"
 }
 

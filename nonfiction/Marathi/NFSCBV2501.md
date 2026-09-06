@@ -1,6 +1,6 @@
 ---
 id: NFSCBV2501
-title: २०२४चा आढावा AIया दृष्टिकोनातून
+title: २०२४चा आढावा AIच्या दृष्टिकोनातून
 language: Marathi
 kind: nonfiction
 subtype: विज्ञान

@@ -26,8 +26,8 @@ language: English
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0106058.html">नातीपरीक्षा</a></li>
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0102021.html">पाचविला पुजलेला प्रश्न</a></li>
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0114133.html">पुनरागमनायच</a></li>
+<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0101013.html">बिंबाचा प्रतिशोध</a></li>
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0107067.html">बेबी एलिफण्ट वॉक्स</a></li>
-<li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0101013.html">बेिंबाचा प्रतिशोध</a></li>
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0113123.html">मन तर सवय</a></li>
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0104043.html">ये रे माझ्या मागल्या</a></li>
 <li class="venue-item venue-item--fiction"><a class="venue-item__title" href="/writings/fiction/Marathi/SFB0109089.html">रक्त तबकड्या</a></li>

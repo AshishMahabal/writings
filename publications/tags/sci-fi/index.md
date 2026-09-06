@@ -41,8 +41,8 @@ language: English
 - [नातीपरीक्षा](/writings/fiction/Marathi/SFB0106058.html) (2023)
 - [पाचविला पुजलेला प्रश्न](/writings/fiction/Marathi/SFB0102021.html) (2023)
 - [पुनरागमनायच](/writings/fiction/Marathi/SFB0114133.html) (2023)
+- [बिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) (2023)
 - [बेबी एलिफण्ट वॉक्स](/writings/fiction/Marathi/SFB0107067.html) (2023)
-- [बेिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) (2023)
 - [मन तर सवय](/writings/fiction/Marathi/SFB0113123.html) (2023)
 - [ये रे माझ्या मागल्या](/writings/fiction/Marathi/SFB0104043.html) (2023)
 - [रक्त तबकड्या](/writings/fiction/Marathi/SFB0109089.html) (2023)
@@ -75,7 +75,7 @@ language: English
 ### [नवल](/writings/publications/venues/venue-fee3125c2f/index.html)
 
 - [अंतर्ध्वनी](/writings/fiction/Marathi/SFB0105048.html) (दिवाळी 2015)
-- [बेिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) (दिवाळी 2016)
+- [बिंबाचा प्रतिशोध](/writings/fiction/Marathi/SFB0101013.html) (दिवाळी 2016)
 - [मन तर सवय](/writings/fiction/Marathi/SFB0113123.html) (दिवाळी 2017)
 - [पाचविला पुजलेला प्रश्न](/writings/fiction/Marathi/SFB0102021.html) (दिवाळी 2018)
 - [क्वांटम हाईस्ट](/writings/fiction/Marathi/SFNV23.html) (दिवाळी 2023)
